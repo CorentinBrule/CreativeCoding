@@ -1,0 +1,1584 @@
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+.desktop {
+    display: block;
+}
+
+@media only screen and (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+}   
+
+.moflow {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .moflow {
+        display: block;
+    }
+}
+
+.desktop-row {
+    display: table-row;
+}
+
+@media only screen and (max-width: 767px) {
+    .desktop-row {
+        display: none;
+    }
+}
+
+.mobile-row {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile-row {
+        display: block;
+    }
+}
+
+body {
+    margin: 0;
+    background: #fff;
+    font-size: 1em;
+}
+
+section, div, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.mo {
+    display: none;
+}
+
+a, a:visited {
+    color: #005DA2;
+}
+
+#container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+#bundle_section_mo {
+    display: none;
+}
+
+@media (max-width: 1300px) {
+    thead .button-digi, thead .button-hd {
+        font-size: 1vw;
+    }
+
+    #container {
+        height: auto;
+        overflow: hidden;
+    }
+
+}
+
+@media (max-width: 1220px) {
+
+    thead .bundle_col p {
+        font-size: 2.4vw !important;
+    }
+
+}
+
+@media (max-width: 980px) {
+
+    thead .button-digi, thead .button-hd {
+        font-size: 1.34vw !important;
+        width: 95%;
+        min-width: 130px !important;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .detail_mobile {
+        display: none !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    #container {
+        width: 100% !important;
+    }
+
+    thead .button-digi, thead .button-hd {
+        font-size: 11.5px !important;
+    }
+
+    #bundle_section {
+        display: none;
+    }
+
+    #stage1 {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        position: relative;
+        width: 96%;
+        padding: 10px 2%;
+    }
+
+    #mo-pricegrid {
+        background: #fff;
+        height: auto;
+    }
+
+    #bundle_section_mo {
+        clear: both;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .bundlerow {
+        display: block;
+        float: left;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        vertical-align: top;
+        width: 100%;
+    }
+
+    .summary {
+        float: left;
+        vertical-align: top;
+        width: 60%;
+    }
+
+    .btn_ordereach, #bundlerow_hd .btn_ordereach {
+        display: block;
+        background-color: #fe7417;
+        border: medium none;
+        border-radius: 5px;
+        box-shadow: none;
+        color: #fff;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-size: 11.5px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 46px;
+        margin: 0 2% 0 2%;
+        padding: 0;
+        text-align: center;
+        text-transform: uppercase;
+        width: 96%;
+        text-decoration: none;
+    }
+
+    .btn_ordereach:visited {
+        color: #fff;
+    }
+
+    .btn_ordereach arrow {
+        display: inline-block;
+        font-size: 7px;
+        font-weight: normal;
+        margin-left: 2px;
+        vertical-align: 1px;
+    }
+
+    .price {
+        float: left;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-size: 19.8px;
+        font-weight: 400;
+        height: auto;
+        padding-top: 10px;
+        text-align: center;
+        vertical-align: top;
+    }
+
+    .price span.moflow {
+        font-size: 10px;
+        letter-spacing: -1px;
+        padding-bottom: 2px;
+        text-transform: uppercase;
+        display: block;
+    }
+
+    .price-reg {
+        border-left: medium none;
+        color: #000;
+        font-size: 12px;
+        width: 22%;
+        display: block;
+        padding-top: 2px;
+    }
+
+    .price-sale {
+        color: #024f8d;
+        font-size: 16px;
+        border-right: 1px solid #ccc;
+        display: block;
+        width: 17.5%;
+        background: none;
+        padding-top: 2px;
+    }
+
+    .price-reg {
+        border-left: medium none;
+        color: #000;
+        display: block;
+        font-size: 12px;
+        width: 22%;
+    }
+
+    .regPrice {
+        font-size: 16px;
+    }
+
+    #stage1 #home-del-mo {
+        display: inline-block;
+        clear: both;
+        margin: 10px 0 0;
+        padding-top: 20px;
+        border-top: 1px solid #ccc;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    #stage1 #home-del-mo a {
+        display: inline-block;
+    }
+
+    /* disclaimer */
+    #disclaimer, .disclaim {
+        position: static;
+        display: block;
+        width: auto;
+        margin: 20px 5%;
+        border-top: 1px solid #ccc;
+        padding: 20px 0;
+        text-align: left;
+        font: .6em Arial;
+        color: #666;
+        line-height: 1.3;
+
+    }
+
+    .details_mobile h4 {
+        font-size: 16px;
+    }
+
+    ul.details_list_mo {
+        font-size: 11.5px !important;
+    }
+
+    ul.details_list_mo li {
+        font-size: 11.5px !important;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .access {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1259px) {
+    #container {
+        width: 100% !important;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    #container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #container {
+        width: 100%;
+        min-width: 320px;
+    }
+
+}
+
+@media screen and (max-height: 670px) {
+    #container {
+
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    #container {
+        margin-top: 30px;
+    }
+
+    #memberTools {
+        padding: 8px 0;
+    }
+}
+
+.font-smoothing {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.h_ruler {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+
+@media only screen and (max-width: 767px) {
+    .h_ruler {
+        height: 1.5px;
+        clear: both;
+    }
+}
+
+.section_title {
+    font-weight: 200;
+    font-size: 30px;
+    color: #666;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .section_title {
+        font: 400 24px Georgia;
+        color: #000;
+        padding: 5px 0;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+    .section_title {
+        font: 400 24px Georgia;
+        color: #000;
+        padding: 20px 0;
+    }
+
+}
+
+#header_section {
+    font-family: "nyt-franklin", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 200;
+    letter-spacing: 0;
+    width: auto;
+    padding-bottom: 15px;
+    padding-left: 17%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    #header_section {
+        background-position: right 13% top 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #header_section {
+        background: none;
+        height: auto;
+        padding-left: 0;
+    }
+}
+
+#logo_nyt {
+    width: 214px;
+    float: left;
+    padding-left: 2px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    #logo_nyt {
+        padding-top: 2px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #logo_nyt {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 6px;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+    #logo_nyt {
+        height: 30px;
+    }
+}
+
+#logo_nyt img {
+    border-style: none;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    #logo_nyt img {
+        width: 214px;
+        height: 28px;
+        margin: auto;
+        border: none;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+    #logo_nyt img {
+        width: 214px;
+        height: 28px;
+        margin: auto;
+        border: none;
+    }
+}
+
+ul#memberTools {
+    padding: 6px 0 0;
+    text-align: left;
+    vertical-align: bottom;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+#memberTools li {
+    color: #005DA2;
+    font-family: arial, helvetica, sans-serif;
+    font-size: .8em;
+    margin: 0;
+    display: inline;
+    padding: 0 8px 0 4px;
+    letter-spacing: -0.5px;
+}
+
+li#link_login {
+    border-right: 1px solid #005DA2;
+    padding-left: 15px;
+    display: inline;
+}
+
+@media only screen and (max-width: 767px) {
+    #memberTools li#link_login {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #memberTools li#link_hd {
+        display: none;
+    }
+}
+
+#memberTools li#link_login.hidden {
+    display: none;
+}
+
+#memberTools li#link_hd.nologin {
+    margin-left: 10px;
+}
+
+.user-logged-in .login__elements {
+    display: none; }
+.user-logged-in #link_login {
+    display: none; }
+.user-logged-in #link_hd {
+    margin-left: 10px; }
+@media only screen and (max-width: 767px) {
+    .user-logged-in #link_hd {
+        display: none; } }
+
+@media only screen and (max-width: 767px) {
+    #memberTools li#link_hd.nologin {
+        display: none;
+    }
+}
+
+.top_ruler {
+    margin-top: -20px;
+    text-align: left;
+    margin-left: 0;
+    display: block;
+    width: 69.5%;
+}
+
+@media only screen and (max-width: 767px) {
+    .top_ruler {
+        display: none;
+    }
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* Offer Title */
+
+.title {
+    padding: 0 0 12px 2px;
+    font-weight: 200;
+    color: #ec6900;
+    text-align: left;
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: -.5px;
+    width: 62%;
+}
+
+@media only screen  and (max-width: 1300px) {
+    .title {
+        /* font-size: 3.2vw; */
+        font-size: 2.4vw;
+
+    }
+
+}
+
+@media only screen  and (max-width: 1040px) {
+    .title {
+        font-size: 2.4vw;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+    .title {
+        font-size: 2.8vw;
+        width: 75%;
+
+    }
+
+}
+
+.cancel {
+    font-family: "nyt-franklin", "Helvetica Neue", Arial, sans-serif;
+    color: #6289a5;
+    font-size: 26.6px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 767px) {
+    .cancel {
+        font-size: 14px;
+        margin: 0 auto;
+        padding-top: 16px;
+        text-align: center;
+        font-family: Georgia, serif;
+    }
+}
+
+.title.moflow {
+    text-align: center;
+    font-size: 24px;
+    font-family: Georgia, serif;
+    font-weight: 500;
+    line-height: 1.2em;
+    width: 100%;
+    color: #000;
+    height: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.title span {
+    color: #666;
+    /* font-size: 31px; */
+
+}
+
+
+
+@media only screen and (min-width: 980px) and (max-width: 1259px) {
+    .title span {
+        width: 45%;
+        /* font-size: 3vw; */
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .title span {
+        /* font-size: 3.2vw; */
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .title span {
+        font-weight: bold;
+        /* font-size: 24px; */
+
+        font-family: Georgia, serif;
+    }
+}
+
+#bundle_section {
+    position: relative;
+    width: 90%;
+    padding: 0 5%;
+    margin: auto;
+}
+
+#devices {
+    position: absolute;
+    width: 25%;
+    top: -125px;
+    right: 80px;
+    z-index: 10;
+}
+
+#devices img {
+    width: 90%;
+}
+
+@media only screen and (max-width: 1250px) {
+    #devices {
+        position: absolute;
+        top: -100px;
+        width: 25%;
+        z-index: 10;
+    }
+
+    #devices img {
+        width: 230px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+    /*
+        #devices{
+          top: -90px !important;
+        }
+
+        #devices img{
+          width: 230px !important;
+        }
+    */
+    #devices {
+        /*
+        -ms-transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8);
+        */
+
+        top: -75px;
+        right: 7px;
+    }
+
+    #devices img {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    #devices {
+        display: none;
+    }
+
+}
+
+#table_bundles {
+    border: none;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    #table_bundles {
+        display: block;
+    }
+}
+
+tr {
+    border-bottom: none;
+    display: table-row;
+}
+
+@media only screen and (max-width: 767px) {
+    tr {
+        display: block;
+    }
+}
+
+.feature {
+    width: 160px;
+}
+
+.bundle_col {
+    width: 274px;
+    border-left: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 767px) {
+    .bundle_col {
+        float: left;
+    }
+}
+
+thead .bundle_col {
+    border-top: 1px solid #ccc;
+    height: 105px;
+    padding: 0 0 36px;
+    background-color: #eceee7;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 767px) {
+    thead .bundle_col {
+        background-color: #fff;
+        border: none;
+        height: 55px;
+        padding: 0;
+        width: 63%;
+        margin: 0;
+    }
+}
+
+thead .bundle_col p {
+    font-size: 29px;
+    font-weight: 200;
+    letter-spacing: -1px;
+    color: #f60;
+    line-height: 1;
+    min-height: 60px;
+    margin: 30px auto 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    thead .bundle_col p {
+        font-size: 26px;
+    }
+}
+
+thead .bundle_col p.col-hd {
+    line-height: 30px;
+    margin: 20px 0 30px;
+}
+
+td {
+    font-family: nyt-franklin, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #666;
+    padding: 8px 3px;
+    margin: 0 2px;
+    border-bottom: solid 1px #ccc;
+}
+
+@media only screen and (max-width: 767px) {
+    td {
+        display: block;
+        border-bottom: none;
+    }
+}
+
+td.disclaim {
+    border-bottom: none;
+}
+
+thead .button-digi,
+thead .button-hd {
+    font-size: 12.5px;
+    font-family: nyt-franklin, 'helvetica neue', arial, sans-serif;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -moz-transition: background-color .3s;
+    -o-transition: background-color .3s;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 5px auto 0;
+    background-color: #6289a5;
+    border: 1px solid #4d7b9f;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 2px;
+    height: 32px;
+    min-width: 180px;
+}
+
+a.cta {
+    background: #6289a5 none repeat scroll 0 0;
+    border: 1px solid #6289a5;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-family: "nyt-franklin", "helvetica neue", arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px auto 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 85%;
+    transition: background-color 0.3s ease 0s;
+    -ms-transition: background-color 0.3s ease 0s;
+    -moz-transition: background-color 0.3s ease 0s;
+    -o-transition: background-color 0.3s ease 0s;
+    -webkit-transition: background-color 0.3s ease 0s;
+}
+
+a.cta:hover {
+    background: #326891 none repeat scroll 0 0;
+}
+
+@media only screen and (max-width: 979px) {
+    a.cta {
+        font-size: 1.1vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    thead .button-digi,
+    thead .button-hd {
+        margin: 0 4% 0 5%;
+        padding: 0;
+        width: 90%;
+        background-color: #fe7417;
+        border-radius: 5px;
+        border: none;
+        box-shadow: none;
+        line-height: 46px;
+        height: 46px;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-weight: bold;
+        font-size: 11.5px;
+        letter-spacing: -1px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+    }
+
+    a.cta {
+        background-color: #fe7417;
+        border: medium none;
+        border-radius: 5px;
+        box-shadow: none;
+        color: #fff;
+        display: block;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-size: 11.5px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 46px;
+        height: 46px;
+        margin: 0 2%;
+        padding: 0;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 96%;
+    }
+
+}
+
+thead a, thead a:visited {
+
+    text-decoration: none;
+}
+
+thead .button-digi:hover,
+thead .button-hd:hover {
+    background-color: #326891;
+    border: 1px solid #265e8b;
+}
+
+.dot {
+    background-color: #6289a5;
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.h_ruler {
+    width: 90%;
+}
+
+#disclaimer, .disclaimer {
+    margin-top: 10px;
+
+    font-weight: 300;
+    letter-spacing: normal;
+    color: #666;
+    font: 0.7em/1.3 Arial;
+
+}
+
+td.mobile.price-sale,
+td.mobile.price-reg {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    td.mobile.price-sale,
+    td.mobile.price-reg {
+        text-align: center;
+        width: 12%;
+        margin: 0;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        padding-bottom: 2px;
+        display: inline-block;
+        color: #024f8d;
+    }
+}
+
+td.mobile.price-sale {
+    padding-right: 1%;
+    border-right: solid 1px #ccc;
+}
+
+td.mobile.price-reg {
+    clear: both;
+    color: #000;
+    margin-right: 0.5%;
+    width: 16%;
+}
+
+span.price {
+    font-size: 16px;
+}
+
+td.link_details {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    td.link_details {
+        text-transform: uppercase;
+        cursor: pointer;
+        text-decoration: underline;
+        display: block;
+        font-family: arial, helvetica, sans-serif;
+        font-size: 9px;
+        font-weight: bold;
+        text-align: right;
+        clear: both;
+        width: 84%;
+        padding: 0;
+        margin-bottom: 6px;
+    }
+}
+
+span.details_hide {
+    display: none;
+}
+
+.detail_mobile_sma,
+.detail_mobile_tab,
+.detail_mobile_ada {
+    display: none;
+}
+
+.show_detail_mobile {
+    display: block;
+}
+
+@media only screen and (max-width: 767px) {
+    .detail_mobile {
+        float: none;
+        clear: both;
+    }
+
+    .disclaimer {
+        padding: 0 2%;
+    }
+
+}
+
+.detail_mobile h4 {
+    padding: 0 0 0 14px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.detail_mobile ul {
+    list-style-type: none;
+    padding: 0 0 0 20px;
+    margin-top: 0;
+    width: 90%;
+}
+
+.detail_mobile li {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 11.25px !important;
+    font-weight: normal;
+    margin: 6px 0 0 0;
+    padding: 0;
+    color: #000;
+    line-height: 14px;
+}
+
+.detail_mobile li:before {
+    color: #FE7417;
+    content: '\2022';
+    display: inline-block;
+    position: relative;
+    font-size: 9px;
+    line-height: 1.2em;
+    padding-right: 2%;
+    margin-left: -2%;
+}
+
+.detail_mobile .sup {
+    vertical-align: super;
+    font-size: 6px;
+}
+
+#home-del-mo {
+    font-family: Georgia, serif;
+    color: #000;
+    margin: 5px 2.5% 5px;
+    padding: 10px 2.5%;
+    width: auto;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.6em;
+    font-weight: bold;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+/* ----------------------------------------------------- */
+/* ---------- Other rates Section - CSS style ---------- */
+/* ----------------------------------------------------- */
+#other_rates_section {
+    font-family: "nyt-franklin", "Helvetica Neue", Arial, sans-serif;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+div#other_rates_content {
+    width: 90%;
+    padding-top: 40px;
+    padding-left: 12.5%;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    div#other_rates_content {
+        width: 98%;
+        padding-left: 10.5%;
+    }
+}
+
+#other_rates_content .leftCol {
+    width: 36%;
+    margin-right: 5%;
+    float: left;
+}
+
+#other_rates_content .rightCol {
+    width: 38%;
+    float: left;
+    border-left: 1px solid #ccc;
+    padding-left: 7%;
+}
+
+#other_rates_content h4 {
+    font-weight: 200;
+    font-size: 30px;
+    color: #666;
+    text-align: left;
+    padding: 0;
+}
+
+#other_rates_content.notallcaps h4 {
+    text-transform: none;
+}
+
+#other_rates_content p {
+    color: #666;
+    line-height: 18px !important;
+    font-family: "nyt-franklin", "Helvetica Neue", Arial, sans-serif;
+    font-size: 15.5px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}
+
+#other_rates_content a {
+    line-height: 18px !important;
+    font-family: "nyt-franklin", "Helvetica Neue", Arial, sans-serif;
+    font-size: 13.5px;
+    color: #005DA2;
+    font-weight: 400;
+    text-decoration: underline;
+    letter-spacing: 0;
+}
+
+#other_rates_content a:hover {
+    color: #004276;
+}
+
+/* ----------------------------------------------------- */
+/* ----   More Subscriptions Options - CSS style  ------- */
+/* ----------------------------------------------------- */
+#more_options_section {
+    font-family: "nyt-franklin", "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    height: auto;
+}
+
+#more_options_title {
+    padding: 20px 0 10px;
+}
+
+#icons {
+    height: 185px;
+    margin: -10px auto 15px;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    text-align: center;
+}
+
+#icons ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 15px auto 0;
+}
+
+#icons li {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    height: 106px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0;
+}
+
+.icon {
+    display: block;
+    width: 134px;
+    height: 106px;
+    margin: 0 auto;
+}
+
+#icons div {
+    height: 106px;
+    display: block;
+}
+
+.features {
+    text-align: center;
+    margin: 0 auto;
+    width: 68%;
+    padding-right: 3%;
+}
+
+.features p {
+    position: absolute;
+    width: 68%;
+    opacity: 0;
+    font-family: "nyt-franklin", "Helvetica Neue", Arial, sans-serif;
+    color: #666;
+    font-size: 15.5px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 20px;
+    clip: rect(0px, 0px, 120px, 0px);
+    -ms-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.features p.expanded {
+    opacity: 1;
+    clip: rect(0px, 1000px, 120px, 0px);
+}
+
+.text-link {
+    font-size: 13.5px;
+}
+
+#more_options_section .text-link {
+    display: none;
+}
+
+#more_options_section a.text-link.showing {
+    display: inline;
+    white-space: nowrap;
+}
+
+a.text-link.showing {
+    display: inline;
+    white-space: nowrap;
+}
+
+.icon-premier {
+    width: 116px;
+    height: 106px;
+    background: url("../img/lp5558/icons_insider.png") 0 0 no-repeat;
+}
+
+div.icon-premier.rollover {
+    background: url("../img/lp5558/icons_insider.png") -112px 0 no-repeat;
+}
+
+.icon-opinion {
+    width: 116px;
+    height: 106px;
+    background: url("../img/lp5558/icons_opinion.png") 0 0 no-repeat;
+}
+
+div.icon-opinion.rollover {
+    background: url("../img/lp5558/icons_opinion.png") -112px 0 no-repeat;
+}
+
+.icon-corporate {
+    width: 116px;
+    height: 106px;
+    background: url("../img/lp5558/icons_corporate.png") 0 0 no-repeat;
+}
+
+div.icon-corporate.rollover {
+    background: url("../img/lp5558/icons_corporate.png") -134px 0 no-repeat;
+}
+
+.icon-gift {
+    width: 134px;
+    height: 106px;
+    margin-left: 20px;
+    background: url("../img/lp5558/icons_gift.png") 0 0 no-repeat;
+}
+
+div.icon-gift.rollover {
+    background: url("../img/lp5558/icons_gift.png") -134px 0 no-repeat;
+}
+
+.clear {
+    clear: both;
+}
+
+.button-list {
+    zoom: 0.8;
+    margin: 0 auto;
+    padding-left: 2%;
+    height: 220px;
+    text-align: center;
+
+}
+
+.button-list a.gradient {
+    display: inline-block;
+    width: 25%;
+    height: 85px;
+    text-decoration: none;
+    color: #000;
+    margin: 15px 1.5% 5px;
+    position: relative;
+    box-shadow: none;
+    background: transparent;
+    opacity: 1;
+    overflow: visible;
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .button-list {
+        zoom: 0.8;
+        margin: 20px auto 0;
+        padding-left: 2%;
+        height: 220px;
+        text-align: center;
+
+    }
+
+    .button-list a.gradient {
+        padding-bottom: 20px;
+    }
+
+}
+
+.button-list a.CP.gradient {
+    margin: 0 1.5% 5px;
+}
+
+.button-list a.GS.gradient {
+    margin: 0 1.5%;
+}
+
+.button-list div.icon {
+    margin: 0 auto;
+    width: 70%;
+    height: 30px;
+    background-size: contain !important;
+    float: none;
+    padding-top: 17.1%;
+    max-width: 110px;
+}
+
+.button-list h4 {
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.HD div.icon {
+    background: url("http://graphics8.nytimes.com/subscriptions/components/img/icons/icon_hd.png") 50% 50% no-repeat;
+}
+
+.OP div.icon {
+    background: url("http://graphics8.nytimes.com/subscriptions/components/img/icons/icon_opinion.png") 50% 50% no-repeat;
+}
+
+.TP div.icon {
+    background: url("http://graphics8.nytimes.com/subscriptions/components/img/icons/icon_premier.png") 50% 50% no-repeat;
+}
+
+.ED div.icon {
+    background: url("http://graphics8.nytimes.com/subscriptions/components/img/icons/icon_edu.png") 50% 50% no-repeat;
+}
+
+.CP div.icon {
+    background: url("http://graphics8.nytimes.com/subscriptions/components/img/icons/icon_corporate.png") 50% 50% no-repeat;
+    height: 45px;
+}
+
+.GS div.icon {
+    background: url("http://graphics8.nytimes.com/subscriptions/components/img/icons/icon_gift.png") 50% 50% no-repeat;
+}
+
+/* ----------------------------------------------------- */
+/* ----   FAQ Sections - CSS style  ------- */
+/* ----------------------------------------------------- */
+#faq_section {
+    margin: auto;
+    font-family: "nyt-franklin", "Helvetica Neue", Arial, sans-serif;
+    clear: both;
+}
+
+@media only screen and (max-width: 767px) {
+    #faq_section {
+        border-bottom: 1px solid #eee;
+    }
+}
+
+#faq_section .answer {
+    display: none;
+    padding-left: 85px;
+    font-weight: 400;
+    color: #666;
+    letter-spacing: 0;
+    font-size: 14px;
+    width: 70%;
+}
+
+@media only screen and (max-width: 767px) {
+    #faq_section .answer {
+        padding: 0 2.5%;
+        font-size: 14px;
+        letter-spacing: 0;
+        font-family: Georgia, serif;
+        font-weight: normal;
+        color: #000;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #faq_section .answer p {
+        padding: 0;
+        margin-top: 2px;
+    }
+}
+
+#faq_section a {
+    text-decoration: underline;
+}
+
+#faq_section h3 a {
+    text-decoration: underline;
+}
+
+#faq_section h2 {
+    line-height: 35px;
+    font-weight: 400;
+    color: #666;
+    cursor: pointer;
+    letter-spacing: 0;
+    font-size: 16px;
+    padding-left: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+    #faq_section h2 {
+        padding: 10px 2.5%;
+        border-top: 1px solid #eee;
+        text-transform: none;
+        font-size: 14px;
+        letter-spacing: -0.2px;
+        font-family: Georgia, serif;
+        font-weight: bold;
+        color: #000;
+        line-height: 15px;
+    }
+}
+
+#faq_section h2.hovered {
+    color: #005DA2;
+}
+
+@media only screen and (max-width: 767px) {
+    #faq_section h2.hovered {
+        color: #000;
+    }
+}
+
+#faq_section h2.expanded {
+    color: #005DA2;
+}
+
+@media only screen and (max-width: 767px) {
+    #faq_section h2.expanded {
+        color: #000;
+    }
+}
+
+/* ----------------------------------------------------- */
+/*    -------         Footer section        --------     */
+/* ----------------------------------------------------- */
+#footer-holder {
+    text-align: center;
+}
+
+img.moflow {
+    margin: auto;
+}
+
+#footer_content {
+    border-top: none;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    #footer_content {
+        border-right: 1px solid #eee;
+        padding: 0;
+    }
+}
+
+ul#footer_content li {
+    border-right: 1px solid #005DA2;
+    padding: 0 8px 0 4px;
+    display: inline;
+}
+
+@media only screen and (max-width: 767px) {
+    ul#footer_content li {
+        border-right: 1px solid #eee;
+        padding: 0 4px;
+    }
+}
+
+ul#footer_content li#link_help_footer {
+    border-right: none;
+}
+
+ul#footer_content li a,
+ul#footer_content li a:visited {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 13px;
+    color: #005DA2;
+    font-weight: 400;
+    text-decoration: underline;
+    letter-spacing: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    ul#footer_content li a,
+    ul#footer_content li a:visited {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        font-size: 11.25px;
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+ul#footer_content li a span.desktop {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+    ul#footer_content li a span.desktop {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    ul#footer_content li a span.moflow {
+        display: inline-block;
+        text-decoration: none;
+    }
+}
+
+/* Details mobile */
+a.a_link_details {
+    display: block;
+    color: rgb(0, 68, 125) !important;
+    font-weight: 800;
+    font-size: 9px !important;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+
+

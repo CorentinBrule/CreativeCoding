@@ -1,0 +1,27 @@
+.wf-loading #d-promo-realestate {
+  visibility: hidden;
+}
+.d-wrapper .story.theme-main .story-header {
+  display: none;
+}
+#Newsletter-embed-NYT-Now {
+  border-bottom: none;
+}
+#d-promo-realestate .d-headline {
+  padding-bottom: 2px;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  text-align: left;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 22px;
+  line-height: 1.375rem;
+  font-weight: 700;
+  color: black;
+}
+#d-promo-realestate .d-leadin {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #666;
+}

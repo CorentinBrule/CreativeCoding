@@ -1,0 +1,274 @@
+
+.story.theme-main .g-embedded-audio .media.audio, .g-embedded-audio .media.audio{
+	width:100%;
+	float:none;
+	border-top:none;
+	border-bottom:none;
+	margin:0;
+	padding:0;
+}
+.viewport-small-20  .story.theme-main .g-embedded-audio .media.audio{
+	margin:0;
+}
+.viewport-medium-10 .story.theme-main .g-embedded-audio .media.audio{
+	width: 100%;
+    margin:0;
+    float:none;
+}
+.g-embedded-audio .media.audio .audio-player, .story.theme-main .g-embedded-audio .media.audio .audio-player{
+	width:55px;
+	height:55px;
+	margin-top:0px;
+	margin-right:0px;
+}
+.g-embedded-audio .media.audio .duration, .g-embedded-audio .media.audio .current-time{
+	text-align: center;
+	margin-top:5px;
+	display: none;
+}
+.g-embedded-audio.g-embedded-podcast .media.audio .duration, .g-embedded-audio.g-embedded-podcast .media.audio .current-time{
+	display: block;
+}
+.g-embedded-audio .media.audio .audio-interface, .story.theme-main .g-embedded-audio .media.audio .audio-interface{
+	height:55px;
+	position: relative;
+}
+.g-embedded-audio .media.audio .audio-interface .audio-controls, .g-embedded-audio .media.audio .audio-interface .audio-fallback-control,
+.story.theme-main .g-embedded-audio .media.audio .audio-interface .audio-controls, .story.theme-main .g-embedded-audio .media.audio .audio-interface .audio-fallback-control{
+	top: 17px;
+	left: 21px;
+}
+.g-embedded-audio .media.audio .audio-info, .story.theme-main .g-embedded-audio .media.audio .audio-info{
+	padding-left:70px;
+	padding-right:15px;
+	padding-bottom: 5px;
+}
+.story.theme-main .g-embedded-audio .media.audio .caption, .g-embedded-audio .media.audio .caption{
+	padding-left:0;
+}
+.mobile .media.audio .audio-interface .play, .mobile .media.audio .audio-interface .pause{
+	padding:0;
+}
+.g-embedded-audio.g-sf{
+	border-top:1px solid #ccc;
+	padding:15px 0 20px 0;
+}
+.g-embedded-audio .audio-info .podcast-headline + .headline, .g-embedded-audio .media.audio .podcast-headline + .headline{
+	font-weight: 500;
+	color:#666;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	font-size: 15px;
+	line-height: 19px;
+}
+.g-embedded-audio .audio-info .headline a, .g-embedded-audio .media.audio .headline a{
+	color:#666;
+}
+.g-embedded-audio.g-sf .audio-info .headline a, .g-embedded-audio.g-sf .media.audio .headline a{
+	color:#000;
+}
+.g-embedded-audio .media.audio .headline .duration, .g-embedded-audio .audio-info .headline .duration,.g-embedded-audio .media.audio .headline .current-time, .g-embedded-audio .audio-info .headline .current-time{
+	display: inline-block;
+}
+.g-embedded-audio.g-embedded-podcast .media.audio .headline .duration, .g-embedded-audio.g-embedded-podcast .audio-info .headline .duration,.g-embedded-audio.g-embedded-podcast .media.audio .headline .current-time, .g-embedded-audio.g-embedded-podcast .audio-info .headline .current-time{
+	display: none;
+}
+.g-embedded-audio .audio-info .podcast-kicker{
+	text-transform: uppercase;
+	color:#000;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	font-weight: 700;
+}
+.g-embedded-audio .audio-info .podcast-headline{
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	font-size: 17px;
+	line-height: 20px;
+	margin-bottom:10px;
+}
+.g-embedded-audio.g-sf .audio-info .podcast-headline{
+	margin-bottom:4px;
+}
+.g-embedded-audio .audio-info .podcast-headline a, .g-embedded-audio .audio-info .podcast-headline a:visited{
+	color:#000;
+}
+.g-embedded-audio .audio-info .podcast-episode{
+	border-right:1px solid #ccc;
+	padding-right:6px;
+	margin-right: 6px;
+}
+.g-embedded-audio .audio-info .summary{
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	color: #999;
+}
+.g-embedded-audio.g-sf .audio-info .summary{
+	color:#666;
+}
+.g-embedded-audio .audio-info ul.audio-refer{
+	margin:0;
+}
+.g-embedded-audio .audio-info ul.audio-refer li:before {
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	background-color: #000;
+	width: 2px;
+	height: 2px;
+	content: "";
+	position: absolute;
+	display: block;
+	top: 6px;
+	left: 2px;
+}
+.g-embedded-audio .audio-info ul.audio-refer li a, .g-embedded-audio .audio-info .audio-subscribe ul li a{
+	color: #326891;
+	text-decoration: none;
+}
+.g-embedded-audio .audio-info ul.audio-refer li a:hover, .g-embedded-audio .audio-info .audio-subscribe ul li a:hover{
+	text-decoration: underline;
+}
+.g-embedded-audio .audio-info .audio-subscribe{
+	margin-top:12px;
+	border-top:1px dotted #ccc;
+	padding-top:10px;
+}
+.g-embedded-audio.g-sf .audio-info .audio-subscribe{
+	margin-top:6px;
+	padding-top:6px;
+}
+.g-embedded-audio .audio-info .audio-subscribe ul li, .g-embedded-audio .audio-info ul.audio-refer li{
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 500;
+	color:#999;
+	position: relative;
+	background:none;
+}
+.g-embedded-audio .audio-info .audio-subscribe ul li{
+	float:left;
+	border-left:1px solid #ccc;
+	padding:0;
+}
+.g-embedded-audio .audio-info .audio-subscribe ul li a{
+	padding: 0 7px;
+}
+.g-embedded-audio .audio-info ul.audio-refer li{
+	padding-left:10px;
+}
+.g-embedded-audio .audio-info .audio-subscribe ul li.subscribe-label{
+	text-transform: uppercase;
+	border-left:none;
+	padding-left:0;
+	font-size: 11px;
+}
+.g-embedded-audio .audio-info .audio-subscribe ul li.subscribe-label + li{
+	border-left:none;
+	padding-left:0;
+}
+.g-embedded-audio .audio-info .btn-group {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	float:right;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0 0 15px 15px;
+}
+.g-embedded-audio .audio-info .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	margin-left: 0;
+}
+.g-embedded-audio .audio-info .btn-group > .btn + .dropdown-toggle {
+	padding-right: 10px;
+	padding-left: 10px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	margin-left:-1px;
+}
+.g-embedded-audio .audio-info .btn-group > .btn{
+	position: relative;
+	float: left;
+}
+.g-embedded-audio .audio-info .btn{
+	display: inline-block;
+	padding: 7px 14px 8px;
+	margin: 0;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.33;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #1a1a1a;
+	background-color: #f2f2f2;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.g-embedded-audio .audio-info .btn .caret{
+	color: #b3b3b3;
+	margin-left: 0;
+	border-top-width: 8px;
+	border-right-width: 6px;
+	border-left-width: 6px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	vertical-align: middle;
+	border-top: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+}
+.g-sf-subscribe .modal-content ul{
+	margin:0;
+}
+.g-sf-subscribe .modal-content ul li{
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 500;
+	color:#999;
+	position: relative;
+	padding:7px 20px;
+}
+.section-magazine .g-embedded-audio .media.audio .duration, .section-magazine .g-embedded-audio .media.audio .current-time{
+	font-size: 11px;
+	line-height: 14px;
+	font-weight: 700;
+	font-family: "nyt-mag-sans",arial,helvetica,sans-serif;
+}
+.section-magazine .g-embedded-audio .audio-info .podcast-headline{
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 700;
+	font-family: "nyt-mag-sans",arial,helvetica,sans-serif;
+}
+.section-magazine .g-embedded-audio .media.audio .podcast-headline + .headline, .section-magazine .g-embedded-audio .audio-info .podcast-headline + .headline{
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 500;
+}
+.section-magazine .g-embedded-audio .media.audio .headline, .section-magazine .g-embedded-audio .audio-info .headline{
+	font-family: "nyt-mag-sans",arial,helvetica,sans-serif;
+}
+.section-magazine .g-embedded-audio .audio-info .podcast-kicker{
+	font-family: "nyt-mag-sans",arial,helvetica,sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+}
+.section-magazine .g-embedded-audio .media.audio .summary, .section-magazine .g-embedded-audio .audio-info .summary, .section-magazine .g-embedded-audio .audio-info .audio-subscribe ul li, .g-embedded-audio .audio-info ul.audio-refer li, .section-magazine .g-embedded-audio .audio-info .btn, .section-magazine .g-sf-subscribe .modal-content ul li{
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: 500;
+	font-family: "nyt-mag-sans",arial,helvetica,sans-serif;
+}

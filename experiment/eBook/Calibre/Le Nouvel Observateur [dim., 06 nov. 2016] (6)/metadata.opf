@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">6</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">010f6ff4-2167-4e05-bcc0-801a3c206a7f</dc:identifier>
+        <dc:title>Le Nouvel Observateur [dim., 06 nov. 2016]</dc:title>
+        <dc:creator opf:file-as="calibre" opf:role="aut">calibre</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.5.0) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2016-11-06T15:49:32.034495+00:00</dc:date>
+        <dc:description>Actualités en temps réel, Info à la Une
+
+Articles dans ce numéro: 
+Présidentielle : pourquoi les communistes ont lâché Mélenchon... Et contredit leur chef !
+
+Présidentielle : Montebourg rêve de libérer la France
+
+Un milliard de personnes en plus sur la planète en 2030 : on les met où ?
+
+Camp de migrants de Stalingrad : "En Guinée, ma vie était en danger"
+
+L'islam, miroir de la crise, par Abdennour Bidar
+
+"Réparer les vivants" : "Grâce au coeur et au rein d'un inconnu, je suis en vie"
+
+Washington et ses alliés lancent l’assaut contre Raqqa, capitale de Daech
+
+Jared Taylor, idéologue raciste : “Trump sauvera les Blancs”
+
+Italie : la dernière grand-messe de Renzi ?
+
+Planche de surf, bijoux, tweets... Tout ce qu'Obama laissera à la Maison-Blanche
+
+Clinton ou Trump ? L'Amérique au bord du nervous breakdown
+
+GRAND FORMAT. Dans l'enfer de Jharia, en Inde
+
+Stratégie : comment résister à l'ubérisation
+
+"Le revenu universel nous libèrera des liens de subordination"
+
+L'erreur économique de François Hollande, par Daniel Cohen
+
+PHOTOS. Jour de départ du Vendée Globe aux Sables d'Olonne
+
+Carl Bernstein : “Trump est extrêmement ignorant de l'histoire de notre pays”
+
+L'histoire secrète de Franceinfo
+
+Médias : La nouvelle tribu réac
+
+La nouvelle tribu réac
+
+Vendée Globe : le skippeur Jean-Pierre Dick chez le coiffeur avant le départ</dc:description>
+        <dc:publisher>calibre</dc:publisher>
+        <dc:language>fra</dc:language>
+        <dc:subject>Actualités</dc:subject>
+        <dc:subject>Le Nouvel Observateur</dc:subject>
+        <meta content="{&quot;calibre&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2016-11-06T15:49:45.081406+00:00" name="calibre:timestamp"/>
+        <meta content="Nouvel Observateur [dim., 06 nov. 2016], Le" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Couverture" type="cover"/>
+    </guide>
+</package>

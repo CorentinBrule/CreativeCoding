@@ -1,0 +1,114 @@
+/*
+$Id: styles.css 154030 2016-05-31 15:13:16Z krishna.donepudi $
+/css/0.1/screen/build/sectionfront/us/politics/styles.css
+(c)2006 - 2012 The New York Times Company  */
+
+@import url(/css/0.1/screen/build/sectionfront/us/styles.css);
+@import url(/css/0.1/screen/common/modules/blogrunner.css);
+@import url(/css/0.1/screen/common/util/tooltip.css);
+@import url(/css/0.1/screen/section/us/modules/opinionmodule.css);
+@import url(/css/0.1/screen/common/insideNYTimes.css);
+@import url(/css/0.1/screen/common/subNavigation.css);
+@import url(/css/0.1/screen/section/us/politics/specialseason/subNavigation.css);
+
+/* Recent News Feed */
+.recentNewsModule .inset {
+  margin: 0 9px 18px 10px;
+}
+
+.recentNewsModule .singleRuleDivider {
+  margin-top: 5px;
+}
+
+.recentNewsModule .kicker {
+  margin-bottom: 5px;
+}
+
+.recentNewsModule .horizontalMenu li {
+  float: left;
+  border-color: #e2e2e2;
+  width: 302px;
+}
+
+.subNavigation .primaryList .politicsHomeItem {
+  display: none;
+}
+
+.subNavigation .primaryList .firstDraftItem {
+  margin-left: 64px;
+  border-left: none;
+  background-image: none;
+}
+
+.NYT5Style .subNavigation {
+  background-color: white;
+  padding: 0;
+  padding-bottom: 7px;
+  padding-top: 11px;
+  top: 0;
+  width: 970px;
+  border-color: #E5E5E5;
+  position: relative;
+  text-align: center;
+}
+
+.NYT5Style .subNavigation ul {
+  width: auto;
+  margin: 0;
+}
+
+.NYT5Style .subNavigation ul li {
+  padding: 0 10px;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+.NYT5Style .subNavigation ul li a {
+  background-image: none;
+  color: #4d4d4d;
+  display: inline-block;
+  height: auto;
+  padding: 0;
+  vertical-align: top;
+}
+
+.NYT5Style .subNavigation .primaryList li  {
+  display:inline;
+  float: none;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 1.25em;
+}
+
+.NYT5Style .subNavigation .primaryList .politicsHomeItem {
+  display: none;
+}
+
+.NYT5Style .subNavigation .primaryList .firstDraftItem {
+  margin-left: 0;
+}
+
+.NYT5Style .subNavigation .primaryList .election2016Item {
+  background-image: none;
+}
+
+.NYT5Style .subNavigation .primaryList li br {
+  content: '';
+}
+
+.NYT5Style .subNavigation .primaryList li br:after {
+  content: '';
+  display: inline-block;
+  width: 4px;
+}
+
+.NYT5Style .subNavigation {
+  display: block;
+}
+
+.NYT5Style .subnavBack {
+  display: none;
+}

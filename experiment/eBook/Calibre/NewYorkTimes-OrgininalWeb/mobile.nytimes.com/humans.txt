@@ -1,0 +1,36 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Dan Sherman -- Development Manager -- @dsherman_nyc
+    Kentaro Kaji -- Sr. Web Developer
+    Olov Sundström -- Developer
+    Jared McDonald -- Front-End Developer
+    Chris Montoro -- Web Developer -- @mannymon
+    Jared Wright -- Developer
+
+    Alex Rabinowitz -- Product Manager
+    Cydney Mitchell -- Mobile Community Analyst
+    Bill Siegfried -- Project Manager
+    Andrei Kallaur -- Designer -- @akallaur
+    Andrew Hwang -- Quality Assurance Engineer
+
+# THANKS
+
+    Daniel Gorelick -- Intern
+    Daniel Kao -- Intern
+    Modupe Akinnawonu
+    Michael Behr -- @michael_behr
+    Alastair Coote -- @_alastair
+    Ian Gardner
+    Ohad Kravchick
+    Trevor Landau -- @trevor_landau
+    Matt Langer
+    Adam Lippman
+    Diana Parrington
+    Michael Renehan
+    Eric Schorr -- @jerseyschorr
+    Jessica Thompson
+    Paul Werdel
+    Kathryn Faulkner

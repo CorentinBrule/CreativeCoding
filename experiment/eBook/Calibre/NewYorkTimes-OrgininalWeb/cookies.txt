@@ -1,0 +1,12 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.nytimes.com	TRUE	/store	FALSE	1999999999	frontend	245cb1db4d8e4d8e8cc640752aa0a1b4
+.nytimes.com	TRUE	/	FALSE	1999999999	NYT-Loc	i|EUR|FR
+.optimizely.com	TRUE	/	FALSE	1999999999	cdn	https%3a%2f%2fakamai%3adsd%40cdn.optimizely.com%2fjs%2f3338050995.js
+.nytimes.com	TRUE	/	FALSE	1999999999	NYT-BCET	1481044023%7CUD9ePFkvdXpfhpUrb1QP%2FzMtX0g%3D%7CN%3B_%7CryGozvqpJ%2BaeOsprFDxaXXuGkXdX8w6ryjTwBNphZQ8%3D
+.nyt.com	TRUE	/	FALSE	1999999999	__cfduid	d667da40bccc91b2d34e50d135583485e1478452197
+.nytimes.com	TRUE	/	FALSE	1999999999	RMID	007f01001241581f63f80033
+.nytimes.com	TRUE	/	FALSE	1999999999	NYT-S	0MVMayrSvblfnDXrmvxADeHJW9m1ShAbvndeFz9JchiAJK89nlVaR7bsV.Ynx4rkFI
+markets.on.nytimes.com	TRUE	/	FALSE	1999999999	1977%5F0	F365EBCDB54318BAF38E6748339E9CF0C9AFCDB7B4A0A91AFF826B0B825B4938
+.nytimes.com	TRUE	/	FALSE	1999999999	nyt-a	980def6c01378866afc9dc10a8607e48946a0b8e98c93cd571ef622cec986700
+

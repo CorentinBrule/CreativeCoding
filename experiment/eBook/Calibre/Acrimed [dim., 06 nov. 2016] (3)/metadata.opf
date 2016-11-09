@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">3</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">283a76e1-c338-45d2-ac6a-9aadd2b2ccbf</dc:identifier>
+        <dc:title>Acrimed [dim., 06 nov. 2016]</dc:title>
+        <dc:creator opf:file-as="calibre" opf:role="aut">calibre</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.5.0) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2016-11-06T14:43:30.515373+00:00</dc:date>
+        <dc:description>Articles dans ce numéro: 
+Radio Canut perquisitionnée à cause d'une blague
+
+Au Royaume-Uni aussi, l'hyperconcentration médiatique a de l'avenir
+
+Sciences et médias : le buzz nuit gravement à la santé
+
+Sa liberté d'expression est en danger : soutenons Lorànt Deutsch !
+
+À Lyon, le samedi 5 novembre : la critique des médias dans tous ses états
+
+Grande braderie libérale de l'audiovisuel public (par la Fondapol)
+
+Indignation médiatique : la petite Wallonie « bloque » la grande (et belle) Europe
+
+Lire : Le monde libre, d'Aude Lancelin
+
+Calais : les journalistes sous haute surveillance pour l'opération « nettoyage » de la « jungle »
+
+L'entretien audiovisuel : information ou spectacle ?</dc:description>
+        <dc:publisher>calibre</dc:publisher>
+        <dc:language>fra</dc:language>
+        <dc:subject>Actualités</dc:subject>
+        <dc:subject>Acrimed</dc:subject>
+        <meta content="{&quot;calibre&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2016-11-06T14:43:54.570387+00:00" name="calibre:timestamp"/>
+        <meta content="Acrimed [dim., 06 nov. 2016]" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Couverture" type="cover"/>
+    </guide>
+</package>

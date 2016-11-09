@@ -1,0 +1,478 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Home Page</title>
+    <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2016  The New York Times Company</copyright>
+    <lastBuildDate>Sun, 06 Nov 2016 16:58:30 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; Home Page</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>http://www.nytimes.com/pages/index.html?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>Hillary Clinton Appears to Gain Late Momentum on Surge of Latino Voters</title>
+      <link>http://www.nytimes.com/2016/11/06/us/politics/hillary-clinton-donald-trump-campaign.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/us/politics/hillary-clinton-donald-trump-campaign.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/us/politics/hillary-clinton-donald-trump-campaign.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/us/06CAMPAIGN1-SUB/06CAMPAIGN1-SUB-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Hillary Clinton said her campaign was &#x201C;breaking records&#x201D; for early voter turnout, before a downpour cut short her remarks in Pembroke Pines, Fla., on Saturday.</media:description>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <description>Hillary Clinton sought to galvanize Latino voters on Saturday, as early voting signaled their turnout was swelling in states that Donald J. Trump needs to win.</description>
+      <dc:creator>JONATHAN MARTIN</dc:creator>
+      <pubDate>Sat, 05 Nov 2016 22:33:43 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+    </item>
+    <item>
+      <title>Donald Trump Rushed Offstage by Secret Service Agents</title>
+      <link>http://www.nytimes.com/2016/11/06/us/politics/donald-trump-rally.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/us/politics/donald-trump-rally.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/us/politics/donald-trump-rally.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/us/06FD-rally2/06FD-rally2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Security guards escorted a man from the Trump rally on Saturday night in Reno.</media:description>
+      <media:credit>Damon Winter/The New York Times</media:credit>
+      <description>A man thought to have a gun was apprehended on Saturday night at a Trump rally in Reno, Nev., but no weapon was found, the Secret Service said, and the man was released.</description>
+      <dc:creator>ASHLEY PARKER and MICHAEL BARBARO</dc:creator>
+      <pubDate>Sun, 06 Nov 2016 04:37:08 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Reno (Nev)</category>
+    </item>
+    <item>
+      <title>Presidential Election: Clinton Tries to Run Up a Lead as Trump Seeks a Breakthrough</title>
+      <link>http://www.nytimes.com/2016/11/06/us/politics/presidential-election.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/us/politics/presidential-election.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/us/politics/presidential-election.html?partner=rss&amp;emc=rss"/>
+      <description>Donald J. Trump heads to the blue state of Minnesota in hopes of assembling an Electoral College win. Hillary Clinton&#x2019;s top surrogate, President Obama, heads to Florida in a final push for early votes.</description>
+      <dc:creator>ALEXANDER BURNS</dc:creator>
+      <pubDate>Sun, 06 Nov 2016 10:00:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Clinton, Hillary Rodham</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+    </item>
+    <item>
+      <title>If Hillary Clinton Moves to Oval Office, Aides&#x2019; Baggage May Be Heavy</title>
+      <link>http://www.nytimes.com/2016/11/06/us/politics/hillary-clinton-white-house.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/us/politics/hillary-clinton-white-house.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/us/politics/hillary-clinton-white-house.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/us/politics/ClintonCircle--116/ClintonCircle--116-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Hillary Clinton with staff members on her campaign plane on Friday before they flew from White Plains to Pittsburgh.</media:description>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <description>After a campaign season defined by voter weariness with and distrust of Mrs. Clinton, which old hands might follow her to the White House &#x2014; and should they?</description>
+      <dc:creator>MATT FLEGENHEIMER and MARK LANDLER</dc:creator>
+      <pubDate>Sun, 06 Nov 2016 02:03:38 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Abedin, Huma</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Clinton, Hillary Rodham</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mills, Cheryl D</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">First Ladies (US)</category>
+    </item>
+    <item>
+      <title>This Land: Latina Hotel Workers Harness Force of Labor and of Politics in Las Vegas</title>
+      <link>http://www.nytimes.com/2016/11/06/us/politics/latina-hotel-workers-harness-force-of-labor-and-of-politics-in-las-vegas.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/us/politics/latina-hotel-workers-harness-force-of-labor-and-of-politics-in-las-vegas.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/us/politics/latina-hotel-workers-harness-force-of-labor-and-of-politics-in-las-vegas.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/05/us/05land-2/05land-2-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Las Vegas Strip, where many hotel workers in the 57,000-member Culinary Union are employed.</media:description>
+      <media:credit>Todd Heisler/The New York Times</media:credit>
+      <description>The 57,000-member Culinary Union, which is 56 percent Latino and includes guest room attendants, is a powerful supporter of Nevada Democrats.</description>
+      <dc:creator>DAN BARRY</dc:creator>
+      <pubDate>Sat, 05 Nov 2016 19:49:57 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Las Vegas (Nev)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Casinos</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Hispanic-Americans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>The Biggest Turning Points in a Polarizing Campaign</title>
+      <link>http://www.nytimes.com/2016/11/06/us/politics/trump-clinton-turning-points.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/us/politics/trump-clinton-turning-points.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/us/politics/trump-clinton-turning-points.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/03/nytnow/00xp-turningpoint14/00xp-turningpoint14-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Donald J. Trump, left, the Republican presidential nominee, and Hillary Clinton, the Democratic nominee.</media:description>
+      <media:credit>Left, Stephen Crowley/The New York Times; Right, Eric Thayer for The New York Times</media:credit>
+      <description>The race between Donald J. Trump and Hillary Clinton has been one of the most contentious in modern American history. Here&#x2019;s a look at how we covered major developments.</description>
+      <dc:creator>LIAM STACK</dc:creator>
+      <pubDate>Sun, 06 Nov 2016 10:00:26 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Polls and Public Opinion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Clinton, Hillary Rodham</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+    </item>
+    <item>
+      <title>12 Indelible Images From the 2016 Campaign</title>
+      <link>http://www.nytimes.com/2016/11/03/us/politics/photos-2016-campaign.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/03/us/politics/photos-2016-campaign.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/03/us/politics/photos-2016-campaign.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/04/us/iconic1/iconic1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Jaden Rams at a Donald J. Trump rally at Grand Junction Regional Airport in Colorado on Oct. 18. Mr. Trump swung through the state on his way to the presidential debate in Las Vegas the next day.</media:description>
+      <media:credit>Damon Winter/The New York Times</media:credit>
+      <description>Photographers have shot tens of thousands of images for The New York Times and logged hundreds of thousands of miles on the presidential campaign trail since early 2015. Here are 12 of their most memorable photographs.</description>
+      <dc:creator>THE NEW YORK TIMES</dc:creator>
+      <pubDate>Fri, 04 Nov 2016 04:01:13 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Clinton, Hillary Rodham</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sanders, Bernard</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cruz, Ted</category>
+    </item>
+    <item>
+      <title>News Analysis: Thin Line Splits Donald Trump&#x2019;s Politics and Businesses</title>
+      <link>http://www.nytimes.com/2016/11/06/us/politics/donald-trump-business-tax-records.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/us/politics/donald-trump-business-tax-records.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/us/politics/donald-trump-business-tax-records.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/us/06TRUMPBIZ/06TRUMPBIZ-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Donald J. Trump&#x2019;s plane in Wilmington, Ohio, for a campaign event on Friday.</media:description>
+      <media:credit>Damon Winter/The New York Times</media:credit>
+      <description>Would he be into this White House thing for the country&#x2019;s benefit or his own? His business record reveals a willingness to change course to suit his needs.</description>
+      <dc:creator>DAVID BARSTOW</dc:creator>
+      <pubDate>Sat, 05 Nov 2016 21:20:29 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Tax Credits, Deductions and Exemptions</category>
+    </item>
+    <item>
+      <title>The 2016 Race: Clinton Has Solid Lead in Electoral College; Trump&#x2019;s Winning Map Is Unclear</title>
+      <link>http://www.nytimes.com/2016/11/06/upshot/clinton-has-solid-lead-in-electoral-college-trumps-winning-map-is-unclear.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/upshot/clinton-has-solid-lead-in-electoral-college-trumps-winning-map-is-unclear.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/upshot/clinton-has-solid-lead-in-electoral-college-trumps-winning-map-is-unclear.html?partner=rss&amp;emc=rss"/>
+      <description>It&#x2019;s still not obvious where and how Donald Trump would win. Based on his travel schedule, his campaign might not know either.</description>
+      <dc:creator>NATE COHN</dc:creator>
+      <pubDate>Sat, 05 Nov 2016 22:38:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Clinton, Hillary Rodham</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">States (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Polls and Public Opinion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Voting and Voters</category>
+    </item>
+    <item>
+      <title>Tense Senate Tussle in New Hampshire Illustrates Murky Finish Line</title>
+      <link>http://www.nytimes.com/2016/11/06/us/politics/senate-race-new-hampshire.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/us/politics/senate-race-new-hampshire.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/us/politics/senate-race-new-hampshire.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/us/06senate-jp1/06senate-jp1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Gov. Maggie Hassan of New Hampshire, a Democratic candidate for the Senate, at a campaign office in Portsmouth, N.H., on Thursday</media:description>
+      <media:credit>Ian Thomas Jansen-Lonnquist for The New York Times</media:credit>
+      <description>A state that once seemed promising for Democrats in their bid to take back the Senate is now seeing a fight for every vote.</description>
+      <dc:creator>JENNIFER STEINHAUER</dc:creator>
+      <pubDate>Sat, 05 Nov 2016 17:52:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections, Senate</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ayotte, Kelly A</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hassan, Margaret</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Clinton, Hillary Rodham</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New Hampshire</category>
+    </item>
+    <item>
+      <title>Forget the Cost to the Candidates. This Campaign&#x2019;s Cost America More.</title>
+      <link>http://www.nytimes.com/2016/11/06/us/politics/world-reaction-campaign.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/us/politics/world-reaction-campaign.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/us/politics/world-reaction-campaign.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/us/06DAMAGEDONE1/06DAMAGEDONE1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Supporters of Hillary Clinton kept up with the second presidential debate at a restaurant in Mexico City on Oct. 9.</media:description>
+      <media:credit>Pedro Pardo/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Regardless of who wins the presidency, a brutal election battle has left the nation&#x2019;s image tarnished, in the eyes of its own people and the world.</description>
+      <dc:creator>FARAH STOCKMAN and NICK CORASANITI</dc:creator>
+      <pubDate>Sat, 05 Nov 2016 18:28:06 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2016</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Polls and Public Opinion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+    </item>
+    <item>
+      <title>U.S.-Backed Militia Opens Drive on ISIS Capital in Syria</title>
+      <link>http://www.nytimes.com/2016/11/07/world/middleeast/us-backed-militia-opens-drive-on-isis-capital-in-syria.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/07/world/middleeast/us-backed-militia-opens-drive-on-isis-capital-in-syria.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/07/world/middleeast/us-backed-militia-opens-drive-on-isis-capital-in-syria.html?partner=rss&amp;emc=rss"/>
+      <description>A Kurdish-Arab militia aims to isolate the city, Raqqa, and prepare for a final assault in the near future, an American military official confirmed.</description>
+      <dc:creator>ERIC SCHMITT</dc:creator>
+      <pubDate>Sun, 06 Nov 2016 16:26:15 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Raqqa (Syria)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Syrian Democratic Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Islamic State in Iraq and Syria (ISIS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Kurds</category>
+    </item>
+    <item>
+      <title>Hillary Clinton, Donald Trump, New York City Marathon: Your Weekend Briefing</title>
+      <link>http://www.nytimes.com/2016/11/06/briefing/hillary-clinton-donald-trump-new-york-city-marathon.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/briefing/hillary-clinton-donald-trump-new-york-city-marathon.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/briefing/hillary-clinton-donald-trump-new-york-city-marathon.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/briefing/06briefing-weekend-slide-D3MI/06briefing-weekend-slide-D3MI-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>David Kasnic for The New York Times</media:credit>
+      <description>Here&#x2019;s what you need to know about the week&#x2019;s top stories.</description>
+      <dc:creator>KAREN WORKMAN and LISA IABONI</dc:creator>
+      <pubDate>Sun, 06 Nov 2016 11:00:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>Inquiry in Emissions Scandal Widens to Volkswagen&#x2019;s Top Levels</title>
+      <link>http://www.nytimes.com/2016/11/07/business/inquiry-in-emissions-scandal-widens-to-volkswagens-top-levels.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/07/business/inquiry-in-emissions-scandal-widens-to-volkswagens-top-levels.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/07/business/inquiry-in-emissions-scandal-widens-to-volkswagens-top-levels.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/07/business/07volkswagen1/07volkswagen1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Hans Dieter P&#xF6;tsch, the chairman of Volkswagen&#x2019;s supervisory board, at the carmaker&#x2019;s annual shareholders&#x2019; meeting in June.</media:description>
+      <media:credit>Alexander Koerner/Getty Images</media:credit>
+      <description>Prosecutors are investigating whether Hans Dieter P&#xF6;tsch, the carmaker&#x2019;s former top finance official, failed to warn shareholders about the emissions scandal.</description>
+      <dc:creator>JACK EWING</dc:creator>
+      <pubDate>Sun, 06 Nov 2016 16:14:41 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fuel Efficiency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Greenhouse Gas Emissions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Stocks and Bonds</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Boards of Directors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Air Pollution</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Suits and Litigation (Civil)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Ethics and Official Misconduct</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">California Air Resources Board</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Environmental Protection Agency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Porsche AG</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Porsche Automobil Holding SE</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Volkswagen AG</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Potsch, Hans Dieter (1951- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Winterkorn, Martin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>Undocumented Migrants, Free Now to Visit Mexico, Face Iffy Future</title>
+      <link>http://www.nytimes.com/2016/11/06/world/americas/mexico-immigrants.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/world/americas/mexico-immigrants.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/world/americas/mexico-immigrants.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/world/06dreamers1/06dreamers1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Gloria Farciert, 21, a Brooklyn College senior, and her maternal grandmother, Adelaida Ram&#xED;rez, 76, in San Miguel de Lozano, Mexico.</media:description>
+      <media:credit>Rodrigo Cruz for The New York Times</media:credit>
+      <description>Thousands of undocumented immigrants have used travel permission under a 2012 program to visit the countries they left as children. The program could be canceled.</description>
+      <dc:creator>KIRK SEMPLE</dc:creator>
+      <pubDate>Sun, 06 Nov 2016 04:02:41 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Illegal Immigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Families and Family Life</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">City University of New York</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico City (Mexico)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+    </item>
+    <item>
+      <title>Giving Special Section: Philanthropy in Silicon Valley: Big Bets on Big Ideas</title>
+      <link>http://www.nytimes.com/2016/11/06/giving/philanthropy-in-silicon-valley-big-bets-on-big-ideas.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/giving/philanthropy-in-silicon-valley-big-bets-on-big-ideas.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/giving/philanthropy-in-silicon-valley-big-bets-on-big-ideas.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/giving/06WCTECH1/06WCTECH1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Cari Tuna and her husband Dustin Moskovitz publicly share details of their donations, their thought processes and their research into causes on the website of their foundation.</media:description>
+      <media:credit>Marvin Joseph/The Washington Post, via Getty Images</media:credit>
+      <description>East Coast donors make traditional gifts, a consultant says, but West Coast technology company founders focus on social benefits and scalability.</description>
+      <dc:creator>VINDU GOEL</dc:creator>
+      <pubDate>Fri, 04 Nov 2016 18:49:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Philanthropy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Altruism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Nonprofit Organizations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+    </item>
+    <item>
+      <title>Your Daily Mini Crossword</title>
+      <link>http://www.nytimes.com/crosswords/game/mini?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/crosswords/game/mini</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/crosswords/game/mini?partner=rss&amp;emc=rss"/>
+      <description>Solve a bite-size crossword in just a few minutes.</description>
+      <dc:creator/>
+      <pubDate>Thu, 25 Feb 2016 08:18:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>After High-Profile Shootings, Blacks Seek Prosecutor Seats</title>
+      <link>http://www.nytimes.com/2016/11/06/us/politics/black-prosecutors.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/us/politics/black-prosecutors.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/us/politics/black-prosecutors.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/us/06prosecutors1/05prosecutors-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Aramis Ayala started out as a prosecutor but became a public defender because she believed too many defendants were receiving inadequate counsel.</media:description>
+      <media:credit>Zack Wittman for The New York Times</media:credit>
+      <description>Black lawyers, racial justice groups and liberal donors, led by the hedge fund billionaire George Soros, are combining forces to try to propel more African-American district attorneys into office.</description>
+      <dc:creator>YAMICHE ALCINDOR</dc:creator>
+      <pubDate>Sat, 05 Nov 2016 17:05:12 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Blacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Elections, District Attorneys</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Police Brutality, Misconduct and Shootings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Soros, George</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Crump, Benjamin L</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Thompson, Kenneth P</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mosby, Marilyn J (1980- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Brown, Michael (1996-2014)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gray, Freddie (1989-2015)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Martin, Trayvon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McDonald, Laquan (d 2014)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zimmerman, George</category>
+    </item>
+    <item>
+      <title>South Carolina Man May Be Linked to 7 Killings, Authorities Say</title>
+      <link>http://www.nytimes.com/2016/11/06/us/south-carolina-man-linked-to-multiple-killings.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/us/south-carolina-man-linked-to-multiple-killings.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/us/south-carolina-man-linked-to-multiple-killings.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/us/06XP-SOUTHCAROLINA1/06XP-SOUTHCAROLINA1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Investigators searched the property of Todd C. Kohlhepp on Saturday.</media:description>
+      <media:credit>Heidi Heilbrunn/The Greenville News, via Associated Press</media:credit>
+      <description>A man charged in the kidnapping of a woman found alive confessed to the unsolved killings of four people in 2003, and may be linked to a total of seven deaths, the authorities said.</description>
+      <dc:creator>CHRISTOPHER MELE</dc:creator>
+      <pubDate>Sun, 06 Nov 2016 05:39:43 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Carolina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Police</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Brown, Kala V (1985- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kohlhepp, Todd C (1971</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Confessions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Kidnapping and Hostages</category>
+    </item>
+    <item>
+      <title>Breeders&#x2019; Cup: Arrogate&#x2019;s Win Ends California Chrome&#x2019;s Perfect Year</title>
+      <link>http://www.nytimes.com/2016/11/06/sports/horse-racing/breeders-cup-classic-arrogate-california-chrome.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/sports/horse-racing/breeders-cup-classic-arrogate-california-chrome.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/sports/horse-racing/breeders-cup-classic-arrogate-california-chrome.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/sports/06BCUPsub/06BCUPsub-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Arrogate and the jockey Mike Smith, left, edged California Chrome and the jockey Victor Espinoza to win the Breeders&#x2019; Cup Classic. It was Chrome&#x2019;s first loss in seven races this year.</media:description>
+      <media:credit>Richard Mackson/USA Today Sports, via Reuters</media:credit>
+      <description>Chrome, widely regarded as the best horse in the world, finished a close second in the Breeders&#x2019; Cup Classic, losing his first race in seven starts this year.</description>
+      <dc:creator>JOE DRAPE</dc:creator>
+      <pubDate>Sun, 06 Nov 2016 04:08:43 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Horse Racing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Breeders' Cup (Horse Races)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">California Chrome (Race Horse)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Arrogate (Race Horse)</category>
+    </item>
+    <item>
+      <title>The New York Times to Offer Open Access on Web and Apps for the Election</title>
+      <link>http://www.nytimes.com/2016/11/04/homepage/new-york-times-open-access-election-2016.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/04/homepage/new-york-times-open-access-election-2016.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/04/homepage/new-york-times-open-access-election-2016.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/07/29/us/paywalldrop1/paywalldrop1-moth-v5.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Damon Winter, left; and Doug Mills/The New York Times</media:credit>
+      <description>The New York Times is inviting readers to take advantage of its reporting, analysis and commentary from the lead-up through the aftermath of the 2016 election.</description>
+      <dc:creator/>
+      <pubDate>Thu, 03 Nov 2016 21:58:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Presidential Election of 2016</category>
+    </item>
+    <item>
+      <title>How a Run-Walk Strategy Might Help Your Marathon</title>
+      <link>http://www.nytimes.com/2016/10/30/well/move/how-a-run-walk-strategy-might-help-your-marathon.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/10/30/well/move/how-a-run-walk-strategy-might-help-your-marathon.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/10/30/well/move/how-a-run-walk-strategy-might-help-your-marathon.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/10/30/magazine/30well/30mag-30well-t_CA0-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Illustration by Renaud Vigourt</media:credit>
+      <description>Marathon participants who walked part of their course were fresher and had faster average miles than those who ran all the way.</description>
+      <dc:creator>GRETCHEN REYNOLDS</dc:creator>
+      <pubDate>Thu, 27 Oct 2016 12:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Running</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Marathon Running</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">New York City Marathon</category>
+    </item>
+    <item>
+      <title>5 ways social media can help you travel</title>
+      <link>http://www.nytimes.com/2016/10/19/travel/travel-tips-social-media.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/10/19/travel/travel-tips-social-media.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/10/19/travel/travel-tips-social-media.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/10/19/travel/19travel-mobile/19travel-mobile-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Phone time, with the Seoul skyline in the background.</media:description>
+      <media:credit>Ed Jones/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>It&#x2019;s easier than ever to plan, troubleshoot and make the most of your trip, with niche-focused apps as well as the old-guard networks.</description>
+      <dc:creator>JUSTIN SABLICH</dc:creator>
+      <pubDate>Wed, 19 Oct 2016 02:30:08 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Instagram Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Pinterest</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Snapchat Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">TripIt</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Twitter</category>
+    </item>
+    <item>
+      <title>New York City Marathon: Mary Keitany Wins Third Straight Title</title>
+      <link>http://www.nytimes.com/2016/11/06/sports/nyc-marathon-2016.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/sports/nyc-marathon-2016.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/sports/nyc-marathon-2016.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/sports/06MARATHONBLOG15/06MARATHONBLOG15-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Benjamin Norman for The New York Times</media:credit>
+      <description>50,000 marathoners took to the streets of New York on Sunday. Stay here for live updates, images and analysis.</description>
+      <dc:creator>THE NEW YORK TIMES</dc:creator>
+      <pubDate>Sun, 06 Nov 2016 15:50:52 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">New York City Marathon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Marathon Running</category>
+    </item>
+    <item>
+      <title>Diary of a New York City Marathon, Now With a Finishing Kick</title>
+      <link>http://www.nytimes.com/2016/11/04/sports/new-york-city-marathon-preview.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/04/sports/new-york-city-marathon-preview.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/04/sports/new-york-city-marathon-preview.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/04/sports/04MARATHONMILE1/04MARATHONMILE1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>All runners of the New York City Marathon spend the first mile going uphill, crossing the Verrazano-Narrows Bridge from Staten Island to Brooklyn.</media:description>
+      <media:credit>Benjamin Norman for The New York Times</media:credit>
+      <description>A 2012 examination of the route, published in one-mile increments, was truncated by Hurricane Sandy. The writer returns, four years later, for the final two miles (and 385 yards).</description>
+      <dc:creator>BRIAN FIDELMAN</dc:creator>
+      <pubDate>Sun, 06 Nov 2016 05:42:42 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">New York City Marathon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Marathon Running</category>
+    </item>
+    <item>
+      <title>Vows: Seeking a Driver&#x2019;s License Led to a Marriage License</title>
+      <link>http://www.nytimes.com/2016/11/06/fashion/weddings/seeking-a-drivers-license-led-to-a-marriage-license.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/fashion/weddings/seeking-a-drivers-license-led-to-a-marriage-license.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/fashion/weddings/seeking-a-drivers-license-led-to-a-marriage-license.html?partner=rss&amp;emc=rss"/>
+      <description>They met in high school during driver&#x2019;s education classes, but it took them 14 years to accept their mutual attraction.</description>
+      <dc:creator>VINCENT M. MALLOZZI</dc:creator>
+      <pubDate>Fri, 04 Nov 2016 11:15:46 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Dating and Relationships</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Boston (Mass)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Drivers Education</category>
+    </item>
+    <item>
+      <title>In the Cubs&#x2019; New Kingdom, Bliss and Wonder Reign at Every Level</title>
+      <link>http://www.nytimes.com/2016/11/06/sports/baseball/chicago-cubs-world-series.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/sports/baseball/chicago-cubs-world-series.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/sports/baseball/chicago-cubs-world-series.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/sports/06cubs/06cubs-moth-v3.jpg" medium="image" height="151" width="151"/>
+      <media:description>Carol Haddon drove from Chicago to Cleveland to attend Game 7 of the World Series.</media:description>
+      <media:credit>Joshua Lott for The New York Times</media:credit>
+      <description>Five central characters in the team&#x2019;s title chase reflect on their experiences during the dramatic postseason.</description>
+      <dc:creator>BILL PENNINGTON</dc:creator>
+      <pubDate>Sat, 05 Nov 2016 20:59:48 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Baseball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World Series</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Chicago Cubs</category>
+    </item>
+    <item>
+      <title>Casey Affleck Is Making Another Splash, Reluctantly</title>
+      <link>http://www.nytimes.com/2016/11/06/movies/casey-affleck-interview-manchester-by-the-sea.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">http://www.nytimes.com/2016/11/06/movies/casey-affleck-interview-manchester-by-the-sea.html</guid>
+      <atom:link rel="standout" href="http://www.nytimes.com/2016/11/06/movies/casey-affleck-interview-manchester-by-the-sea.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/11/06/arts/6CASEY-AFFLECK1/6CASEY-AFFLECK1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Casey Affleck&#x2019;s new film, &#x201C;Manchester by the Sea,&#x201D; opens on Nov. 18. His character&#x2019;s grief, he said, was &#x201C;painful but doable.&#x201D;</media:description>
+      <media:credit>Emily Andrews for The New York Times</media:credit>
+      <description>Mr. Affleck, uncomfortable in the spotlight, still turns in a performance in &#x201C;Manchester by the Sea&#x201D; that is likely to get him noticed, darn it.</description>
+      <dc:creator>CARA BUCKLEY</dc:creator>
+      <pubDate>Fri, 04 Nov 2016 16:15:34 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Actors and Actresses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Manchester by the Sea (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Affleck, Casey</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Damon, Matt</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lonergan, Kenneth</category>
+    </item>
+  </channel>
+</rss>

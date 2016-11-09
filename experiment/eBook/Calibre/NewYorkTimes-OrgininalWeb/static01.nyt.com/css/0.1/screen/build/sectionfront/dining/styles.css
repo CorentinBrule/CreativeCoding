@@ -1,0 +1,61 @@
+/*
+$Id: styles.css 146329 2014-09-25 20:46:37Z naveen.malla $
+/css/0.1/screen/build/sectionfront/dining/styles.css
+(c)2006 - 2010 The New York Times Company
+*/
+
+@import url(/css/0.1/screen/common/sectionfront.css);
+@import url(/css/0.1/screen/section/dining/modules/recipeSearchModule.css);
+@import url(/css/0.1/screen/section/dining/modules/restaurantSearchModule.css);
+@import url(/css/0.1/screen/globalEdition/common.css);
+@import url(/css/0.1/screen/common/modules/filmstrip.css);
+@import url(/css/0.1/screen/common/subNavigation.css);
+@import url(/css/0.1/screen/common/nyt5/sectionfront-features.css);
+
+.NYT5Style .subNavigation {
+  background: none;
+  padding: 10px 0 7px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.NYT5Style .subNavigation .column {
+  background: none;
+  min-height: 0px;
+  height: auto;
+}
+
+.NYT5Style .subNavigation div.last,
+.NYT5Style .subNavigation .lastColumn {
+  height: 19px !important;
+}
+
+.NYT5Style .subNavigation .last .columnGroup,
+.NYT5Style .subNavigation .lastColumn .columnGroup {
+  margin: 0px;
+}
+
+.NYT5Style .subNavigation div.last ul,
+.NYT5Style .subNavigation .lastColumn ul {
+  text-align: center;
+  width: 970px;
+}
+
+.NYT5Style .subNavigation h5,
+.NYT5Style .subNavigation .subnavBack {
+  display: none;
+}
+
+.NYT5Style .subNavigation ul li {
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+  height: auto;
+  min-height: 0;
+  float: none;
+  display: inline-block;
+}
+
+.NYT5Style .subNavigation ul li a,
+.NYT5Style .subNavigation ul li.selected {
+  color: #4d4d4d;
+  font-weight: 400;
+  text-transform: uppercase;
+}

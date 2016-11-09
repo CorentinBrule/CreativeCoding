@@ -1,0 +1,2158 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]> <!--> <html lang="es" class="tone-news no-js" itemscope xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+<!--[if IE 9]> <html lang="es" class="tone-news no-js ie9 lt-ie10" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if IE 8]> <html lang="es" class="tone-news no-js ie8 lt-ie10 lt-ie9" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+<!--[if (lt IE 8)]> <html lang="es" class="tone-news no-js lt-ie10 lt-ie9 lt-ie8" xmlns:og="http://opengraphprotocol.org/schema/"> <![endif]-->
+
+<!-- Mirrored from www.nytimes.com/es/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Nov 2016 17:10:23 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="../../static01.nyt.com/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" sizes="144×144" href="../../static01.nyt.com/images/icons/ios-ipad-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114×114" href="../../static01.nyt.com/images/icons/ios-iphone-114x144.png" />
+<link rel="apple-touch-icon-precomposed" href="../../static01.nyt.com/images/icons/ios-default-homescreen-57x57.png" />
+<meta name="sourceApp" content="nyt-international" />
+<meta property="fb:pages" content="751965821517958" />
+<meta id="applicationName" name="applicationName" content="nyt-espanol" />
+<meta id="foundation-build-id" name="foundation-build-id" content="" />
+<meta itemprop="inLanguage" content="es-MX" />
+<meta property="collection:language" content="es">
+<meta name="msapplication-starturl" content="http://www.nytimes.com" />
+<meta property="fb:app_id" content="9869919170" />
+<meta name="google-site-verification" content="z-X9yT4qiS9XgWx9_wZQn3CD8uOup_UnqyfwVIP-jt8" />
+<meta name="cd5" content="inicio" /><link rel="stylesheet" type="text/css" media="screen" href="../../int.nyt.com/apps/intl/css/prd/shell-5fd008b596.min.css" />
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="../../int.nyt.com/apps/intl/css/prd/collection-3c818d207f.min.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="../../int.nyt.com/apps/intl/css/prd/homepage-88f683cbdb.min.css" />
+
+<link rel="stylesheet" type="text/css" media="screen" href="../../int.nyt.com/apps/intl/css/prd/theme-4b50e19b67.min.css" />
+<script>
+window._nyt = {"locale":"es_MX","mailToLink":{"path":"\/es","message":"De The New York Times en Espa\u00f1ol:"},"dataEdition":"es","dataEditionCookie":"spanish","editions":{"heading":"Edici\u00f3n","links":{"us":{"url":"http:\/\/www.nytimes.com","label":"English","slug":"us"},"chinese":{"url":"http:\/\/cn.nytimes.com\/","label":"\u4e2d\u6587 (Chinese)","slug":"chinese"},"spanish":{"url":"http:\/\/www.nytimes.com\/es\/","label":"Espa\u00f1ol","slug":"spanish"}}},"helpMenu":{"heading":"Ayuda","links":[{"label":"Preguntas Frecuentes","url":"\/es\/preguntas-frecuentes\/"},{"label":"Cont\u00e1ctanos ayuda@nytimes.com","url":"mailto:ayuda@nytimes.com?subject=Comentario%20sobre%20el%20New%20York%20Times"}]},"helpNavItem":{"address":"ayuda@nytimes.com","subject":"Comentario sobre el New York Times"},"collectionsEndpoint":"http:\/\/www.nytimes.com\/es\/wp-json\/nyt\/v1\/collections\/?","tagxHost":"https:\/\/tagx.nytimes.com","dfpProp":"esnyt","dfpHost":"\/29390238\/esnyt\/"};
+</script>
+<meta name="nyt-collection:identifier" content="index">
+<meta name="nyt-collection:type" content="sectioncollection">
+<meta name="nyt-collection:url" content="http://www.nytimes.com/es/">
+<meta name="nyt-collection:uri" content="&">
+<meta name="PT" content="Homepage">
+<meta property="article:collection" content="http://www.nytimes.com/es/wp-json/nyt/v1/collection/">
+<meta name="dfp-ad-unit-path" content="homepage/es" />
+<title>Español &#8211; Noticias, análisis y opinión</title>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+<script type="text/javascript">var googletag=googletag||{};googletag.cmd=googletag.cmd||[],function(){var t=document.createElement("script");t.async=!0,t.type="text/javascript";var e="https:"==document.location.protocol;t.src=(e?"https:":"http:")+"//www.googletagservices.com/tag/js/gpt.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(t,o)}();</script>
+<!--esi
+<script id="abtestconfig" type="application/json">
+<esi:include src="/js/nyt5/ab/abconfig.json" />
+</script>
+-->
+<!--esi
+<script id="user-info-data" type="application/json">
+<esi:include src="/svc/web-products/userinfo-v3.json" />
+</script>
+-->
+
+
+<script>
+var require = {
+	baseUrl: 'https://int.nyt.com/apps/intl/js/',
+	waitSeconds: 20,
+	paths: {
+		'foundation/main': 'foundation/main-24afc8c9ea',
+		'foundation/legacy_main': 'foundation/legacy_main-ac7456298d',
+		'ads': 'ads-f7e1937b95',
+		'homepage/main': 'homepage/main-d7a760152d',
+		'interactive/main': 'interactive/main-f878d3f99e',
+		'article/main': 'article/main-ce9d5dd1ad',
+		'slideshow/main': 'slideshow/main-2283305ba2',
+		'collection/main': 'collection/main-966605dea4',
+		'page/main': 'page/main-d5375413c5',
+		'nytint/email-subscriber' : 'interactive/email-subscriber/client-061aab7a3e',
+		'shell/main': 'shell/main-03263e46b4',
+		'videoFactory': 'https://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
+		'videoPlaylist': 'https://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
+		'auth/mtr': 'https://static01.nyt.com/js/mtr',
+		'auth/growl': 'https://static01.nyt.com/js/auth/growl/default',
+		'vhs': 'https://static01.nyt.com/video/vhs/build/vhs-2.x.min'
+	}
+};
+</script>
+<!--[if (gte IE 9)|!(IE)]> <!-->
+<script data-main="foundation/main" src="https://int.nyt.com/apps/intl/js/framework-72c8305b1a.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script>
+    require.map = { '*': { 'foundation/main': 'foundation/legacy_main' } };
+</script>
+<script data-main="foundation/legacy_main" src="https://int.nyt.com/apps/intl/js/framework-72c8305b1a.js"></script>
+<![endif]-->
+<script>
+window.magnum.processFlags(["dfpAds","videoVHSCover","videoVHSShareTools"]);
+</script>
+
+
+</head>
+<body class="home blog" data-url="http://www.nytimes.com/es/">
+<style>
+    .lt-ie10 .messenger.suggestions {
+        display: block !important;
+        height: 50px;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-bed {
+        background-color: #f8e9d2;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-container {
+        padding: 11px 18px 11px 30px;
+    }
+
+    .lt-ie10 .messenger.suggestions .action-link {
+        font-family: "nyt-franklin", arial, helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #a81817;
+        text-transform: uppercase;
+    }
+
+    .lt-ie10 .messenger.suggestions .alert-icon {
+        background: url('../../static01.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-top: -2px;
+        float: none;
+    }
+
+    .lt-ie10 .masthead,
+    .lt-ie10 .navigation,
+    .lt-ie10 .comments-panel {
+        margin-top: 50px !important;
+    }
+
+    .lt-ie10 .ribbon {
+        margin-top: 97px !important;
+    }
+
+    .kicker-logo.logo-nyt_kicker-rio-2016 {
+        display: inline-block;
+        background: transparent url('https://int.nyt.com/apps/intl/images/rio-es-logo-286-225b42767c.svg') no-repeat;
+        background-size: contain;
+        text-indent: -9999px;
+        vertical-align: top;
+    }
+</style>
+<div id="shell" class="shell">
+<header id="masthead" class="masthead" role="banner">
+
+    <div id="announcements-container" class="announcements-container"></div>
+
+    <div class="masthead-cap-container">
+
+        <div id="masthead-cap" class="masthead-cap">
+
+            <div class="quick-navigation button-group">
+            	<button class="button sections-button"><i class="icon sprite-icon"></i><span class="button-text">Secciones</span></button>
+            	<button class="button home-button" data-href="http://www.nytimes.com/es/" title="Ir a la página principal para ver más noticias destacadas."><i class="icon sprite-icon"></i>
+            		<span class="button-text">Inicio</span>
+            	</button>
+            	<!--button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Buscar</span></button-->
+            	<a class="button skip-button skip-to-content visually-hidden focusable" href="#main">Ir al contenido</a>
+            </div><!-- close button-group -->            <div class="branding">
+            	<h2 class="branding-heading">
+            		<a id="branding-heading-link" href="index.html">
+            			<span class="visually-hidden">The New York Times</span>
+            			<span class="lang">es</span>
+            		</a>
+            	</h2>
+            </div><!-- close branding -->            <div class="user-tools">
+            
+            	<!--button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Buscar</span></button-->
+            	<div class="user-tools-button-group button-group">
+            		<button class="button notifications-button hidden"><i class="icon sprite-icon"></i><span class="button-text">0</span></button>
+            		<button class="button user-settings-button"><i class="icon sprite-icon"></i><span class="button-text">Ajustes</span></button>
+            	</div><!-- close user-tools-button-group -->
+            </div><!-- close user-tools -->
+
+        </div><!-- close masthead-cap -->
+
+    </div><!-- close masthead-cap-container -->
+
+    <div class="masthead-meta">
+
+        <div class="editions tab">
+
+            <ul class="editions-menu">
+                <li class="edition-domestic-toggle">Edición</li>
+                <li class="edition-domestic-toggle active">Español</li>
+                <button class="editions-button"><i class="icon caret-icon"></i><span class="button-text"></span></button>
+            </ul>
+
+        </div><!-- close editions -->
+
+        <div id="TopLeft" class="ad top-left-ad"></div>
+        <div id="TopRight" class="ad top-right-ad"></div>
+
+        <h2 class="branding">
+            <a id="branding-heading-link-home" href="index.html">
+                <svg class="nyt-logo" width="379" height="64" role="img" aria-label="The New York Times">
+                    <image width="379" height="64" xlink:href="https://int.nyt.com/apps/intl/logos/nyt-logo-379x64-0a073e8891.svg" src="https://int.nyt.com/apps/intl/logos/nyt-logo-379x64-49af1f8e52.png" alt="The New York Times" border="0"/>
+                </svg>
+            </a>
+        </h2>
+        <ul class="masthead-menu">
+            <li class="date">domingo, 6 de noviembre de 2016</li>
+			<li id="weather" class="weather hidden" data-collection="weather"><button class="button weather-button"></button></li>
+        </ul>
+
+    </div>
+    <nav id="mini-navigation" class="mini-navigation">
+    	<div class="quick-navigation button-group">
+    		<button class="button sections-button"><i class="icon sprite-icon"></i><span class="button-text">Secciones</span></button>
+    		<button class="button home-button" data-href="http://www.nytimes.com/es/" title="Ir a la página principal para ver más noticias destacadas."><i class="icon sprite-icon"></i>
+    			<span class="button-text">Inicio</span>
+    		</button>
+    		<!--button class="button search-button"><i class="icon sprite-icon"></i><span class="button-text">Buscar</span></button-->
+    		<a class="button skip-button skip-to-content visually-hidden focusable" href="#main">Ir al contenido</a>
+    	</div><!-- close button-group -->    	<div class="branding">
+    		<h2 class="branding-heading">
+    			<a id="mini-navigation-branding-heading-link" href="index.html">
+    				<span class="visually-hidden">The New York Times</span>
+    				<span class="lang">es</span>
+    			</a>
+    		</h2>
+    	</div><!-- close branding -->    	<div id="sharetools-masthead" aria-label="tools" role="group" class="sharetools theme-classic  sharetools-masthead  "
+    		data-shares="facebook,twitter,whatsapp,email"
+    		data-url="http://www.nytimes.com/es/"
+    		data-title="Español"
+    		data-description="Noticias, análisis y opinión"
+    	>
+    		<div class="ad sharetools-inline-article-ad hidden nocontent robots-nocontent"></div>
+    	</div><!-- close shareTools -->
+    
+    	<ul class="mini-navigation-menu">
+    			<li class="shortcuts">
+    				<a href="http://www.nytimes.com/es/category/noticias/">Noticias</a>
+    			</li>
+    			<li class="shortcuts">
+    				<a href="http://www.nytimes.com/es/category/cultura/">Cultura</a>
+    			</li>
+    			<li class="shortcuts">
+    				<a href="http://www.nytimes.com/es/category/opinion/">Opinión</a>
+    			</li>
+    			<li class="shortcuts">
+    				<a href="http://www.nytimes.com/es/category/america-latina/">América Latina</a>
+    			</li>
+    			<li class="shortcuts">
+    				<a href="http://www.nytimes.com/es/category/reposado/">★ Reposado</a>
+    			</li>
+    			<li class="shortcuts">
+    				<a href="http://www.nytimes.com/es/collection/elecciones-ee-uu/">Elecciones EE. UU.</a>
+    			</li>
+    	</ul>
+    </nav>    <div class="search-flyout-panel flyout-panel">
+    	<button class="button close-button" type="button"><i class="icon"></i><span class="visually-hidden">Close search</span></button>
+    	<div class="ad">
+            <div id="SponsorAd" class="sponsor-ad">
+                <small class="ad-sponsor">search sponsored by</small>
+            </div>
+        </div>
+    	<nav class="search-form-control form-control layout-horizontal">
+    		<h2 class="visually-hidden">Site Search Navigation</h2>
+    		<form class="search-form" role="search">
+    			<div class="control">
+    				<div class="label-container visually-hidden">
+    					<label for="search-input">Buscar NYTimes.com</label>
+    				</div>
+    				<div class="field-container">
+    					<input id="search-input" name="search-input" type="text" class="search-input text" autocomplete="off" placeholder="Buscar NYTimes.com" />
+    					<button type="button" class="button clear-button" tabindex="-1" aria-describedby="clear-search-input"><i class="icon"></i><span id="clear-search-input" class="visually-hidden">Desactive esta entrada de texto</span></button>
+    					<div class="auto-suggest" style="display: none;">
+    						<ol></ol>
+    					</div>
+    					<button class="button submit-button" type="submit">irse</button>
+    				</div>
+    			</div><!-- close control -->
+    		</form>
+    	</nav>
+    </div><!-- close flyout-panel -->    <div id="notification-modals" class="notification-modals"></div>
+
+</header><!-- close masthead -->
+<div id="masthead-placeholder" class="masthead-placeholder"></div>
+
+<script type="text/javascript">
+    var isAbTest = window.NYTABTEST && window.NYTABTEST.engine && window.NYTABTEST.engine.isUserVariant && window.NYTABTEST.engine.isUserVariant('pinnedMasthead') === '1';
+    var masthead = document.getElementById('masthead');
+
+    if (isAbTest && masthead) {
+        masthead.className = 'masthead';
+    }
+</script>
+<nav id="navigation" class="navigation" role="navigation"></nav> <!-- close navigation -->
+<div id="navigation-edge" class="navigation-edge"></div>
+<div id="page" class="page">
+	<main id="main" class="main" role="main">
+		<div id="TopAd" class="ad top-ad nocontent robots-nocontent">
+			<div class="accessibility-ad-header visually-hidden">
+				<p>publicidad</p>
+			</div>
+		</div>
+	<div class="nyt-wp-shell">
+<section class="collection collection-type-column collection-tone-feature" itemscope itemtype="http://schema.org/CollectionPage">
+	<div class="rank">
+		<section class="highlights">
+			<h2 class="section-heading visually-hidden">Highlights</h2>
+				<div class="rank-template template-2">
+					<ol class="story-menu">
+						<li>
+							<article class="story theme-summary">
+								<figure class="media photo" aria-label="media" role="group">
+									<span class="visually-hidden">Photo</span>
+									<a href="http://www.nytimes.com/es/2016/11/05/por-que-israel-se-sigue-negando-a-tomar-una-decision/" data-rref="">
+										<img
+											src="../../static01.nyt.com/images/2016/10/28/opinion/sunday/28cohen/28cohen-mediumThreeByTwo440-v2.jpg"
+											srcset=""
+											alt="Por qué Israel se sigue negando a tomar una decisión"
+										/>
+							
+									</a>
+									<figcaption class="caption" itemprop="caption description">
+										<span class="credit" itemprop="copyrightHolder">
+											<span class="visually-hidden">crédito</span>
+											Rina Castelnuovo para The New York Times
+										</span>
+									</figcaption>
+								</figure>
+							
+								<div class="story-body">
+									
+											<h3 class="kicker">Comentario</h3>
+							
+									<h2 class="headline">
+										<a href="http://www.nytimes.com/es/2016/11/05/por-que-israel-se-sigue-negando-a-tomar-una-decision/" data-rref="">Por qué Israel se sigue negando a tomar una decisión</a>
+									</h2>
+							
+									<div class="thumb">
+										<a href="http://www.nytimes.com/es/2016/11/05/por-que-israel-se-sigue-negando-a-tomar-una-decision/" aria-hidden="true" role="presentation" tabindex="-1"  data-rref="">
+											<img
+												src="../../static01.nyt.com/images/2016/10/28/opinion/sunday/28cohen/28cohen-thumbStandard-v2.jpg"
+												role="presentation"
+												alt=""
+											/>
+										</a>
+									</div>
+							
+							
+									<p class="summary">Israel podría encontrar muchas formas de aliviar las humillaciones y los apuros económicos de los palestinos en Gaza y Cisjordania sin poner en riesgo su seguridad. Pero, sin asumir su responsabilidad política, el gobierno hace todo lo posible para evitar decidir.</p>
+							
+								</div>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary">
+								<figure class="media photo" aria-label="media" role="group">
+									<span class="visually-hidden">Photo</span>
+									<a href="http://www.nytimes.com/es/2016/11/05/casados-con-sus-telefonos-inteligentes-ah-y-entre-ellos-tambien/" data-rref="">
+										<img
+											src="../../static01.nyt.com/images/2016/10/30/fashion/30FIELDNOTESIPHONE/30FIELDNOTESIPHONE-mediumThreeByTwo440.jpg"
+											srcset=""
+											alt="Casados con sus teléfonos inteligentes (ah, y entre ellos también)"
+										/>
+							
+									</a>
+									<figcaption class="caption" itemprop="caption description">
+										<span class="credit" itemprop="copyrightHolder">
+											<span class="visually-hidden">crédito</span>
+											Tom Bloom
+										</span>
+									</figcaption>
+								</figure>
+							
+								<div class="story-body">
+									
+											<h3 class="kicker">Vida</h3>
+							
+									<h2 class="headline">
+										<a href="http://www.nytimes.com/es/2016/11/05/casados-con-sus-telefonos-inteligentes-ah-y-entre-ellos-tambien/" data-rref="">Casados con sus teléfonos inteligentes (ah, y entre ellos también)</a>
+									</h2>
+							
+									<div class="thumb">
+										<a href="http://www.nytimes.com/es/2016/11/05/casados-con-sus-telefonos-inteligentes-ah-y-entre-ellos-tambien/" aria-hidden="true" role="presentation" tabindex="-1"  data-rref="">
+											<img
+												src="../../static01.nyt.com/images/2016/10/30/fashion/30FIELDNOTESIPHONE/30FIELDNOTESIPHONE-thumbStandard.jpg"
+												role="presentation"
+												alt=""
+											/>
+										</a>
+									</div>
+							
+							
+									<p class="summary">Los expertos dicen que los teléfonos inteligentes se están entrometiendo en las relaciones. A veces de manera inofensiva, pero también pueden llevar a las parejas a preguntarse: ¿Cuándo elegimos pasar más tiempo con nuestros teléfonos que con nuestro cónyuge?</p>
+							
+								</div>
+							</article>
+						</li>
+				
+						<li class="story-group">
+							<ol class="story-menu">
+									<li>
+										<article class="story theme-summary">
+											<figure class="media photo" aria-label="media" role="group">
+												<span class="visually-hidden">Photo</span>
+												<a href="http://www.nytimes.com/es/2016/11/04/la-locura-de-mi-reloj-biologico/" data-rref="">
+													<img
+														src="../../static01.nyt.com/images/2016/10/30/fashion/30MODERNLOVE/30MODERNLOVE-mediumThreeByTwo440.jpg"
+														srcset=""
+														alt="La locura de mi reloj biológico"
+													/>
+										
+												</a>
+												<figcaption class="caption" itemprop="caption description">
+													<span class="credit" itemprop="copyrightHolder">
+														<span class="visually-hidden">crédito</span>
+														Brian Rea
+													</span>
+												</figcaption>
+											</figure>
+										
+											<div class="story-body">
+												
+														<h3 class="kicker">Modern Love</h3>
+										
+												<h2 class="headline">
+													<a href="http://www.nytimes.com/es/2016/11/04/la-locura-de-mi-reloj-biologico/" data-rref="">La locura de mi reloj biológico</a>
+												</h2>
+										
+												<div class="thumb">
+													<a href="http://www.nytimes.com/es/2016/11/04/la-locura-de-mi-reloj-biologico/" aria-hidden="true" role="presentation" tabindex="-1"  data-rref="">
+														<img
+															src="../../static01.nyt.com/images/2016/10/30/fashion/30MODERNLOVE/30MODERNLOVE-thumbStandard.jpg"
+															role="presentation"
+															alt=""
+														/>
+													</a>
+												</div>
+										
+										
+												<p class="summary">En el fondo no quería tener hijos, pero de todas formas daba tumbos hacia la maternidad, porque pensaba que debería desearlos hasta que, finalmente, mi anatomía determinó mi destino.</p>
+										
+											</div>
+										</article>
+									</li>
+									<li>
+										<article class="story theme-summary">
+											<figure class="media photo" aria-label="media" role="group">
+												<span class="visually-hidden">Photo</span>
+												<a href="http://www.nytimes.com/es/2016/11/04/la-campana-presidencial-de-estados-unidos-en-12-imagenes-increibles/" data-rref="">
+													<img
+														src="../../static01.nyt.com/images/2016/11/04/us/iconic1/iconic1-mediumThreeByTwo440.jpg"
+														srcset=""
+														alt="La campaña presidencial de Estados Unidos en 12 imágenes increíbles"
+													/>
+										
+												</a>
+												<figcaption class="caption" itemprop="caption description">
+													<span class="credit" itemprop="copyrightHolder">
+														<span class="visually-hidden">crédito</span>
+														Damon Winter/The New York Times
+													</span>
+												</figcaption>
+											</figure>
+										
+											<div class="story-body">
+												
+														<h3 class="kicker">Elecciones EE. UU.</h3>
+										
+												<h2 class="headline">
+													<a href="http://www.nytimes.com/es/2016/11/04/la-campana-presidencial-de-estados-unidos-en-12-imagenes-increibles/" data-rref="">La campaña presidencial de Estados Unidos en 12 imágenes increíbles</a>
+												</h2>
+										
+												<div class="thumb">
+													<a href="http://www.nytimes.com/es/2016/11/04/la-campana-presidencial-de-estados-unidos-en-12-imagenes-increibles/" aria-hidden="true" role="presentation" tabindex="-1"  data-rref="">
+														<img
+															src="../../static01.nyt.com/images/2016/11/04/us/iconic1/iconic1-thumbStandard.jpg"
+															role="presentation"
+															alt=""
+														/>
+													</a>
+												</div>
+										
+										
+												<p class="summary">Nuestros fotógrafos han tomado miles y miles de imágenes y han atravesado miles y miles de kilómetros desde principios de 2015 para cubrir la campaña presidencial en Estados Unidos. Estas son 12 imágenes imperdibles de su travesía.</p>
+										
+											</div>
+										</article>
+									</li>
+							</ol>
+						</li>
+					</ol>
+				</div><!-- close template-2 -->
+	
+				<div class="rank-template template-3 embedded-collection-package">
+					<header class="section-header">
+						<h2 class="section-heading">
+							Recomendados
+						</h2>
+					</header>
+				
+					<ol class="story-menu layout-span">
+						<li>
+							<article class="story theme-summary ">
+								
+										<h3 class="kicker">Nicaragua</h3>
+				
+								<figure class="media photo" aria-label="media" role="group">
+									<span class="visually-hidden">Photo</span>
+									<a href="http://www.nytimes.com/es/2016/10/31/esposa-primera-dama-y-ahora-candidata-a-la-vicepresidencia-acumulando-poder-en-nicaragua/" data-tracking-index="" data-rref="">
+										<img
+											src="../../static01.nyt.com/images/2016/10/29/world/31nicaragua-web/31nicaragua-web-mediumThreeByTwo440.jpg"
+											srcset=""
+											alt="Esposa, primera dama y ahora candidata a la vicepresidencia: acumulando poder en Nicaragua"
+										/>
+				
+									</a>
+									<figcaption class="caption" itemprop="caption description">
+										<span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">crédito</span>Esteban Felix/Associated Press</span>
+									</figcaption>
+								</figure>
+				
+								<div class="story-body">
+									<h2 class="headline">
+										<a href="http://www.nytimes.com/es/2016/10/31/esposa-primera-dama-y-ahora-candidata-a-la-vicepresidencia-acumulando-poder-en-nicaragua/" data-tracking-index="" data-rref="">Esposa, primera dama y ahora candidata a la vicepresidencia: acumulando poder en Nicaragua</a>
+									</h2>
+									<p class="summary">En una línea narrativa que parece salida de "House of Cards", Rosario Murillo acompaña como candidata a la vicepresidencia  a su esposo, el presidente Daniel Ortega, para el tercer periodo de este... y su victoria es casi segura.</p>
+									<p class="byline">
+										<span class="author" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Frances Robles</span>
+</span>
+</span>
+									</p>
+								</div>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary ">
+								
+										<h3 class="kicker">Elecciones EE. UU.</h3>
+				
+								<figure class="media photo" aria-label="media" role="group">
+									<span class="visually-hidden">Photo</span>
+									<a href="http://www.nytimes.com/es/2016/10/30/los-peligros-de-la-presidencia-de-hillary-clinton/" data-tracking-index="" data-rref="">
+										<img
+											src="../../static01.nyt.com/images/2016/10/23/opinion/sunday/23douthat/23douthat-mediumThreeByTwo440.jpg"
+											srcset=""
+											alt="Los peligros de la presidencia de Hillary Clinton"
+										/>
+				
+									</a>
+									<figcaption class="caption" itemprop="caption description">
+										<span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">crédito</span>Carlos Barria/Reuters</span>
+									</figcaption>
+								</figure>
+				
+								<div class="story-body">
+									<h2 class="headline">
+										<a href="http://www.nytimes.com/es/2016/10/30/los-peligros-de-la-presidencia-de-hillary-clinton/" data-tracking-index="" data-rref="">Los peligros de la presidencia de Hillary Clinton</a>
+									</h2>
+									<p class="summary">Los peligros de la presidencia de Hillary Clinton son más familiares que las incertidumbres autoritarias de Donald Trump, pues ya están enraizados en la política de Estados Unidos.</p>
+									<p class="byline">
+										<span class="author" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Ross Douthat</span>
+</span>
+</span>
+									</p>
+								</div>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary ">
+								
+										<h3 class="kicker">Internacional</h3>
+				
+								<figure class="media photo" aria-label="media" role="group">
+									<span class="visually-hidden">Photo</span>
+									<a href="http://www.nytimes.com/es/2016/10/29/el-estado-islamico-denton-mosul-carros-bomba-herido-periodista/" data-tracking-index="" data-rref="">
+										<img
+											src="../../static01.nyt.com/images/2016/10/26/world/middleeast/27BATTLE-slide-EZYW/27BATTLE-slide-EZYW-mediumThreeByTwo440.jpg"
+											srcset=""
+											alt="El Estado Islámico envió cuatro carros bomba. El último me alcanzó y quedé herido"
+										/>
+				
+									</a>
+									<figcaption class="caption" itemprop="caption description">
+										<span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">crédito</span>Bryan Denton para The New York Times</span>
+									</figcaption>
+								</figure>
+				
+								<div class="story-body">
+									<h2 class="headline">
+										<a href="http://www.nytimes.com/es/2016/10/29/el-estado-islamico-denton-mosul-carros-bomba-herido-periodista/" data-tracking-index="" data-rref="">El Estado Islámico envió cuatro carros bomba. El último me alcanzó y quedé herido</a>
+									</h2>
+									<p class="summary">La explosión fue grande y sentí que algo pegaba contra mi muñeca derecha. Al mirar, alcancé a ver el hueso en la profundidad del corte antes de que la herida se llenara de sangre.</p>
+									<p class="byline">
+										<span class="author" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Bryan Denton</span>
+</span>
+</span>
+									</p>
+								</div>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary ">
+								
+										<h3 class="kicker">Comentario</h3>
+				
+								<figure class="media photo" aria-label="media" role="group">
+									<span class="visually-hidden">Photo</span>
+									<a href="http://www.nytimes.com/es/2016/10/29/medellin-vs-narcos/" data-tracking-index="" data-rref="">
+										<img
+											src="../../static01.nyt.com/images/2016/09/02/arts/02NARCOS/02NARCOS-mediumThreeByTwo440.jpg"
+											srcset=""
+											alt="Medellín vs. &#8216;Narcos&#8217;"
+										/>
+				
+									</a>
+									<figcaption class="caption" itemprop="caption description">
+										<span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">crédito</span>Juan Pablo Gutierrez/Netflix</span>
+									</figcaption>
+								</figure>
+				
+								<div class="story-body">
+									<h2 class="headline">
+										<a href="http://www.nytimes.com/es/2016/10/29/medellin-vs-narcos/" data-tracking-index="" data-rref="">Medellín vs. &#8216;Narcos&#8217;</a>
+									</h2>
+									<p class="summary">El exalcalde de Medellín Sergio Fajardo preferiría que su ciudad se conociera por la historia de cómo ha ido recuperándose del periodo de violencia demencial que retrata 'Narcos'. </p>
+									<p class="byline">
+										<span class="author" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Sergio Fajardo</span>
+</span>
+</span>
+									</p>
+								</div>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary ">
+								
+										<h3 class="kicker">Venezuela</h3>
+				
+								<figure class="media photo" aria-label="media" role="group">
+									<span class="visually-hidden">Photo</span>
+									<a href="http://www.nytimes.com/es/2016/10/28/entre-dialogos-y-protestas-la-oposicion-de-venezuela-busca-un-cambio-de-gobierno/" data-tracking-index="" data-rref="">
+										<img
+											src="../../static01.nyt.com/images/2016/10/28/universal/es/VZLARRES/VZLARRES-mediumThreeByTwo440.jpg"
+											srcset=""
+											alt="Entre diálogos y protestas, la oposición de Venezuela busca un cambio de gobierno"
+										/>
+				
+									</a>
+									<figcaption class="caption" itemprop="caption description">
+										<span class="credit" itemprop="copyrightHolder"><span class="visually-hidden">crédito</span>Alejandro Cegarra/Associated Press</span>
+									</figcaption>
+								</figure>
+				
+								<div class="story-body">
+									<h2 class="headline">
+										<a href="http://www.nytimes.com/es/2016/10/28/entre-dialogos-y-protestas-la-oposicion-de-venezuela-busca-un-cambio-de-gobierno/" data-tracking-index="" data-rref="">Entre diálogos y protestas, la oposición de Venezuela busca un cambio de gobierno</a>
+									</h2>
+									<p class="summary">Después de la suspensión del revocatorio, el gobierno venezolano ha propuesto iniciar un diálogo con la oposición, aunque se considera una estrategia para dividir a sus adversarios y apaciguar el profundo descontento social entre los ciudadanos.</p>
+									<p class="byline">
+										<span class="author" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Albinson Linares</span>
+</span>
+</span>
+									</p>
+								</div>
+							</article>
+						</li>
+					</ol>
+				</div><!-- close template-3 -->
+		</section>
+	</div>
+
+
+	<div class="stream-supplemental">
+		<div id="main-tabs" class="main-tabs tabs">
+			<nav class="tab-navigation">
+				<ul class="tab-menu" role="tablist">
+					<li class="tab active " aria-controls="latest-panel" role="tab" tabindex="0" aria-selected="true" data-name="latest">
+						<a id="tab-link-1" class=""href="#latest-panel" tabindex="-1">Lo más reciente</a>
+					</li>
+					<li class="tab search-tab" aria-controls="search-panel" role="tab" tabindex="0" aria-selected="true" data-name="search">
+						<a id="tab-link-2" class="search-link" href="#search-panel" tabindex="-1"><i class="icon sprite-icon search-icon"></i><span class="link-text">Buscar</span>
+							<form class="search-tab-form" role="search">
+								<div class="control">
+									<div class="label-container visually-hidden">
+										<label id="search-tab-label" for="search-tab-input">Buscar</label>
+									</div>
+									<div class="field-container">
+										<input id="search-tab-input" name="search-tab-input" type="text" class="search-tab-input text" placeholder="Buscar" aria-labelledby="search-tab-label" size="8" autocomplete="off" />
+									</div>
+									<button type="button" class="button clear-button hidden" tabindex="-1" aria-describedby="clear-search-input"><i class="icon"></i><span id="clear-search-input" class="visually-hidden">Desactive esta entrada de texto</span></button>
+								</div><!-- close control -->
+							</form>
+						</a>
+					</li>
+				</ul><!-- close tab-menu -->
+			</nav><!-- close tab-navigation -->
+		
+			<section id="latest-panel" class="tab-panel latest-panel " aria-labelledby="tab-link-1" role="tabpanel" aria-expanded="false" tabindex="-1">
+				<h2 class="section-heading visually-hidden">últimos artículos</h2>
+				<div class="stream" data-total-pages="209">
+					<ol class="story-menu theme-stream initial-set">
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/04/asi-son-los-domingos-de-una-maratonista-ecuatoriana/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Deportes</h3>
+											<h2 class="headline" itemprop="headline">Así son los domingos de una maratonista ecuatoriana</h2>
+											<p class="summary" itemprop="description">Domenica Ramos emigró a Nueva York de Ecuador en 2001. En 2013, comenzó a correr para manejar el estrés de ser madre soltera. Este domingo correrá su quinto maratón en dos años. Así vive, entrena y descansa los domingos.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Lindsay Crouse</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/11/06/nyregion/06ROUTINE1/06ROUTINE1-mediumThreeByTwo210-v2.jpg" alt="Así son los domingos de una maratonista ecuatoriana" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-04" itemprop="datePublished">4 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/04/el-efecto-cunha-la-encrucijada-de-las-investigaciones-por-corrupcion-en-brasil/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Comentario</h3>
+											<h2 class="headline" itemprop="headline">El efecto Cunha: la amenaza a la cruzada anticorrupción en Brasil</h2>
+											<p class="summary" itemprop="description">La detención del poderoso exdiputado brasileño Eduardo Cunha podría poner en manos de la Operación Lava Jato un material como para hacer estallar al gobierno por delitos de corrupción. Pero mientras esta posibilidad crece, más peligran las investigaciones.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Carol Pires</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/11/04/universal/es/04brasilES/04brasilES-mediumThreeByTwo210.jpg" alt="El efecto Cunha: la amenaza a la cruzada anticorrupción en Brasil" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-04" itemprop="datePublished">4 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/04/como-se-dice-vote-for-clinton-en-espanol-preguntenle-a-las-abuelas/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Elecciones EE. UU.</h3>
+											<h2 class="headline" itemprop="headline">¿Cómo se dice ‘Vote for Clinton’ en español? Pregúntenle a las abuelas</h2>
+											<p class="summary" itemprop="description">“Hay un dicho que jamás olvido”, dijo Barbara Valencia, de 64 años, una administradora jubilada que vive en Tempe y trabaja con los demócratas. “Si educas a un hombre, educas a una persona. Si educas a una mujer, educas a una familia”. </p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Jeremy W. Peters</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/11/02/us/02abuelas1/02abuelas1-mediumThreeByTwo210.jpg" alt="¿Cómo se dice ‘Vote for Clinton’ en español? Pregúntenle a las abuelas" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-04" itemprop="datePublished">4 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/03/surgen-dudas-sobre-la-eficiencia-que-prometian-los-cultivos-geneticamente-modificados/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Negocios</h3>
+											<h2 class="headline" itemprop="headline">Surgen dudas sobre la mayor eficiencia de cultivos genéticamente modificados</h2>
+											<p class="summary" itemprop="description">Un análisis de The New York Times y un informe de la Academia Nacional de las Ciencias parecen mostrar que la promesa de los cultivos transgénicos —ser más productivos y más inmunes a las plagas— no se ha cumplido.
+
+</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Danny Hakim</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/09/16/business/GMO1/GMO1-mediumThreeByTwo210.jpg" alt="Surgen dudas sobre la mayor eficiencia de cultivos genéticamente modificados" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-03" itemprop="datePublished">3 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/03/resena-en-before-the-flood-leonardo-dicaprio-activa-la-alarma-del-cambio-climatico/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Cine</h3>
+											<h2 class="headline" itemprop="headline">Reseña: En &#8216;Before the Flood&#8217;, Leonardo DiCaprio activa la alarma del cambio climático</h2>
+											<p class="summary" itemprop="description">El documental sigue el mismo patrón testimonial del género de celebridades con un mensaje. Aunque DiCaprio quiere provocar cambios individuales de comportamiento, hay fragmentos del filme que pueden desalentarte a hacerlo.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Neil Genzlinger</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/21/arts/21BEFOREFLOOD/21BEFOREFLOOD-mediumThreeByTwo210-v3.jpg" alt="Reseña: En &#8216;Before the Flood&#8217;, Leonardo DiCaprio activa la alarma del cambio climático" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-03" itemprop="datePublished">3 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/03/las-parejas-poderosas-en-el-mundo-de-la-politica/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Internacional</h3>
+											<h2 class="headline" itemprop="headline">Las parejas poderosas en el mundo de la política</h2>
+											<p class="summary" itemprop="description">Las jefas de Estado o gobierno a menudo son integrantes de dinastías políticas. A veces, siguen a sus esposos en el cargo y, en más de una ocasión, han sido ellos quienes las han seguido.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Frances Robles</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/28/world/28Dynasty-Clinton/28Dynasty-Clinton-mediumThreeByTwo210.jpg" alt="Las parejas poderosas en el mundo de la política" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-03" itemprop="datePublished">3 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/03/una-farsa-electoral-en-nicaragua/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Comentario</h3>
+											<h2 class="headline" itemprop="headline">Una farsa electoral en Nicaragua</h2>
+											<p class="summary" itemprop="description">El domingo habrá elecciones en este país, pero la palabra “elección” no describe el resultado. Bajo un sistema controlado por el partido gobernante, sin observadores independientes y sin oposición, el presidente Daniel Ortega repite la historia como farsa.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Carlos F. Chamorro</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/11/04/universal/es/03nicaraguaES/03nicaraguaES-mediumThreeByTwo210.jpg" alt="Una farsa electoral en Nicaragua" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-03" itemprop="datePublished">3 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/03/postales-del-mundo-el-mitico-megapollo-brasileno-exactamente-que-es-un-chester/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Postales del Mundo</h3>
+											<h2 class="headline" itemprop="headline">Postales del Mundo: Qué es un chéster, el mítico megapollo brasileño</h2>
+											<p class="summary" itemprop="description">El misterio alrededor de esta ave, que es más grande que la mayoría de los pollos pero no tanto como un pavo, se mantiene y suma a su encanto en las cocinas brasileñas.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Simon Romero</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/28/world/what-in-the-world/00wit_brazil-chester2/00wit_brazil-chester2-mediumThreeByTwo210-v6.jpg" alt="Postales del Mundo: Qué es un chéster, el mítico megapollo brasileño" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-03" itemprop="datePublished">3 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/03/instrucciones-para-convivir-con-tus-muertos/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">México</h3>
+											<h2 class="headline" itemprop="headline">Instrucciones para convivir con tus muertos</h2>
+											<p class="summary" itemprop="description">Unos meses después de mudarse a México, un extranjero siente que debe hacerle un altar a su padre para el Día de Muertos, y en el proceso descubre que hacer una ofrenda es un ejercicio de memoria, una forma de reconstruir de a poco a ciertas personas.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Eliezer Budasoff</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/11/02/universal/es/2muertosES01/2muertosES01-mediumThreeByTwo210.jpg" alt="Instrucciones para convivir con tus muertos" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-03" itemprop="datePublished">3 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/02/por-que-la-gente-disfruta-del-miedo-una-miedosa-se-puso-a-investigar/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Ciencia</h3>
+											<h2 class="headline" itemprop="headline">¿Por qué la gente disfruta del miedo? Una miedosa se puso a investigar</h2>
+											<p class="summary" itemprop="description">Según los expertos cuando vas a una casa embrujada o enfrentas  un conflicto, la experiencia podría ser divertida o aterradora, y el equilibrio podría depender de tus niveles de dopamina.
+
+</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Steph Yin</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/29/science/28TB-FEAR/28TB-FEAR-mediumThreeByTwo210.jpg" alt="¿Por qué la gente disfruta del miedo? Una miedosa se puso a investigar" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-02" itemprop="datePublished">2 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+					</ol>
+			
+					<ol id="story-menu-additional-set-latest" class="story-menu theme-stream additional-set hidden">
+						<li id="latest-page-marker" class="page-marker invisible-minimized"></li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/02/la-odisea-de-cuatros-anos-de-twitter-con-vine-la-aplicacion-de-video-de-6-segundos/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Tecnología</h3>
+											<h2 class="headline" itemprop="headline">La odisea de cuatros años de Twitter con Vine, la aplicación de video de 6 segundos</h2>
+											<p class="summary" itemprop="description">Al principio parecía que la apuesta de 30 millones de dólares en la empresa naciente daría dividendos. Pero, cuatro años después, la competencia de Instagram provocó el cierre de Vine y el despido de sus cerca de 40 empleados.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Mike Isaac</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/29/business/29VINE/29VINE-mediumThreeByTwo210.jpg" alt="La odisea de cuatros años de Twitter con Vine, la aplicación de video de 6 segundos" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-02" itemprop="datePublished">2 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/02/consejos-y-claves-para-ser-feliz-en-una-relacion-abierta/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Vida</h3>
+											<h2 class="headline" itemprop="headline">Consejos y claves para ser feliz en una relación poliamorosa</h2>
+											<p class="summary" itemprop="description">De muchas maneras, las relaciones abiertas no son tan diferentes de las monógamas. La mejor manera de sentirse cómodo depende de los individuos, de su nivel de comunicación y de la confianza que se genera en la relación. </p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Valeriya Safronova</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/26/nytnow/26open/26open-mediumThreeByTwo210.jpg" alt="Consejos y claves para ser feliz en una relación poliamorosa" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-02" itemprop="datePublished">2 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/02/un-viaje-en-carretera-con-hillary-clinton/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Elecciones EE. UU.</h3>
+											<h2 class="headline" itemprop="headline">Un viaje en carretera con Hillary Clinton</h2>
+											<p class="summary" itemprop="description">Cuando Hillary tenía 26 años, acababa de terminar su trabajo en el comité Watergate y deseaba estar con su novio, Bill Clinton, su casera pensaba que su inquilina echaba su futuro por la borda y se ofreció a llevarla a Arkansas para disuadirla.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Amy Chozick</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/08/us/09ROADTRIPweb3/09ROADTRIPweb3-mediumThreeByTwo210.jpg" alt="Un viaje en carretera con Hillary Clinton" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-02" itemprop="datePublished">2 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/01/como-los-primeros-agricultores-cambiaron-la-historia/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Ciencia</h3>
+											<h2 class="headline" itemprop="headline">Cómo los primeros agricultores cambiaron la historia</h2>
+											<p class="summary" itemprop="description">¿Exactamente quiénes fueron los primeros agricultores? ¿Cómo fue que la agricultura, la piedra angular de la civilización, se esparció a otras partes del mundo? Genetistas e investigadores han logrado avances significativos en su búsqueda de respuestas.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Carl Zimmer</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/18/science/18FARMING1/18FARMING1-mediumThreeByTwo210-v4.jpg" alt="Cómo los primeros agricultores cambiaron la historia" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-01" itemprop="datePublished">1 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/01/los-votantes-tempranos-le-dan-ligera-ventaja-a-los-democratas-en-estados-clave/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Elecciones EE. UU.</h3>
+											<h2 class="headline" itemprop="headline">Las votaciones ya empezaron en Estados Unidos y los demócratas llevan la ventaja</h2>
+											<p class="summary" itemprop="description">Tras una campaña muy polarizada, las opiniones de la mayoría de los votantes parecen haberse determinado hace semanas, si no es que hace meses. Y la definición de la presidencia está sucediendo en algunos de los campos de batalla más importantes.
+</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Jeremy W. Peters</span>
+</span>
+ y <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Matt Flegenheimer</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/31/us/21earlyvotingweb/31campaignweb2sub-mediumThreeByTwo210.jpg" alt="Las votaciones ya empezaron en Estados Unidos y los demócratas llevan la ventaja" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-01" itemprop="datePublished">1 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/01/que-significa-hacer-politica-y-gobernar-siendo-mujer-en-una-ciudad-de-america-latina/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Política</h3>
+											<h2 class="headline" itemprop="headline">¿Qué significa hacer política y gobernar siendo mujer en una ciudad de América Latina?</h2>
+											<p class="summary" itemprop="description">Hasta 2014, el número de alcaldesas en la región apenas alcanzaba el 12,3 por ciento. En Bogotá, en una cumbre mundial de autoridades locales y regionales, conversamos con algunas de las mujeres que disputan y gestionan el poder cada día en sus ciudades.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Elda Cantú</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/11/01/universal/es/1alcaldesasES/1alcaldesasES-mediumThreeByTwo210.jpg" alt="¿Qué significa hacer política y gobernar siendo mujer en una ciudad de América Latina?" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-01" itemprop="datePublished">1 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/01/resena-los-principales-muralistas-y-la-belleza-sutil-del-arte-mexicano-se-exhiben-en-paint-the-revolution/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Arte</h3>
+											<h2 class="headline" itemprop="headline">Reseña: Los principales muralistas y la belleza sutil del arte mexicano se exhiben en ‘Paint the Revolution’</h2>
+											<p class="summary" itemprop="description">La exhibición "Paint the Revolution: Mexican Modernism, 1910-1950" en el Museo de Arte de Filadelfia es el primer intento en siete décadas en Estados Unidos de abordar las contradicciones del arte político mexicano a principios del siglo XX.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Holland Cotter</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/28/arts/28REVOLUTION1/28REVOLUTION1-mediumThreeByTwo210.jpg" alt="Reseña: Los principales muralistas y la belleza sutil del arte mexicano se exhiben en ‘Paint the Revolution’" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-01" itemprop="datePublished">1 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/01/como-crecen-las-mentiras-de-pequenas-y-egoistas-a-grandes-y-graves/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Vida</h3>
+											<h2 class="headline" itemprop="headline">Cómo crecen las mentiras: de pequeñas y egoístas a grandes y graves</h2>
+											<p class="summary" itemprop="description">Un nuevo estudio ofrece evidencia del “camino peligroso” que a veces eligen políticos caprichosos, financieros corruptos, parejas infieles y muchos otros al explicar su conducta inapropiada.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Erica Goode</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/25/science/25dishonesty/25dishonesty-mediumThreeByTwo210.jpg" alt="Cómo crecen las mentiras: de pequeñas y egoístas a grandes y graves" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-11-01" itemprop="datePublished">1 de noviembre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/10/31/el-chavismo-cierra-su-circulo/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Comentario</h3>
+											<h2 class="headline" itemprop="headline">El chavismo cierra su círculo</h2>
+											<p class="summary" itemprop="description">El chavismo se ha atrincherado. Pasó de ser un movimiento que demostró cómo podía usarse la democracia para sacar a una élite, a convertirse en una élite que impide que los instrumentos de la democracia electoral la desalojen del poder.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">David Smilde</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/31/opinion/31smildeWeb/31smildeWeb-mediumThreeByTwo210.jpg" alt="El chavismo cierra su círculo" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-10-31" itemprop="datePublished">31 de octubre de 2016</time>
+								</footer>
+							</article>
+						</li>
+						<li>
+							<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+								<div class="story-body">
+									<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/10/31/una-estatua-de-franco-revive-el-debate-sobre-su-legado-en-espana/">
+										<div class="story-meta">
+											
+													<h3 class="kicker">Europa</h3>
+											<h2 class="headline" itemprop="headline">Una estatua de Franco revive el debate sobre su legado en España</h2>
+											<p class="summary" itemprop="description">La controversia generada por una estatua de Franco en Cataluña demuestra que España no ha sanado sus heridas ni ha encontrado una manera de confrontar su pasado dictatorial.</p>
+											<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Raphael Minder</span>
+</span>
+</p>
+										</div>
+											<div class="wide-thumb">
+												<img role="presentation" src="../../static01.nyt.com/images/2016/10/26/world/27barcelona-web/27barcelona-web-mediumThreeByTwo210.jpg" alt="Una estatua de Franco revive el debate sobre su legado en España" itemprop="thumbnailUrl" />
+											</div>
+									</a>
+								</div>
+							
+								<footer class="story-footer">
+									<time class="dateline" datetime="2016-10-31" itemprop="datePublished">31 de octubre de 2016</time>
+								</footer>
+							</article>
+						</li>
+					</ol>
+			
+					<div class="story-menu-options">
+						<div class="buttons">
+							<button class="button load-more-button" aria-controls="story-menu-additional-set-latest">Ver más</button>
+							<a href="#site-index-navigation" class="button skip-button visually-hidden focusable">Seguir navegando</a>
+						</div>
+					</div><!-- close story-menu-options -->
+				</div>
+				<div class="supplemental">
+					<div id="lede-ad" class="ad lede-ad nocontent robots-nocontent"></div>
+						<aside class="service-module social-media-service-module module" data-name="socialmedia">
+    <header class="module-header">
+        <h2 class="module-heading">Sigue a The New York Times en Español</h2>
+    </header>
+    <div class="module-body">
+        <ul class="social-media-menu">
+            <li>
+                <a href="https://www.facebook.com/nytimeses/" target="_blank">
+                    <i class="icon sprite-icon facebook-icon"></i>
+                    <span>Facebook</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/nytimesES" target="_blank">
+                    <i class="icon sprite-icon twitter-icon"></i>
+                    <span>Twitter</span>
+                </a>
+            </li>
+        </ul>
+    </div><!-- close module-body -->
+</aside>
+						<aside class="notification-signup module">
+	<h2 class="module-heading">Boletín Newsletter</h2>
+	<p class="notification-text">El Boletín de The New York Times en Español incluye historias que inspiran, fotografías impactantes y crónicas imprescindibles.</p>
+	<div id="notification-widget"></div>
+</aside>
+<script>
+require(['foundation/main'], function() {
+	require(['nytint/email-subscriber'], function(Subscriber) {
+		Subscriber.setup({
+			containerId: 'notification-widget',
+			productCode: 'BN',
+			buttonText: 'Suscríbete',
+			placeholder: 'Correo electrónico',
+			subscribedAs: 'Has sido registrado con este correo',
+			subscribed: 'Has sido registrado con este correo.',
+			errorSubmitting: 'Sometimiento de error, por favor vuelva a intentarlo.',
+			invalidEmail: 'El correo electrónico no es válida.',
+			includeAt: 'Por favor incluye un @ en tu dirección de correo electrónico.',
+			emptyField: 'Por favor complete este campo.',
+			updateAddress: 'Actualiza tu correo electrónico',
+		});
+	});
+});
+</script>
+				</div>			</section><!-- close tab-panel -->
+			<section id="search-panel" class="tab-panel search-panel hidden" aria-labelledby="tab-link-2" role="tabpanel" aria-expanded="true" tabindex="-1">
+				<div id="stream-search" class="stream-search">
+					<div class="stream-controls">
+						<header class="stream-search-header section-header" aria-live="polite" aria-atomic="true">
+							<h2 class="section-heading visually-hidden"></h2>
+							<h3 class="stream-search-heading section-heading">
+								<span class="result-count">2083 resultados</span> <span id="results-for-word" class="hidden">para</span> <strong class="search-term"></strong> <span class="stream-sort">ordenado por <button type="button" class="button stream-sort-button"><span class="button-text">más reciente</span><i class="icon caret-icon"></i></button></span>
+							</h3>
+						</header>
+					</div><!-- close stream-controls -->
+			
+					<div class="stream" data-total-pages="209">
+						<ol class="story-menu theme-stream initial-set">
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/05/por-que-israel-se-sigue-negando-a-tomar-una-decision/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Comentario</h3>
+												<h2 class="headline" itemprop="headline">Por qué Israel se sigue negando a tomar una decisión</h2>
+												<p class="summary" itemprop="description">Israel podría encontrar muchas formas de aliviar las humillaciones y los apuros económicos de los palestinos en Gaza y Cisjordania sin poner en riesgo su seguridad. Pero, sin asumir su responsabilidad política, el gobierno hace todo lo posible para evitar decidir.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Roger Cohen</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/28/opinion/sunday/28cohen/28cohen-mediumThreeByTwo210-v2.jpg" alt="Por qué Israel se sigue negando a tomar una decisión" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-05" itemprop="datePublished">5 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/05/casados-con-sus-telefonos-inteligentes-ah-y-entre-ellos-tambien/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Vida</h3>
+												<h2 class="headline" itemprop="headline">Casados con sus teléfonos inteligentes (ah, y entre ellos también)</h2>
+												<p class="summary" itemprop="description">Los expertos dicen que los teléfonos inteligentes se están entrometiendo en las relaciones. A veces de manera inofensiva, pero también pueden llevar a las parejas a preguntarse: ¿Cuándo elegimos pasar más tiempo con nuestros teléfonos que con nuestro cónyuge?</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Brooke Lea Foster</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/30/fashion/30FIELDNOTESIPHONE/30FIELDNOTESIPHONE-mediumThreeByTwo210.jpg" alt="Casados con sus teléfonos inteligentes (ah, y entre ellos también)" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-05" itemprop="datePublished">5 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/04/la-locura-de-mi-reloj-biologico/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Modern Love</h3>
+												<h2 class="headline" itemprop="headline">La locura de mi reloj biológico</h2>
+												<p class="summary" itemprop="description">En el fondo no quería tener hijos, pero de todas formas daba tumbos hacia la maternidad, porque pensaba que debería desearlos hasta que, finalmente, mi anatomía determinó mi destino.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Sari Botton</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/30/fashion/30MODERNLOVE/30MODERNLOVE-mediumThreeByTwo210.jpg" alt="La locura de mi reloj biológico" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-04" itemprop="datePublished">4 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/04/la-campana-presidencial-de-estados-unidos-en-12-imagenes-increibles/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Elecciones EE. UU.</h3>
+												<h2 class="headline" itemprop="headline">La campaña presidencial de Estados Unidos en 12 imágenes increíbles</h2>
+												<p class="summary" itemprop="description">Nuestros fotógrafos han tomado miles y miles de imágenes y han atravesado miles y miles de kilómetros desde principios de 2015 para cubrir la campaña presidencial en Estados Unidos. Estas son 12 imágenes imperdibles de su travesía.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">The New York Times</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/11/04/us/iconic1/iconic1-mediumThreeByTwo210.jpg" alt="La campaña presidencial de Estados Unidos en 12 imágenes increíbles" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-04" itemprop="datePublished">4 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/10/31/esposa-primera-dama-y-ahora-candidata-a-la-vicepresidencia-acumulando-poder-en-nicaragua/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Nicaragua</h3>
+												<h2 class="headline" itemprop="headline">Esposa, primera dama y ahora candidata a la vicepresidencia: acumulando poder en Nicaragua</h2>
+												<p class="summary" itemprop="description">En una línea narrativa que parece salida de "House of Cards", Rosario Murillo acompaña como candidata a la vicepresidencia  a su esposo, el presidente Daniel Ortega, para el tercer periodo de este... y su victoria es casi segura.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Frances Robles</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/29/world/31nicaragua-web/31nicaragua-web-mediumThreeByTwo210.jpg" alt="Esposa, primera dama y ahora candidata a la vicepresidencia: acumulando poder en Nicaragua" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-10-31" itemprop="datePublished">31 de octubre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/10/30/los-peligros-de-la-presidencia-de-hillary-clinton/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Elecciones EE. UU.</h3>
+												<h2 class="headline" itemprop="headline">Los peligros de la presidencia de Hillary Clinton</h2>
+												<p class="summary" itemprop="description">Los peligros de la presidencia de Hillary Clinton son más familiares que las incertidumbres autoritarias de Donald Trump, pues ya están enraizados en la política de Estados Unidos.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Ross Douthat</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/23/opinion/sunday/23douthat/23douthat-mediumThreeByTwo210.jpg" alt="Los peligros de la presidencia de Hillary Clinton" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-10-30" itemprop="datePublished">30 de octubre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/10/29/el-estado-islamico-denton-mosul-carros-bomba-herido-periodista/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Internacional</h3>
+												<h2 class="headline" itemprop="headline">El Estado Islámico envió cuatro carros bomba. El último me alcanzó y quedé herido</h2>
+												<p class="summary" itemprop="description">La explosión fue grande y sentí que algo pegaba contra mi muñeca derecha. Al mirar, alcancé a ver el hueso en la profundidad del corte antes de que la herida se llenara de sangre.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Bryan Denton</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/26/world/middleeast/27BATTLE-slide-EZYW/27BATTLE-slide-EZYW-mediumThreeByTwo210.jpg" alt="El Estado Islámico envió cuatro carros bomba. El último me alcanzó y quedé herido" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-10-29" itemprop="datePublished">29 de octubre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/10/29/medellin-vs-narcos/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Comentario</h3>
+												<h2 class="headline" itemprop="headline">Medellín vs. &#8216;Narcos&#8217;</h2>
+												<p class="summary" itemprop="description">El exalcalde de Medellín Sergio Fajardo preferiría que su ciudad se conociera por la historia de cómo ha ido recuperándose del periodo de violencia demencial que retrata 'Narcos'. </p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Sergio Fajardo</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/09/02/arts/02NARCOS/02NARCOS-mediumThreeByTwo210.jpg" alt="Medellín vs. &#8216;Narcos&#8217;" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-10-29" itemprop="datePublished">29 de octubre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/10/28/entre-dialogos-y-protestas-la-oposicion-de-venezuela-busca-un-cambio-de-gobierno/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Venezuela</h3>
+												<h2 class="headline" itemprop="headline">Entre diálogos y protestas, la oposición de Venezuela busca un cambio de gobierno</h2>
+												<p class="summary" itemprop="description">Después de la suspensión del revocatorio, el gobierno venezolano ha propuesto iniciar un diálogo con la oposición, aunque se considera una estrategia para dividir a sus adversarios y apaciguar el profundo descontento social entre los ciudadanos.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Albinson Linares</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/28/universal/es/VZLARRES/VZLARRES-mediumThreeByTwo210.jpg" alt="Entre diálogos y protestas, la oposición de Venezuela busca un cambio de gobierno" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-10-28" itemprop="datePublished">28 de octubre de 2016</time>
+									</footer>
+								</article>
+							</li>
+			
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/04/asi-son-los-domingos-de-una-maratonista-ecuatoriana/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Deportes</h3>
+												<h2 class="headline" itemprop="headline">Así son los domingos de una maratonista ecuatoriana</h2>
+												<p class="summary" itemprop="description">Domenica Ramos emigró a Nueva York de Ecuador en 2001. En 2013, comenzó a correr para manejar el estrés de ser madre soltera. Este domingo correrá su quinto maratón en dos años. Así vive, entrena y descansa los domingos.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Lindsay Crouse</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/11/06/nyregion/06ROUTINE1/06ROUTINE1-mediumThreeByTwo210-v2.jpg" alt="Así son los domingos de una maratonista ecuatoriana" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-04" itemprop="datePublished">4 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/04/el-efecto-cunha-la-encrucijada-de-las-investigaciones-por-corrupcion-en-brasil/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Comentario</h3>
+												<h2 class="headline" itemprop="headline">El efecto Cunha: la amenaza a la cruzada anticorrupción en Brasil</h2>
+												<p class="summary" itemprop="description">La detención del poderoso exdiputado brasileño Eduardo Cunha podría poner en manos de la Operación Lava Jato un material como para hacer estallar al gobierno por delitos de corrupción. Pero mientras esta posibilidad crece, más peligran las investigaciones.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Carol Pires</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/11/04/universal/es/04brasilES/04brasilES-mediumThreeByTwo210.jpg" alt="El efecto Cunha: la amenaza a la cruzada anticorrupción en Brasil" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-04" itemprop="datePublished">4 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/04/como-se-dice-vote-for-clinton-en-espanol-preguntenle-a-las-abuelas/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Elecciones EE. UU.</h3>
+												<h2 class="headline" itemprop="headline">¿Cómo se dice ‘Vote for Clinton’ en español? Pregúntenle a las abuelas</h2>
+												<p class="summary" itemprop="description">“Hay un dicho que jamás olvido”, dijo Barbara Valencia, de 64 años, una administradora jubilada que vive en Tempe y trabaja con los demócratas. “Si educas a un hombre, educas a una persona. Si educas a una mujer, educas a una familia”. </p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Jeremy W. Peters</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/11/02/us/02abuelas1/02abuelas1-mediumThreeByTwo210.jpg" alt="¿Cómo se dice ‘Vote for Clinton’ en español? Pregúntenle a las abuelas" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-04" itemprop="datePublished">4 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/03/surgen-dudas-sobre-la-eficiencia-que-prometian-los-cultivos-geneticamente-modificados/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Negocios</h3>
+												<h2 class="headline" itemprop="headline">Surgen dudas sobre la mayor eficiencia de cultivos genéticamente modificados</h2>
+												<p class="summary" itemprop="description">Un análisis de The New York Times y un informe de la Academia Nacional de las Ciencias parecen mostrar que la promesa de los cultivos transgénicos —ser más productivos y más inmunes a las plagas— no se ha cumplido.
+
+</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Danny Hakim</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/09/16/business/GMO1/GMO1-mediumThreeByTwo210.jpg" alt="Surgen dudas sobre la mayor eficiencia de cultivos genéticamente modificados" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-03" itemprop="datePublished">3 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/03/resena-en-before-the-flood-leonardo-dicaprio-activa-la-alarma-del-cambio-climatico/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Cine</h3>
+												<h2 class="headline" itemprop="headline">Reseña: En &#8216;Before the Flood&#8217;, Leonardo DiCaprio activa la alarma del cambio climático</h2>
+												<p class="summary" itemprop="description">El documental sigue el mismo patrón testimonial del género de celebridades con un mensaje. Aunque DiCaprio quiere provocar cambios individuales de comportamiento, hay fragmentos del filme que pueden desalentarte a hacerlo.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Neil Genzlinger</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/21/arts/21BEFOREFLOOD/21BEFOREFLOOD-mediumThreeByTwo210-v3.jpg" alt="Reseña: En &#8216;Before the Flood&#8217;, Leonardo DiCaprio activa la alarma del cambio climático" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-03" itemprop="datePublished">3 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/03/las-parejas-poderosas-en-el-mundo-de-la-politica/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Internacional</h3>
+												<h2 class="headline" itemprop="headline">Las parejas poderosas en el mundo de la política</h2>
+												<p class="summary" itemprop="description">Las jefas de Estado o gobierno a menudo son integrantes de dinastías políticas. A veces, siguen a sus esposos en el cargo y, en más de una ocasión, han sido ellos quienes las han seguido.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Frances Robles</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/28/world/28Dynasty-Clinton/28Dynasty-Clinton-mediumThreeByTwo210.jpg" alt="Las parejas poderosas en el mundo de la política" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-03" itemprop="datePublished">3 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/03/una-farsa-electoral-en-nicaragua/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Comentario</h3>
+												<h2 class="headline" itemprop="headline">Una farsa electoral en Nicaragua</h2>
+												<p class="summary" itemprop="description">El domingo habrá elecciones en este país, pero la palabra “elección” no describe el resultado. Bajo un sistema controlado por el partido gobernante, sin observadores independientes y sin oposición, el presidente Daniel Ortega repite la historia como farsa.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Carlos F. Chamorro</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/11/04/universal/es/03nicaraguaES/03nicaraguaES-mediumThreeByTwo210.jpg" alt="Una farsa electoral en Nicaragua" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-03" itemprop="datePublished">3 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/03/postales-del-mundo-el-mitico-megapollo-brasileno-exactamente-que-es-un-chester/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Postales del Mundo</h3>
+												<h2 class="headline" itemprop="headline">Postales del Mundo: Qué es un chéster, el mítico megapollo brasileño</h2>
+												<p class="summary" itemprop="description">El misterio alrededor de esta ave, que es más grande que la mayoría de los pollos pero no tanto como un pavo, se mantiene y suma a su encanto en las cocinas brasileñas.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Simon Romero</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/28/world/what-in-the-world/00wit_brazil-chester2/00wit_brazil-chester2-mediumThreeByTwo210-v6.jpg" alt="Postales del Mundo: Qué es un chéster, el mítico megapollo brasileño" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-03" itemprop="datePublished">3 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/03/instrucciones-para-convivir-con-tus-muertos/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">México</h3>
+												<h2 class="headline" itemprop="headline">Instrucciones para convivir con tus muertos</h2>
+												<p class="summary" itemprop="description">Unos meses después de mudarse a México, un extranjero siente que debe hacerle un altar a su padre para el Día de Muertos, y en el proceso descubre que hacer una ofrenda es un ejercicio de memoria, una forma de reconstruir de a poco a ciertas personas.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Eliezer Budasoff</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/11/02/universal/es/2muertosES01/2muertosES01-mediumThreeByTwo210.jpg" alt="Instrucciones para convivir con tus muertos" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-03" itemprop="datePublished">3 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/02/por-que-la-gente-disfruta-del-miedo-una-miedosa-se-puso-a-investigar/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Ciencia</h3>
+												<h2 class="headline" itemprop="headline">¿Por qué la gente disfruta del miedo? Una miedosa se puso a investigar</h2>
+												<p class="summary" itemprop="description">Según los expertos cuando vas a una casa embrujada o enfrentas  un conflicto, la experiencia podría ser divertida o aterradora, y el equilibrio podría depender de tus niveles de dopamina.
+
+</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Steph Yin</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/29/science/28TB-FEAR/28TB-FEAR-mediumThreeByTwo210.jpg" alt="¿Por qué la gente disfruta del miedo? Una miedosa se puso a investigar" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-02" itemprop="datePublished">2 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+						</ol>
+			
+						<ol id="story-menu-additional-set-search" class="story-menu theme-stream additional-set hidden">
+							<li id="search-page-marker" class="page-marker invisible-minimized"></li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/02/la-odisea-de-cuatros-anos-de-twitter-con-vine-la-aplicacion-de-video-de-6-segundos/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Tecnología</h3>
+												<h2 class="headline" itemprop="headline">La odisea de cuatros años de Twitter con Vine, la aplicación de video de 6 segundos</h2>
+												<p class="summary" itemprop="description">Al principio parecía que la apuesta de 30 millones de dólares en la empresa naciente daría dividendos. Pero, cuatro años después, la competencia de Instagram provocó el cierre de Vine y el despido de sus cerca de 40 empleados.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Mike Isaac</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/29/business/29VINE/29VINE-mediumThreeByTwo210.jpg" alt="La odisea de cuatros años de Twitter con Vine, la aplicación de video de 6 segundos" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-02" itemprop="datePublished">2 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/02/consejos-y-claves-para-ser-feliz-en-una-relacion-abierta/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Vida</h3>
+												<h2 class="headline" itemprop="headline">Consejos y claves para ser feliz en una relación poliamorosa</h2>
+												<p class="summary" itemprop="description">De muchas maneras, las relaciones abiertas no son tan diferentes de las monógamas. La mejor manera de sentirse cómodo depende de los individuos, de su nivel de comunicación y de la confianza que se genera en la relación. </p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Valeriya Safronova</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/26/nytnow/26open/26open-mediumThreeByTwo210.jpg" alt="Consejos y claves para ser feliz en una relación poliamorosa" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-02" itemprop="datePublished">2 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/02/un-viaje-en-carretera-con-hillary-clinton/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Elecciones EE. UU.</h3>
+												<h2 class="headline" itemprop="headline">Un viaje en carretera con Hillary Clinton</h2>
+												<p class="summary" itemprop="description">Cuando Hillary tenía 26 años, acababa de terminar su trabajo en el comité Watergate y deseaba estar con su novio, Bill Clinton, su casera pensaba que su inquilina echaba su futuro por la borda y se ofreció a llevarla a Arkansas para disuadirla.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Amy Chozick</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/08/us/09ROADTRIPweb3/09ROADTRIPweb3-mediumThreeByTwo210.jpg" alt="Un viaje en carretera con Hillary Clinton" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-02" itemprop="datePublished">2 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/01/como-los-primeros-agricultores-cambiaron-la-historia/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Ciencia</h3>
+												<h2 class="headline" itemprop="headline">Cómo los primeros agricultores cambiaron la historia</h2>
+												<p class="summary" itemprop="description">¿Exactamente quiénes fueron los primeros agricultores? ¿Cómo fue que la agricultura, la piedra angular de la civilización, se esparció a otras partes del mundo? Genetistas e investigadores han logrado avances significativos en su búsqueda de respuestas.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Carl Zimmer</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/18/science/18FARMING1/18FARMING1-mediumThreeByTwo210-v4.jpg" alt="Cómo los primeros agricultores cambiaron la historia" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-01" itemprop="datePublished">1 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/01/los-votantes-tempranos-le-dan-ligera-ventaja-a-los-democratas-en-estados-clave/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Elecciones EE. UU.</h3>
+												<h2 class="headline" itemprop="headline">Las votaciones ya empezaron en Estados Unidos y los demócratas llevan la ventaja</h2>
+												<p class="summary" itemprop="description">Tras una campaña muy polarizada, las opiniones de la mayoría de los votantes parecen haberse determinado hace semanas, si no es que hace meses. Y la definición de la presidencia está sucediendo en algunos de los campos de batalla más importantes.
+</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Jeremy W. Peters</span>
+</span>
+ y <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Matt Flegenheimer</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/31/us/21earlyvotingweb/31campaignweb2sub-mediumThreeByTwo210.jpg" alt="Las votaciones ya empezaron en Estados Unidos y los demócratas llevan la ventaja" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-01" itemprop="datePublished">1 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/01/que-significa-hacer-politica-y-gobernar-siendo-mujer-en-una-ciudad-de-america-latina/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Política</h3>
+												<h2 class="headline" itemprop="headline">¿Qué significa hacer política y gobernar siendo mujer en una ciudad de América Latina?</h2>
+												<p class="summary" itemprop="description">Hasta 2014, el número de alcaldesas en la región apenas alcanzaba el 12,3 por ciento. En Bogotá, en una cumbre mundial de autoridades locales y regionales, conversamos con algunas de las mujeres que disputan y gestionan el poder cada día en sus ciudades.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Elda Cantú</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/11/01/universal/es/1alcaldesasES/1alcaldesasES-mediumThreeByTwo210.jpg" alt="¿Qué significa hacer política y gobernar siendo mujer en una ciudad de América Latina?" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-01" itemprop="datePublished">1 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/01/resena-los-principales-muralistas-y-la-belleza-sutil-del-arte-mexicano-se-exhiben-en-paint-the-revolution/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Arte</h3>
+												<h2 class="headline" itemprop="headline">Reseña: Los principales muralistas y la belleza sutil del arte mexicano se exhiben en ‘Paint the Revolution’</h2>
+												<p class="summary" itemprop="description">La exhibición "Paint the Revolution: Mexican Modernism, 1910-1950" en el Museo de Arte de Filadelfia es el primer intento en siete décadas en Estados Unidos de abordar las contradicciones del arte político mexicano a principios del siglo XX.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Holland Cotter</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/28/arts/28REVOLUTION1/28REVOLUTION1-mediumThreeByTwo210.jpg" alt="Reseña: Los principales muralistas y la belleza sutil del arte mexicano se exhiben en ‘Paint the Revolution’" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-01" itemprop="datePublished">1 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/11/01/como-crecen-las-mentiras-de-pequenas-y-egoistas-a-grandes-y-graves/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Vida</h3>
+												<h2 class="headline" itemprop="headline">Cómo crecen las mentiras: de pequeñas y egoístas a grandes y graves</h2>
+												<p class="summary" itemprop="description">Un nuevo estudio ofrece evidencia del “camino peligroso” que a veces eligen políticos caprichosos, financieros corruptos, parejas infieles y muchos otros al explicar su conducta inapropiada.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Erica Goode</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/25/science/25dishonesty/25dishonesty-mediumThreeByTwo210.jpg" alt="Cómo crecen las mentiras: de pequeñas y egoístas a grandes y graves" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-11-01" itemprop="datePublished">1 de noviembre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/10/31/el-chavismo-cierra-su-circulo/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Comentario</h3>
+												<h2 class="headline" itemprop="headline">El chavismo cierra su círculo</h2>
+												<p class="summary" itemprop="description">El chavismo se ha atrincherado. Pasó de ser un movimiento que demostró cómo podía usarse la democracia para sacar a una élite, a convertirse en una élite que impide que los instrumentos de la democracia electoral la desalojen del poder.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">David Smilde</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/31/opinion/31smildeWeb/31smildeWeb-mediumThreeByTwo210.jpg" alt="El chavismo cierra su círculo" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-10-31" itemprop="datePublished">31 de octubre de 2016</time>
+									</footer>
+								</article>
+							</li>
+							<li>
+								<article class="story theme-summary " itemscope itemtype="http://schema.org/NewsArticle">
+									<div class="story-body">
+										<a class="story-link" data-rref="" href="http://www.nytimes.com/es/2016/10/31/una-estatua-de-franco-revive-el-debate-sobre-su-legado-en-espana/">
+											<div class="story-meta">
+												
+														<h3 class="kicker">Europa</h3>
+												<h2 class="headline" itemprop="headline">Una estatua de Franco revive el debate sobre su legado en España</h2>
+												<p class="summary" itemprop="description">La controversia generada por una estatua de Franco en Cataluña demuestra que España no ha sanado sus heridas ni ha encontrado una manera de confrontar su pasado dictatorial.</p>
+												<p class="byline" itemprop="author">Por <span class="byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" itemid="">
+	<span class="byline-author" data-byline-name="" itemprop="name" data-twitter-handle="">Raphael Minder</span>
+</span>
+</p>
+											</div>
+												<div class="wide-thumb">
+													<img role="presentation" src="../../static01.nyt.com/images/2016/10/26/world/27barcelona-web/27barcelona-web-mediumThreeByTwo210.jpg" alt="Una estatua de Franco revive el debate sobre su legado en España" itemprop="thumbnailUrl" />
+												</div>
+										</a>
+									</div>
+								
+									<footer class="story-footer">
+										<time class="dateline" datetime="2016-10-31" itemprop="datePublished">31 de octubre de 2016</time>
+									</footer>
+								</article>
+							</li>
+						</ol>
+			
+						<div class="story-menu-options">
+							<div class="buttons">
+								<button class="button load-more-button" aria-controls="story-menu-additional-set-search">Ver más</button>
+								<a href="#site-index-navigation" class="button skip-button visually-hidden focusable">Seguir navegando</a>
+							</div>
+						</div><!-- close story-menu-options -->
+					</div><!-- close stream -->
+			
+					<div class="supplemental">
+						<div id="lede-ad-search" class="ad lede-ad nocontent robots-nocontent"></div>
+					</div><!-- close supplemental -->
+				</div><!-- close stream-search -->
+			</section>
+		</div>	</div>
+</section><!-- close collection -->
+			</div>
+
+				<div id="TopAd1" class="ad top-ad nocontent robots-nocontent">
+		<div class="accessibility-ad-header visually-hidden">
+			<p>publicidad</p>
+		</div>
+	</div>
+
+
+			<div class="search-overlay"></div>
+		</main><!-- close main -->
+
+		<section id="site-index" class="site-index">
+		    <header class="section-header">
+		        <h2 class="section-heading">
+		            <span class="visually-hidden">Site Index</span>
+		            <a id="site-index-branding-link" href="index.html">
+		                <span class="visually-hidden">The New York Times</span>
+		            </a>
+		        </h2>
+		        <div class="user-action">
+					<span>Edición</span>
+					<ul>
+						<li><a href="../index.html" data-edition="us">English</a></li>
+						<li><a href="http://cn.nytimes.com/" data-edition="chinese">中文 (Chinese)</a></li>
+						<li><a href="index.html" data-edition="es" class="selected">Español</a></</li>
+					</ul>
+				</div>
+		    </header>
+		
+		</section><!-- close site-index -->		<footer id="page-footer" class="page-footer" role="contentinfo">
+			<nav>
+				 <ul>
+					<li>
+						<a target="_blank" href="http://www.nytimes.com/es/aviso-de-derechos-de-autor/" itemprop="copyrightNotice">
+							&copy; <span itemprop="copyrightYear">2016</span><span itemprop="copyrightHolder provider sourceOrganization" itemscope itemtype="http://schema.org/Organization" itemid="http://www.nytimes.com"><span itemprop="name"> The New York Times Company</span><meta itemprop="tickerSymbol" content="NYSE NYT"/></span>
+						</a>
+					</li>
+					<li><a target="_blank" href="http://www.nytimes.com/es/publicidad/">Publicidad</a></li>
+					<li class="visually-hidden"><a href="index.html">Inicio</a></li>
+					<li class="visually-hidden"><a href="http://query.nytimes.com/search/sitesearch/#/">Buscar</a></li>
+				 </ul>
+			</nav>
+			<nav class="last-nav">
+				<ul>
+					<li><a target="_blank" href="http://www.nytimes.com/es/politica-de-privacidad/">Privacidad</a></li>
+					<li><a target="_blank" href="http://www.nytimes.com/es/terminos-y-condiciones-del-servicio/">Condiciones</a></li>
+					<li><a target="_blank" href="http://www.nytimes.com/es/preguntas-frecuentes/">Preguntas</a></li>
+					<li><a target="_blank" href="mailto:ayuda@nytimes.com">Ayuda</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div><!-- close page -->
+</div><!-- close shell -->
+<script>
+require(['foundation/main'], function () {
+    require(['homepage/main']);
+    
+    
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['https://a1.nyt.com/analytics/tagx-simple.min.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (document.getElementById('branding-heading-link')) {
+            if ('masthead-theme-standard' === 'masthead-theme-transparent-ffffff') {
+                var setLightBrandingForViewport = function() {
+                    $('#branding-heading-link').find('svg, img').remove();
+
+                    if (window.magnum.getViewportInteger() >= 1010) {
+                        window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/shell/20160613-034030/images/foundation/logos/', '', 'masthead-theme-standard', '', 'branding-heading-link');
+                    } else {
+                        window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/shell/20160613-034030/images/foundation/logos/', '', '', '', 'branding-heading-link');
+                    }
+                };
+
+                setLightBrandingForViewport();
+                pageManager.on('nyt:page-resize-after', setLightBrandingForViewport);
+            } else {
+                
+                window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/shell/20160613-034030/images/foundation/logos/', '', '', '', 'branding-heading-link');
+            }
+        }
+
+        if (document.getElementById('mini-navigation-branding-heading-link'))  {
+            window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/shell/20160613-034030/images/foundation/logos/', '', 'masthead-theme-standard', '', 'mini-navigation-branding-heading-link');
+        }
+
+        if (document.getElementById('site-index-branding-link')) {
+            window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/shell/20160613-034030/images/foundation/logos/', '', '', '', 'site-index-branding-link');
+        }
+    });
+});
+</script>
+<div id="Inv1" class="ad inv1-ad hidden"></div>
+<div id="Inv2" class="ad inv2-ad hidden"></div>
+<div id="Inv3" class="ad inv3-ad hidden"></div>
+<div id="ab1" class="ad ab1-ad hidden"></div>
+<div id="ab2" class="ad ab2-ad hidden"></div>
+<div id="ab3" class="ad ab3-ad hidden"></div>
+<div id="prop1" class="ad prop1-ad hidden"></div>
+<div id="prop2" class="ad prop2-ad hidden"></div>
+<div id="Anchor" class="ad anchor-ad hidden"></div>
+<div id="ADX_CLIENTSIDE" class="ad adx-clientside-ad hidden"></div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b5bcf2eba4","applicationID":"14394559","transactionName":"YwFXZhRYVhAEVUZcX1pLYEAPFlENAVNKG0BcFA==","queueTime":0,"applicationTime":2683,"atts":"T0ZUEFxCRR4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from www.nytimes.com/es/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Nov 2016 17:10:40 GMT -->
+</html>

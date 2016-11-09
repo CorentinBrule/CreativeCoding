@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.nytimes.com	TRUE	/	FALSE	1999999999	nyt-a	57e733178012dbe59098ee2da0da6ea92bceadd24441b2f86c4a8a8c34e4b436
+.optimizely.com	TRUE	/	FALSE	1999999999	cdn	https%3a%2f%2fakamai%3adsd%40cdn.optimizely.com%2fjs%2f3338050995.js
+

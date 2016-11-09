@@ -1,0 +1,469 @@
+HTTrack3.48-20 launched on Sun, 06 Nov 2016 18:06:02 at http://www.nytimes.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js +*.woff -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://www.nytimes.com/ -O "/home/macrico/Documents/HEAD/coding/nyt" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -r2 -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js +*.woff -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:10:08	Error: 	"Not Found" (404) at link www.nytimes.com/homepage.nytimes.com/index.html (from www.nytimes.com/)
+18:13:23	Error: 	"Not Found" (404) at link www.nytimes.com/section/style (from www.nytimes.com/)
+18:14:51	Error: 	"Not Found" (404) at link www.nytimes.com/GET (from www.nytimes.com/)
+18:21:01	Error: 	Exit requested by shell or user
+18:21:03	Warning: 	File not added due to mirror cancel: https://www.nytimes.com/robots.txt
+18:21:03	Warning: 	Moved Permanently for www.nytimes.com/marketing/newsletters/
+18:21:03	Warning: 	File has moved from www.nytimes.com/marketing/newsletters/ to http://www.nytimes.com/newsletters/
+18:21:03	Warning: 	File not added due to mirror cancel: https://cdn1.nyt.com/robots.txt
+18:21:03	Error: 	"Forbidden" (403) at link https://cdn1.nyt.com/ (from mobile.nytimes.com/)
+18:21:03	Warning: 	File not added due to mirror cancel: https://meter-svc.nytimes.com/robots.txt
+18:21:03	Error: 	"Not Found" (404) at link https://meter-svc.nytimes.com/ (from mobile.nytimes.com/)
+18:21:03	Warning: 	File not added due to mirror cancel: up.nytimes.com/robots.txt
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html
+18:21:03	Warning: 	File not added due to mirror cancel: purl.org/robots.txt
+18:21:03	Warning: 	FOUND for purl.org/dc/elements/1.1/
+18:21:03	Warning: 	File has moved from purl.org/dc/elements/1.1/ to http://dublincore.org/2012/06/14/dcelements
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/purl.org/dc/elements/1.1/index.html
+18:21:03	Warning: 	FOUND for purl.org/dc/terms/
+18:21:03	Warning: 	File has moved from purl.org/dc/terms/ to http://dublincore.org/2012/06/14/dcterms
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/purl.org/dc/terms/index.html
+18:21:03	Warning: 	File not added due to mirror cancel: iptc.org/robots.txt
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/iptc.org/std/nar/2006-10-01/index.html
+18:21:03	Warning: 	File not added due to mirror cancel: prismstandard.org/robots.txt
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/prismstandard.org/namespaces/basic/2.1/index.html
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/us/politics/hillary-clinton-donald-trump-campaign.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/us/politics/android-app://com.nytimes.android/nytimes/reader/id/100000004750926 (from www.nytimes.com/2016/11/06/us/politics/hillary-clinton-donald-trump-campaign.html?_r=0)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/us/politics/donald-trump-rally.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/us/politics/android-app://com.nytimes.android/nytimes/reader/id/100000004751397 (from www.nytimes.com/2016/11/06/us/politics/donald-trump-rally.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/us/politics/presidential-election.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/us/politics/android-app://com.nytimes.android/nytimes/reader/id/100000004751334 (from www.nytimes.com/2016/11/06/us/politics/presidential-election.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/us/politics/hillary-clinton-white-house.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/us/politics/android-app://com.nytimes.android/nytimes/reader/id/100000004749136 (from www.nytimes.com/2016/11/06/us/politics/hillary-clinton-white-house.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/us/politics/latina-hotel-workers-harness-force-of-labor-and-of-politics-in-las-vegas.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/us/politics/android-app://com.nytimes.android/nytimes/reader/id/100000004748063 (from www.nytimes.com/2016/11/06/us/politics/latina-hotel-workers-harness-force-of-labor-and-of-politics-in-las-vegas.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/us/politics/trump-clinton-turning-points.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/us/politics/android-app://com.nytimes.android/nytimes/reader/id/100000004743150 (from www.nytimes.com/2016/11/06/us/politics/trump-clinton-turning-points.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/us/politics/donald-trump-business-tax-records.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/us/politics/android-app://com.nytimes.android/nytimes/reader/id/100000004751054 (from www.nytimes.com/2016/11/06/us/politics/donald-trump-business-tax-records.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/upshot/clinton-has-solid-lead-in-electoral-college-trumps-winning-map-is-unclear.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/upshot/android-app://com.nytimes.android/nytimes/reader/id/100000004751135 (from www.nytimes.com/2016/11/06/upshot/clinton-has-solid-lead-in-electoral-college-trumps-winning-map-is-unclear.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/us/politics/senate-race-new-hampshire.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/us/politics/android-app://com.nytimes.android/nytimes/reader/id/100000004749040 (from www.nytimes.com/2016/11/06/us/politics/senate-race-new-hampshire.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/us/politics/world-reaction-campaign.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/us/politics/android-app://com.nytimes.android/nytimes/reader/id/100000004748078 (from www.nytimes.com/2016/11/06/us/politics/world-reaction-campaign.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/07/world/middleeast/us-backed-militia-opens-drive-on-isis-capital-in-syria.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/07/world/middleeast/android-app://com.nytimes.android/nytimes/reader/id/100000004751745 (from www.nytimes.com/2016/11/07/world/middleeast/us-backed-militia-opens-drive-on-isis-capital-in-syria.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/07/business/inquiry-in-emissions-scandal-widens-to-volkswagens-top-levels.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/07/business/android-app://com.nytimes.android/nytimes/reader/id/100000004751759 (from www.nytimes.com/2016/11/07/business/inquiry-in-emissions-scandal-widens-to-volkswagens-top-levels.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/world/americas/mexico-immigrants.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/world/americas/android-app://com.nytimes.android/nytimes/reader/id/100000004659100 (from www.nytimes.com/2016/11/06/world/americas/mexico-immigrants.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/giving/philanthropy-in-silicon-valley-big-bets-on-big-ideas.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/giving/android-app://com.nytimes.android/nytimes/reader/id/100000004705996 (from www.nytimes.com/2016/11/06/giving/philanthropy-in-silicon-valley-big-bets-on-big-ideas.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/us/politics/black-prosecutors.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/us/politics/android-app://com.nytimes.android/nytimes/reader/id/100000004737076 (from www.nytimes.com/2016/11/06/us/politics/black-prosecutors.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/us/south-carolina-man-linked-to-multiple-killings.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/us/android-app://com.nytimes.android/nytimes/reader/id/100000004751477 (from www.nytimes.com/2016/11/06/us/south-carolina-man-linked-to-multiple-killings.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/sports/horse-racing/breeders-cup-classic-arrogate-california-chrome.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/sports/horse-racing/android-app://com.nytimes.android/nytimes/reader/id/100000004751134 (from www.nytimes.com/2016/11/06/sports/horse-racing/breeders-cup-classic-arrogate-california-chrome.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/04/homepage/new-york-times-open-access-election-2016.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/04/homepage/android-app://com.nytimes.android/nytimes/reader/id/100000004747521 (from www.nytimes.com/2016/11/04/homepage/new-york-times-open-access-election-2016.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/briefing/hillary-clinton-donald-trump-new-york-city-marathon.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/briefing/android-app://com.nytimes.android/nytimes/reader/id/100000004749818 (from www.nytimes.com/2016/11/06/briefing/hillary-clinton-donald-trump-new-york-city-marathon.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/www.nytimes.com/spotlight/times-tips.html
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/10/30/well/move/how-a-run-walk-strategy-might-help-your-marathon.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/10/30/well/move/android-app://com.nytimes.android/nytimes/reader/id/100000004723406 (from www.nytimes.com/2016/10/30/well/move/how-a-run-walk-strategy-might-help-your-marathon.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/10/19/travel/travel-tips-social-media.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/10/19/travel/android-app://com.nytimes.android/nytimes/reader/id/100000004713492 (from www.nytimes.com/2016/10/19/travel/travel-tips-social-media.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/sports/nyc-marathon-2016.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/sports/android-app://com.nytimes.android/nytimes/reader/id/100000004751225 (from www.nytimes.com/2016/11/06/sports/nyc-marathon-2016.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/04/sports/new-york-city-marathon-preview.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/04/sports/android-app://com.nytimes.android/nytimes/reader/id/100000004705477 (from www.nytimes.com/2016/11/04/sports/new-york-city-marathon-preview.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/nyregion/destroying-an-11-apartment-structure-to-build-a-mansion.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/nyregion/android-app://com.nytimes.android/nytimes/reader/id/100000004746676 (from www.nytimes.com/2016/11/06/nyregion/destroying-an-11-apartment-structure-to-build-a-mansion.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/fashion/weddings/seeking-a-drivers-license-led-to-a-marriage-license.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/fashion/weddings/android-app://com.nytimes.android/nytimes/reader/id/100000004735974 (from www.nytimes.com/2016/11/06/fashion/weddings/seeking-a-drivers-license-led-to-a-marriage-license.html)
+18:21:03	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/sports/baseball/chicago-cubs-world-series.html
+18:21:03	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/sports/baseball/android-app://com.nytimes.android/nytimes/reader/id/100000004750038 (from www.nytimes.com/2016/11/06/sports/baseball/chicago-cubs-world-series.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/movies/casey-affleck-interview-manchester-by-the-sea.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/movies/android-app://com.nytimes.android/nytimes/reader/id/100000004730812 (from www.nytimes.com/2016/11/06/movies/casey-affleck-interview-manchester-by-the-sea.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/opinion/sunday/imagining-america-on-nov-9.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/opinion/sunday/android-app://com.nytimes.android/nytimes/reader/id/100000004749578 (from www.nytimes.com/2016/11/06/opinion/sunday/imagining-america-on-nov-9.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/opinion/sunday/why-this-election-terrifies-me.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/opinion/sunday/android-app://com.nytimes.android/nytimes/reader/id/100000004749091 (from www.nytimes.com/2016/11/06/opinion/sunday/why-this-election-terrifies-me.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/opinion/sunday/the-post-familial-election.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/opinion/sunday/android-app://com.nytimes.android/nytimes/reader/id/100000004749093 (from www.nytimes.com/2016/11/06/opinion/sunday/the-post-familial-election.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/opinion/sunday/the-end-is-nigh.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/opinion/sunday/android-app://com.nytimes.android/nytimes/reader/id/100000004749401 (from www.nytimes.com/2016/11/06/opinion/sunday/the-end-is-nigh.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/opinion/sunday/im-with-her-the-strengths-of-hillary-clinton.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/opinion/sunday/android-app://com.nytimes.android/nytimes/reader/id/100000004749122 (from www.nytimes.com/2016/11/06/opinion/sunday/im-with-her-the-strengths-of-hillary-clinton.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/opinion/sunday/schools-that-work.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/opinion/sunday/android-app://com.nytimes.android/nytimes/reader/id/100000004746858 (from www.nytimes.com/2016/11/06/opinion/sunday/schools-that-work.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/opinion/sunday/voting-with-my-head-and-heart.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/opinion/sunday/android-app://com.nytimes.android/nytimes/reader/id/100000004751712 (from www.nytimes.com/2016/11/06/opinion/sunday/voting-with-my-head-and-heart.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/opinion/sunday/the-walls-in-our-heads.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/opinion/sunday/android-app://com.nytimes.android/nytimes/reader/id/100000004728735 (from www.nytimes.com/2016/11/06/opinion/sunday/the-walls-in-our-heads.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/05/insider/the-world-series-sports-page-that-wasnt.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/05/insider/android-app://com.nytimes.android/nytimes/reader/id/100000004749386 (from www.nytimes.com/2016/11/05/insider/the-world-series-sports-page-that-wasnt.html)
+18:21:04	Warning: 	File not added due to mirror cancel: https://fonts.googleapis.com/robots.txt
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/fonts.googleapis.com/css9841.css
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/nyregion/how-domenica-ramos-marathon-runner-spends-her-sundays.html
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/www.nytimes.com/es/2016/11/04/asi-son-los-domingos-de-una-maratonista-ecuatoriana/index.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/nyregion/android-app://com.nytimes.android/nytimes/reader/id/100000004720506 (from www.nytimes.com/2016/11/06/nyregion/how-domenica-ramos-marathon-runner-spends-her-sundays.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/opinion/sunday/consider-a-monarchy-america.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/opinion/sunday/android-app://com.nytimes.android/nytimes/reader/id/100000004746650 (from www.nytimes.com/2016/11/06/opinion/sunday/consider-a-monarchy-america.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/slideshow/2016/06/19/opinion/sunday/the-strip/s/2016-strip-slide-9E5B.html
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/magazine/an-american-in-a-strange-land.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/magazine/android-app://com.nytimes.android/nytimes/reader/id/100000004737182 (from www.nytimes.com/2016/11/06/magazine/an-american-in-a-strange-land.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/opinion/sunday/time-to-dump-time-zones.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/opinion/sunday/android-app://com.nytimes.android/nytimes/reader/id/100000004746635 (from www.nytimes.com/2016/11/06/opinion/sunday/time-to-dump-time-zones.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/05/arts/television/sundancetvs-identity-crisis-indie-by-night-innocent-by-day.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/05/arts/television/android-app://com.nytimes.android/nytimes/reader/id/100000004746585 (from www.nytimes.com/2016/11/05/arts/television/sundancetvs-identity-crisis-indie-by-night-innocent-by-day.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/fashion/jennifer-grey-red-oaks-salsa-dancing.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/fashion/android-app://com.nytimes.android/nytimes/reader/id/100000004742456 (from www.nytimes.com/2016/11/06/fashion/jennifer-grey-red-oaks-salsa-dancing.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/opinion/sunday/whose-life-should-your-car-save.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/opinion/sunday/android-app://com.nytimes.android/nytimes/reader/id/100000004715410 (from www.nytimes.com/2016/11/06/opinion/sunday/whose-life-should-your-car-save.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/04/movies/doctor-strange-review.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/04/movies/android-app://com.nytimes.android/nytimes/reader/id/100000004726669 (from www.nytimes.com/2016/11/04/movies/doctor-strange-review.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/05/world/asia/afghanistan-migrants.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/05/world/asia/android-app://com.nytimes.android/nytimes/reader/id/100000004733145 (from www.nytimes.com/2016/11/05/world/asia/afghanistan-migrants.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/business/the-money-management-gospel-of-yales-endowment-guru.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/business/android-app://com.nytimes.android/nytimes/reader/id/100000004740577 (from www.nytimes.com/2016/11/06/business/the-money-management-gospel-of-yales-endowment-guru.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/technology/how-linkedin-drove-a-wedge-between-microsoft-and-salesforce.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/technology/android-app://com.nytimes.android/nytimes/reader/id/100000004723150 (from www.nytimes.com/2016/11/06/technology/how-linkedin-drove-a-wedge-between-microsoft-and-salesforce.html)
+18:21:04	Warning: 	File not added due to mirror cancel: markets.on.nytimes.com/robots.txt
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/05/technology/silicon-valley-california-growth.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/05/technology/android-app://com.nytimes.android/nytimes/reader/id/100000004745182 (from www.nytimes.com/2016/11/05/technology/silicon-valley-california-growth.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/magazine/want-to-know-what-virtual-reality-might-become-look-to-the-past.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/magazine/android-app://com.nytimes.android/nytimes/reader/id/100000004736342 (from www.nytimes.com/2016/11/06/magazine/want-to-know-what-virtual-reality-might-become-look-to-the-past.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/arts/music/beyonce-political-hillary-clinton-dixie-chicks.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/arts/music/android-app://com.nytimes.android/nytimes/reader/id/100000004750093 (from www.nytimes.com/2016/11/06/arts/music/beyonce-political-hillary-clinton-dixie-chicks.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/movies/octavia-spencer-hidden-figures.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/movies/android-app://com.nytimes.android/nytimes/reader/id/100000004730811 (from www.nytimes.com/2016/11/06/movies/octavia-spencer-hidden-figures.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/arts/music/a-tribe-called-quest-new-album-interview.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/arts/music/android-app://com.nytimes.android/nytimes/reader/id/100000004730825 (from www.nytimes.com/2016/11/06/arts/music/a-tribe-called-quest-new-album-interview.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/us/politics/michelle-obama-2016-presidential-election-first-lady.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/us/politics/android-app://com.nytimes.android/nytimes/reader/id/100000004746706 (from www.nytimes.com/2016/11/06/us/politics/michelle-obama-2016-presidential-election-first-lady.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/fashion/martha-stewart-snoop-dogg-dinner.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/fashion/android-app://com.nytimes.android/nytimes/reader/id/100000004746801 (from www.nytimes.com/2016/11/06/fashion/martha-stewart-snoop-dogg-dinner.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/fashion/coworking.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/fashion/android-app://com.nytimes.android/nytimes/reader/id/100000004713163 (from www.nytimes.com/2016/11/06/fashion/coworking.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/movies/how-the-first-bad-santa-boozed-down-the-chimney.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/movies/android-app://com.nytimes.android/nytimes/reader/id/100000004723237 (from www.nytimes.com/2016/11/06/movies/how-the-first-bad-santa-boozed-down-the-chimney.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/movies/la-la-land-stars-ryan-gosling-emma-stone-and-los-angeles.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/movies/android-app://com.nytimes.android/nytimes/reader/id/100000004726592 (from www.nytimes.com/2016/11/06/movies/la-la-land-stars-ryan-gosling-emma-stone-and-los-angeles.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/nyregion/searching-for-lady-kung-fu.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/nyregion/android-app://com.nytimes.android/nytimes/reader/id/100000004742405 (from www.nytimes.com/2016/11/06/nyregion/searching-for-lady-kung-fu.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/06/nyregion/world-chess-smackdown-on-south-street-be-there.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/06/nyregion/android-app://com.nytimes.android/nytimes/reader/id/100000004742716 (from www.nytimes.com/2016/11/06/nyregion/world-chess-smackdown-on-south-street-be-there.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/05/theater/review-shakespeares-take-on-the-game-of-thrones.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/05/theater/android-app://com.nytimes.android/nytimes/reader/id/100000004733873 (from www.nytimes.com/2016/11/05/theater/review-shakespeares-take-on-the-game-of-thrones.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/05/theater/review-kristin-chenoweth-my-love-letter-to-broadway.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/05/theater/android-app://com.nytimes.android/nytimes/reader/id/100000004733874 (from www.nytimes.com/2016/11/05/theater/review-kristin-chenoweth-my-love-letter-to-broadway.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/04/theater/review-the-jobs-are-gone-in-sweat-so-are-peoples-hopes.html
+18:21:04	Error: 	"Not Found" (404) at link www.nytimes.com/2016/11/04/theater/android-app://com.nytimes.android/nytimes/reader/id/100000004733864 (from www.nytimes.com/2016/11/04/theater/review-the-jobs-are-gone-in-sweat-so-are-peoples-hopes.html)
+18:21:04	Warning: 	Warning: store text/html without scan: /home/macrico/Documents/HEAD/coding/nyt/mobile.nytimes.com/2016/11/08/science/finland-public-transportation-driverless-bus.html
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/robots.txt
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/homepage.nytimes.com/index.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/homepage.nytimes.com/index.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/content/help/site/ie9-support.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/content/help/site/ie9-support.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/pages/todayspaper/index.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/pages/todayspaper/index.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/us/politics/hillary-clinton-donald-trump-campaign.html?_r=0
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/us/politics/hillary-clinton-donald-trump-campaign.html?_r=0 (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/03/us/politics/photos-2016-campaign.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/03/us/politics/photos-2016-campaign.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/world/americas/mexico-immigrants.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/world/americas/mexico-immigrants.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/giving/philanthropy-in-silicon-valley-big-bets-on-big-ideas.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/giving/philanthropy-in-silicon-valley-big-bets-on-big-ideas.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/us/politics/black-prosecutors.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/us/politics/black-prosecutors.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/newsletters/morning-briefing
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/newsletters/morning-briefing (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/10/30/well/move/how-a-run-walk-strategy-might-help-your-marathon.html?hp&target=comments
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/10/30/well/move/how-a-run-walk-strategy-might-help-your-marathon.html?hp&target=comments (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/sports/nyc-marathon-2016.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/sports/nyc-marathon-2016.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/nyregion/destroying-an-11-apartment-structure-to-build-a-mansion.html?hp&target=comments
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/nyregion/destroying-an-11-apartment-structure-to-build-a-mansion.html?hp&target=comments (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/sports/baseball/chicago-cubs-world-series.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/sports/baseball/chicago-cubs-world-series.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/movies/casey-affleck-interview-manchester-by-the-sea.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/movies/casey-affleck-interview-manchester-by-the-sea.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/opinion/sunday/imagining-america-on-nov-9.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/opinion/sunday/imagining-america-on-nov-9.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/opinion/sunday/imagining-america-on-nov-9.html?hp&target=comments
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/opinion/sunday/imagining-america-on-nov-9.html?hp&target=comments (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/opinion/sunday/the-walls-in-our-heads.html?hp&target=comments
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/opinion/sunday/the-walls-in-our-heads.html?hp&target=comments (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/crosswords/index.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/crosswords/index.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/interactive/2016/upshot/presidential-polls-forecast.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/interactive/2016/upshot/presidential-polls-forecast.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/opinion/sunday/consider-a-monarchy-america.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/opinion/sunday/consider-a-monarchy-america.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/section/books/review
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/section/books/review (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/slideshow/2016/06/19/opinion/sunday/the-strip/s/2016-strip-slide-9E5B.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/slideshow/2016/06/19/opinion/sunday/the-strip/s/2016-strip-slide-9E5B.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/magazine/an-american-in-a-strange-land.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/magazine/an-american-in-a-strange-land.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/pages/multimedia/index.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/pages/multimedia/index.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/opinion/sunday/time-to-dump-time-zones.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/opinion/sunday/time-to-dump-time-zones.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/fashion/jennifer-grey-red-oaks-salsa-dancing.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/fashion/jennifer-grey-red-oaks-salsa-dancing.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/opinion/sunday/whose-life-should-your-car-save.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/opinion/sunday/whose-life-should-your-car-save.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/section/movies
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/section/movies (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/05/world/asia/afghanistan-migrants.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/05/world/asia/afghanistan-migrants.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/business/the-money-management-gospel-of-yales-endowment-guru.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/business/the-money-management-gospel-of-yales-endowment-guru.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/technology/how-linkedin-drove-a-wedge-between-microsoft-and-salesforce.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/technology/how-linkedin-drove-a-wedge-between-microsoft-and-salesforce.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/05/technology/silicon-valley-california-growth.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/05/technology/silicon-valley-california-growth.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/movies/octavia-spencer-hidden-figures.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/movies/octavia-spencer-hidden-figures.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/us/politics/michelle-obama-2016-presidential-election-first-lady.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/us/politics/michelle-obama-2016-presidential-election-first-lady.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/fashion/martha-stewart-snoop-dogg-dinner.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/fashion/martha-stewart-snoop-dogg-dinner.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/movies/la-la-land-stars-ryan-gosling-emma-stone-and-los-angeles.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/movies/la-la-land-stars-ryan-gosling-emma-stone-and-los-angeles.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/nyregion/world-chess-smackdown-on-south-street-be-there.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/nyregion/world-chess-smackdown-on-south-street-be-there.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/section/theater
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/section/theater (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/05/theater/review-kristin-chenoweth-my-love-letter-to-broadway.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/05/theater/review-kristin-chenoweth-my-love-letter-to-broadway.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/08/science/moon-formation.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/08/science/moon-formation.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/04/business/dealbook/e-lee-hennessee-died-hedge-funds.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/04/business/dealbook/e-lee-hennessee-died-hedge-funds.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/05/arts/television/the-crown-netflix-episodes-1-2-recap.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/05/arts/television/the-crown-netflix-episodes-1-2-recap.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/08/health/older-patients-community-paramedics.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/08/health/older-patients-community-paramedics.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/travel/brooklyn-budget-frugal-travel.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/travel/brooklyn-budget-frugal-travel.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/03/books/review/best-illustrated-books-of-2016.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/03/books/review/best-illustrated-books-of-2016.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/education/edlife/college-budgets-affect-your-education-but-its-not-all-bad-news.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/education/edlife/college-budgets-affect-your-education-but-its-not-all-bad-news.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/09/dining/thanksgiving-pecan-recipes.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/09/dining/thanksgiving-pecan-recipes.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/realestate/shopping-for-credenzas.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/realestate/shopping-for-credenzas.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/07/upshot/a-bay-area-soda-tax-fight-is-drawing-big-bucks.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/07/upshot/a-bay-area-soda-tax-fight-is-drawing-big-bucks.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/04/magazine/are-get-out-the-vote-efforts-targeting-latinos-working.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/04/magazine/are-get-out-the-vote-efforts-targeting-latinos-working.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/04/automobiles/autoreviews/mclaren-570gt-video-review.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/04/automobiles/autoreviews/mclaren-570gt-video-review.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/03/t-magazine/africa-train-travel.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/03/t-magazine/africa-train-travel.html (from www.nytimes.com/)
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/2016/11/06/realestate/new-york-city-small-supermarkets-are-closing.html?hp&target=comments
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/2016/11/06/realestate/new-york-city-small-supermarkets-are-closing.html?hp&target=comments (from www.nytimes.com/)
+18:21:04	Warning: 	Warning: store application/x-javascript without scan: /home/macrico/Documents/HEAD/coding/nyt/cdn1.nyt.com/mw-static/js/externals/core_fonts_v2.f3410d75.js
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/cdn1.nyt.com/mw-static/stylesheets/bundles/main.3117b827.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/collection/20161101-141959/css/collection/section/jobs/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/graphics8.nytimes.com/css/0.1/screen/build/sitehelp/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/graphics8.nytimes.com/css/0.1/screen/build/sitehelp/responsive/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/graphics8.nytimes.com/css/0.1/print/styles.css
+18:21:04	Warning: 	File not added due to mirror cancel: up.nytimes.com/robots.txt
+18:21:04	Warning: 	File not added due to mirror cancel: https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html (from www.nytimes.com/subscriptions/Multiproduct/lp3004.html?campaignId=4XUYF)
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/subscriptions/components/css/details-1.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/www.nytimes.com/subscriptions/Multiproduct/css/grid-2015.css
+18:21:04	Warning: 	Warning: store image/svg+xml without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/subscriptions/components/img/logos/logo_nyt.svg
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/int.nyt.com/apps/intl/css/prd/shell-5fd008b596.min.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/int.nyt.com/apps/intl/css/prd/collection-3c818d207f.min.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/int.nyt.com/apps/intl/css/prd/homepage-88f683cbdb.min.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/int.nyt.com/apps/intl/css/prd/theme-4b50e19b67.min.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/css/0.1/screen/build/sectionfront/todayspaper/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/css/0.1/print/styles.css
+18:21:04	Warning: 	File not added due to mirror cancel: purl.org/robots.txt
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/video/4.7.17-1167_1478189289_2016-11-03T16_08_09Z/static-timesvideo/css/base.min8008.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/video/4.7.17-1167_1478189289_2016-11-03T16_08_09Z/static-timesvideo/css/home.min8008.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/css/0.1/screen/build/sectionfront/world/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/graphics8.nytimes.com/projects/2013/follow-widget/c/nytint_follow_widget7b30.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/collection/20161101-141959/css/collection/section/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/css/0.1/screen/build/sectionfront/us/politics/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/newsgraphics/2014/12/02/email-kirstof-embed/cbc36bdb86303cbcf8bdfea5a048ab3f44bf5ce1/build.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/css/0.1/screen/build/sectionfront/business/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/css/0.1/screen/build/sectionfront/opinion/2.0/styles.css
+18:21:04	Warning: 	Retry after error -4 (No data (connection closed)) at link graphics8.nytimes.com/images/2014/11/01/opinion/bruni-circular/bruni-circular-thumbStandard-v2.png (from www.nytimes.com/pages/opinion/index.html)
+18:21:04	Warning: 	Retry after error -4 (No data (connection closed)) at link graphics8.nytimes.com/images/2014/11/01/opinion/cohen-circular/cohen-circular-thumbStandard-v2.png (from www.nytimes.com/pages/opinion/index.html)
+18:21:04	Warning: 	Retry after error -4 (No data (connection closed)) at link graphics8.nytimes.com/images/2010/07/09/opinion/09rfd-image/09rfd-image-custom4.jpg (from www.nytimes.com/pages/opinion/index.html)
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/css/0.1/screen/build/sectionfront/technology/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/css/0.1/screen/build/sectionfront/dining/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/graphics8.nytimes.com/projects/2013/follow-widget/c/nytint_follow_widgetbea6.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/int.nyt.com/applications/recipe_search/assets/application.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/css/0.1/screen/build/sectionfront/dining/international/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/collection/20161101-141959/css/collection/section/magazine/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/collection/20161101-141959/css/collection/section/t-magazine/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/collection/20161101-141959/css/collection/realestate/styles.css
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/us/politics/hillary-clinton-donald-trump-campaign.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/us/politics/hillary-clinton-donald-trump-campaign.html (from www.nytimes.com/2016/11/06/us/politics/hillary-clinton-donald-trump-campaign.html?_r=0)
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/article/20161104-095752/css/article/story/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/article/20161104-095752/css/article/story/styles-print.css
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/us/politics/donald-trump-rally.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/us/politics/donald-trump-rally.html (from www.nytimes.com/2016/11/06/us/politics/donald-trump-rally.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/us/politics/presidential-election.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/us/politics/presidential-election.html (from www.nytimes.com/2016/11/06/us/politics/presidential-election.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/us/politics/hillary-clinton-white-house.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/us/politics/hillary-clinton-white-house.html (from www.nytimes.com/2016/11/06/us/politics/hillary-clinton-white-house.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/us/politics/latina-hotel-workers-harness-force-of-labor-and-of-politics-in-las-vegas.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/us/politics/latina-hotel-workers-harness-force-of-labor-and-of-politics-in-las-vegas.html (from www.nytimes.com/2016/11/06/us/politics/latina-hotel-workers-harness-force-of-labor-and-of-politics-in-las-vegas.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/us/politics/trump-clinton-turning-points.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/us/politics/trump-clinton-turning-points.html (from www.nytimes.com/2016/11/06/us/politics/trump-clinton-turning-points.html)
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/article/20161104-095752/css/article/story/styles-oak.css
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/us/politics/donald-trump-business-tax-records.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/us/politics/donald-trump-business-tax-records.html (from www.nytimes.com/2016/11/06/us/politics/donald-trump-business-tax-records.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/upshot/clinton-has-solid-lead-in-electoral-college-trumps-winning-map-is-unclear.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/upshot/clinton-has-solid-lead-in-electoral-college-trumps-winning-map-is-unclear.html (from www.nytimes.com/2016/11/06/upshot/clinton-has-solid-lead-in-electoral-college-trumps-winning-map-is-unclear.html)
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/int.nyt.com/data/upshot/upshot-article-header.css
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/us/politics/senate-race-new-hampshire.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/us/politics/senate-race-new-hampshire.html (from www.nytimes.com/2016/11/06/us/politics/senate-race-new-hampshire.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/us/politics/world-reaction-campaign.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/us/politics/world-reaction-campaign.html (from www.nytimes.com/2016/11/06/us/politics/world-reaction-campaign.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/07/world/middleeast/us-backed-militia-opens-drive-on-isis-capital-in-syria.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/07/world/middleeast/us-backed-militia-opens-drive-on-isis-capital-in-syria.html (from www.nytimes.com/2016/11/07/world/middleeast/us-backed-militia-opens-drive-on-isis-capital-in-syria.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/07/business/inquiry-in-emissions-scandal-widens-to-volkswagens-top-levels.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/07/business/inquiry-in-emissions-scandal-widens-to-volkswagens-top-levels.html (from www.nytimes.com/2016/11/07/business/inquiry-in-emissions-scandal-widens-to-volkswagens-top-levels.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/world/americas/mexico-immigrants.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/world/americas/mexico-immigrants.html (from www.nytimes.com/2016/11/06/world/americas/mexico-immigrants.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/giving/philanthropy-in-silicon-valley-big-bets-on-big-ideas.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/giving/philanthropy-in-silicon-valley-big-bets-on-big-ideas.html (from www.nytimes.com/2016/11/06/giving/philanthropy-in-silicon-valley-big-bets-on-big-ideas.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/us/politics/black-prosecutors.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/us/politics/black-prosecutors.html (from www.nytimes.com/2016/11/06/us/politics/black-prosecutors.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/us/south-carolina-man-linked-to-multiple-killings.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/us/south-carolina-man-linked-to-multiple-killings.html (from www.nytimes.com/2016/11/06/us/south-carolina-man-linked-to-multiple-killings.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/sports/horse-racing/breeders-cup-classic-arrogate-california-chrome.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/sports/horse-racing/breeders-cup-classic-arrogate-california-chrome.html (from www.nytimes.com/2016/11/06/sports/horse-racing/breeders-cup-classic-arrogate-california-chrome.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/04/homepage/new-york-times-open-access-election-2016.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/04/homepage/new-york-times-open-access-election-2016.html (from www.nytimes.com/2016/11/04/homepage/new-york-times-open-access-election-2016.html)
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/video/4.7.17-1167_1478189289_2016-11-03T16_08_09Z/static-timesvideo/css/show.min8008.css
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/briefing/hillary-clinton-donald-trump-new-york-city-marathon.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/briefing/hillary-clinton-donald-trump-new-york-city-marathon.html (from www.nytimes.com/2016/11/06/briefing/hillary-clinton-donald-trump-new-york-city-marathon.html)
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/newsletters/20161101-143335/css/newsletters/newsletters/styles.css
+18:21:04	Warning: 	File not added due to mirror cancel: www.nytimes.com/spotlight/times-tips
+18:21:04	Error: 	"mirror stopped by user" (-1) at link www.nytimes.com/spotlight/times-tips (from www.nytimes.com/spotlight/times-tips?contentCollection=smarter-living)
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/collection/20161101-141959/css/collection/spotlight/styles.css
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/10/30/well/move/how-a-run-walk-strategy-might-help-your-marathon.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/10/30/well/move/how-a-run-walk-strategy-might-help-your-marathon.html (from www.nytimes.com/2016/10/30/well/move/how-a-run-walk-strategy-might-help-your-marathon.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/10/19/travel/travel-tips-social-media.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/10/19/travel/travel-tips-social-media.html (from www.nytimes.com/2016/10/19/travel/travel-tips-social-media.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/sports/nyc-marathon-2016.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/sports/nyc-marathon-2016.html (from www.nytimes.com/2016/11/06/sports/nyc-marathon-2016.html)
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/int.nyt.com/newsgraphics/2016/08/04/rio-olympics-2016-nav/assets/rio_nav.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/interactive/20161101-141753/css/interactive/styles.css
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/04/sports/new-york-city-marathon-preview.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/04/sports/new-york-city-marathon-preview.html (from www.nytimes.com/2016/11/04/sports/new-york-city-marathon-preview.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/nyregion/destroying-an-11-apartment-structure-to-build-a-mansion.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/nyregion/destroying-an-11-apartment-structure-to-build-a-mansion.html (from www.nytimes.com/2016/11/06/nyregion/destroying-an-11-apartment-structure-to-build-a-mansion.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/fashion/weddings/seeking-a-drivers-license-led-to-a-marriage-license.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/fashion/weddings/seeking-a-drivers-license-led-to-a-marriage-license.html (from www.nytimes.com/2016/11/06/fashion/weddings/seeking-a-drivers-license-led-to-a-marriage-license.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/sports/baseball/chicago-cubs-world-series.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/sports/baseball/chicago-cubs-world-series.html (from www.nytimes.com/2016/11/06/sports/baseball/chicago-cubs-world-series.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/movies/casey-affleck-interview-manchester-by-the-sea.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/movies/casey-affleck-interview-manchester-by-the-sea.html (from www.nytimes.com/2016/11/06/movies/casey-affleck-interview-manchester-by-the-sea.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/opinion/sunday/imagining-america-on-nov-9.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/opinion/sunday/imagining-america-on-nov-9.html (from www.nytimes.com/2016/11/06/opinion/sunday/imagining-america-on-nov-9.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/opinion/sunday/why-this-election-terrifies-me.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/opinion/sunday/why-this-election-terrifies-me.html (from www.nytimes.com/2016/11/06/opinion/sunday/why-this-election-terrifies-me.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/opinion/sunday/the-post-familial-election.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/opinion/sunday/the-post-familial-election.html (from www.nytimes.com/2016/11/06/opinion/sunday/the-post-familial-election.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/opinion/sunday/the-end-is-nigh.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/opinion/sunday/the-end-is-nigh.html (from www.nytimes.com/2016/11/06/opinion/sunday/the-end-is-nigh.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/opinion/sunday/im-with-her-the-strengths-of-hillary-clinton.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/opinion/sunday/im-with-her-the-strengths-of-hillary-clinton.html (from www.nytimes.com/2016/11/06/opinion/sunday/im-with-her-the-strengths-of-hillary-clinton.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/opinion/sunday/schools-that-work.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/opinion/sunday/schools-that-work.html (from www.nytimes.com/2016/11/06/opinion/sunday/schools-that-work.html)
+18:21:04	Warning: 	Retry after error -4 (No data (connection closed)) at link int.nyt.com/chartmaker/2016/11/05/20161103--and-after/2/artboard-300px.png (from www.nytimes.com/2016/11/06/opinion/sunday/schools-that-work.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/opinion/sunday/voting-with-my-head-and-heart.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/opinion/sunday/voting-with-my-head-and-heart.html (from www.nytimes.com/2016/11/06/opinion/sunday/voting-with-my-head-and-heart.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/opinion/sunday/the-walls-in-our-heads.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/opinion/sunday/the-walls-in-our-heads.html (from www.nytimes.com/2016/11/06/opinion/sunday/the-walls-in-our-heads.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/05/insider/the-world-series-sports-page-that-wasnt.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/05/insider/the-world-series-sports-page-that-wasnt.html (from www.nytimes.com/2016/11/05/insider/the-world-series-sports-page-that-wasnt.html)
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/newsgraphics/2015/times-insider-article-promo/assets/build.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/collection/20161101-141959/css/collection/section/insider/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/graphics8.nytimes.com/newsgraphics/2015/02/06/audioplayer/assets/build.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/shell/20160613-034030/css/shell/styles.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/games/932/web/css/games-hub/dist/styles.css
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/nyregion/how-domenica-ramos-marathon-runner-spends-her-sundays.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/nyregion/how-domenica-ramos-marathon-runner-spends-her-sundays.html (from www.nytimes.com/2016/11/06/nyregion/how-domenica-ramos-marathon-runner-spends-her-sundays.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/opinion/sunday/consider-a-monarchy-america.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/opinion/sunday/consider-a-monarchy-america.html (from www.nytimes.com/2016/11/06/opinion/sunday/consider-a-monarchy-america.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/slideshow/2016/06/19/opinion/sunday/the-strip/s/2016-strip-slide-9E5B.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/slideshow/2016/06/19/opinion/sunday/the-strip/s/2016-strip-slide-9E5B.html (from www.nytimes.com/slideshow/2016/06/19/opinion/sunday/the-strip/s/2016-strip-slide-9E5B.html)
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/a1.nyt.com/assets/slideshow/20161101-143145/css/slideshow/styles.css
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/magazine/an-american-in-a-strange-land.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/magazine/an-american-in-a-strange-land.html (from www.nytimes.com/2016/11/06/magazine/an-american-in-a-strange-land.html)
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/newsgraphics/2015/02/10/mag-pullquote-redesign/assets/style.css
+18:21:04	Warning: 	Warning: store text/css without scan: /home/macrico/Documents/HEAD/coding/nyt/static01.nyt.com/css/0.1/screen/build/sectionfront/multimedia/styles.css
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/opinion/sunday/time-to-dump-time-zones.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/opinion/sunday/time-to-dump-time-zones.html (from www.nytimes.com/2016/11/06/opinion/sunday/time-to-dump-time-zones.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/05/arts/television/sundancetvs-identity-crisis-indie-by-night-innocent-by-day.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/05/arts/television/sundancetvs-identity-crisis-indie-by-night-innocent-by-day.html (from www.nytimes.com/2016/11/05/arts/television/sundancetvs-identity-crisis-indie-by-night-innocent-by-day.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/fashion/jennifer-grey-red-oaks-salsa-dancing.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/fashion/jennifer-grey-red-oaks-salsa-dancing.html (from www.nytimes.com/2016/11/06/fashion/jennifer-grey-red-oaks-salsa-dancing.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/opinion/sunday/whose-life-should-your-car-save.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/opinion/sunday/whose-life-should-your-car-save.html (from www.nytimes.com/2016/11/06/opinion/sunday/whose-life-should-your-car-save.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/04/movies/doctor-strange-review.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/04/movies/doctor-strange-review.html (from www.nytimes.com/2016/11/04/movies/doctor-strange-review.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/05/world/asia/afghanistan-migrants.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/05/world/asia/afghanistan-migrants.html (from www.nytimes.com/2016/11/05/world/asia/afghanistan-migrants.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/business/the-money-management-gospel-of-yales-endowment-guru.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/business/the-money-management-gospel-of-yales-endowment-guru.html (from www.nytimes.com/2016/11/06/business/the-money-management-gospel-of-yales-endowment-guru.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/technology/how-linkedin-drove-a-wedge-between-microsoft-and-salesforce.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/technology/how-linkedin-drove-a-wedge-between-microsoft-and-salesforce.html (from www.nytimes.com/2016/11/06/technology/how-linkedin-drove-a-wedge-between-microsoft-and-salesforce.html)
+18:21:04	Warning: 	File not added due to mirror cancel: markets.on.nytimes.com/robots.txt
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/05/technology/silicon-valley-california-growth.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/05/technology/silicon-valley-california-growth.html (from www.nytimes.com/2016/11/05/technology/silicon-valley-california-growth.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/magazine/want-to-know-what-virtual-reality-might-become-look-to-the-past.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/magazine/want-to-know-what-virtual-reality-might-become-look-to-the-past.html (from www.nytimes.com/2016/11/06/magazine/want-to-know-what-virtual-reality-might-become-look-to-the-past.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/arts/music/beyonce-political-hillary-clinton-dixie-chicks.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/arts/music/beyonce-political-hillary-clinton-dixie-chicks.html (from www.nytimes.com/2016/11/06/arts/music/beyonce-political-hillary-clinton-dixie-chicks.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/movies/octavia-spencer-hidden-figures.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/movies/octavia-spencer-hidden-figures.html (from www.nytimes.com/2016/11/06/movies/octavia-spencer-hidden-figures.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/arts/music/a-tribe-called-quest-new-album-interview.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/arts/music/a-tribe-called-quest-new-album-interview.html (from www.nytimes.com/2016/11/06/arts/music/a-tribe-called-quest-new-album-interview.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/us/politics/michelle-obama-2016-presidential-election-first-lady.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/us/politics/michelle-obama-2016-presidential-election-first-lady.html (from www.nytimes.com/2016/11/06/us/politics/michelle-obama-2016-presidential-election-first-lady.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/fashion/martha-stewart-snoop-dogg-dinner.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/fashion/martha-stewart-snoop-dogg-dinner.html (from www.nytimes.com/2016/11/06/fashion/martha-stewart-snoop-dogg-dinner.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/fashion/coworking.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/fashion/coworking.html (from www.nytimes.com/2016/11/06/fashion/coworking.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/movies/how-the-first-bad-santa-boozed-down-the-chimney.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/movies/how-the-first-bad-santa-boozed-down-the-chimney.html (from www.nytimes.com/2016/11/06/movies/how-the-first-bad-santa-boozed-down-the-chimney.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/movies/la-la-land-stars-ryan-gosling-emma-stone-and-los-angeles.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/movies/la-la-land-stars-ryan-gosling-emma-stone-and-los-angeles.html (from www.nytimes.com/2016/11/06/movies/la-la-land-stars-ryan-gosling-emma-stone-and-los-angeles.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/nyregion/searching-for-lady-kung-fu.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/nyregion/searching-for-lady-kung-fu.html (from www.nytimes.com/2016/11/06/nyregion/searching-for-lady-kung-fu.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/06/nyregion/world-chess-smackdown-on-south-street-be-there.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/06/nyregion/world-chess-smackdown-on-south-street-be-there.html (from www.nytimes.com/2016/11/06/nyregion/world-chess-smackdown-on-south-street-be-there.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/05/theater/review-shakespeares-take-on-the-game-of-thrones.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/05/theater/review-shakespeares-take-on-the-game-of-thrones.html (from www.nytimes.com/2016/11/05/theater/review-shakespeares-take-on-the-game-of-thrones.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/05/theater/review-kristin-chenoweth-my-love-letter-to-broadway.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/05/theater/review-kristin-chenoweth-my-love-letter-to-broadway.html (from www.nytimes.com/2016/11/05/theater/review-kristin-chenoweth-my-love-letter-to-broadway.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/04/theater/review-the-jobs-are-gone-in-sweat-so-are-peoples-hopes.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/04/theater/review-the-jobs-are-gone-in-sweat-so-are-peoples-hopes.html (from www.nytimes.com/2016/11/04/theater/review-the-jobs-are-gone-in-sweat-so-are-peoples-hopes.html)
+18:21:04	Warning: 	File not added due to mirror cancel: mobile.nytimes.com/2016/11/08/science/finland-public-transportation-driverless-bus.html
+18:21:04	Error: 	"mirror stopped by user" (-1) at link mobile.nytimes.com/2016/11/08/science/finland-public-transportation-driverless-bus.html (from www.nytimes.com/2016/11/08/science/finland-public-transportation-driverless-bus.html)
+18:21:04	Warning: 	File not added due to mirror cancel: graphics8.nytimes.com/images/2014/11/01/opinion/bruni-circular/bruni-circular-thumbStandard-v2.png
+18:21:04	Error: 	"mirror stopped by user" (-1) at link graphics8.nytimes.com/images/2014/11/01/opinion/bruni-circular/bruni-circular-thumbStandard-v2.png (from www.nytimes.com/pages/opinion/index.html)
+18:21:04	Warning: 	File not added due to mirror cancel: graphics8.nytimes.com/images/2014/11/01/opinion/cohen-circular/cohen-circular-thumbStandard-v2.png
+18:21:04	Error: 	"mirror stopped by user" (-1) at link graphics8.nytimes.com/images/2014/11/01/opinion/cohen-circular/cohen-circular-thumbStandard-v2.png (from www.nytimes.com/pages/opinion/index.html)
+18:21:04	Warning: 	File not added due to mirror cancel: graphics8.nytimes.com/images/2010/07/09/opinion/09rfd-image/09rfd-image-custom4.jpg
+18:21:04	Error: 	"mirror stopped by user" (-1) at link graphics8.nytimes.com/images/2010/07/09/opinion/09rfd-image/09rfd-image-custom4.jpg (from www.nytimes.com/pages/opinion/index.html)
+18:21:04	Warning: 	File not added due to mirror cancel: int.nyt.com/chartmaker/2016/11/05/20161103--and-after/2/artboard-300px.png
+18:21:04	Error: 	"mirror stopped by user" (-1) at link int.nyt.com/chartmaker/2016/11/05/20161103--and-after/2/artboard-300px.png (from www.nytimes.com/2016/11/06/opinion/sunday/schools-that-work.html)
+
+HTTrack Website Copier/3.48-20 mirror complete in 15 minutes 2 seconds : 1989 links scanned, 1900 files written (105498180 bytes overall) [77211854 bytes received at 85600 bytes/sec], 39836324 bytes transferred using HTTP compression in 464 files, ratio 20%, 3.4 requests per connection
+(191 errors, 267 warnings, 0 messages)

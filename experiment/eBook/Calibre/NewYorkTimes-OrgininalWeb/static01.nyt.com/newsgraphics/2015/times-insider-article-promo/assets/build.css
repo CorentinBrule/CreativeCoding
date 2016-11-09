@@ -1,0 +1,61 @@
+.timesinsider-promo .interactive-graphic{
+  max-width:300px!important;
+}
+.story.theme-main .timesinsider-promo.interactive .interactive-graphic{
+  margin-bottom:0;
+}
+.ti-header{}
+.ti-header:after{
+  content:"";
+  display:block;
+  width:100%;
+  height:2px;
+  border-bottom:2px solid #fed464;
+  margin-bottom:15px;
+}
+.ti-logo{
+  width:120px;
+  margin-bottom:8px;
+}
+.ti-leadin{
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #666;
+  font-weight: 400;
+  margin-bottom:8px;
+}
+ul.ti-promo-items a{
+  display:block;
+  margin-bottom:12px;
+}
+ul.ti-promo-items,
+ul.ti-promo-items a:last-child{
+  margin-bottom:0;
+}
+ul.ti-promo-items li img{
+  width:150px;
+  float:right;
+  margin-left:10px;
+}
+ul.ti-promo-items li .ti-kicker{
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 400;
+  margin-bottom: 5px!important;
+}
+ul.ti-promo-items a:hover,
+ul.ti-promo-items a:hover li .ti-kicker{
+  text-decoration: none!important;
+}
+ul.ti-promo-items a:hover li .ti-heading{
+  text-decoration: underline!important;
+}
+ul.ti-promo-items li .ti-heading{
+  font-size: 18px;
+  line-height: 22px;
+}
+ul.ti-promo-items a li .ti-heading{
+  color:#000;
+}

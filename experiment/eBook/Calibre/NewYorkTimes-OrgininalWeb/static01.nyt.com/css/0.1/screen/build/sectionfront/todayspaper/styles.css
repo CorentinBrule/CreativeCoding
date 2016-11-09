@@ -1,0 +1,163 @@
+/* $Id: styles.css 136240 2013-12-03 23:15:50Z naveen.malla $
+   /css/0.1/screen/build/sectionfront/todayspaper/styles.css
+   (c)2006 - 2010 The New York Times Company  */ 
+
+@import url(/css/0.1/screen/common/sectionfront.css);
+@import url(/css/0.1/screen/section/todayspaper/modules/todaysfrontpage.css);
+@import url(/css/0.1/screen/section/todayspaper/modules/calendarlinks.css);
+@import url(/css/0.1/screen/section/todayspaper/modules/jumptomodule.css);
+@import url(/css/0.1/screen/globalEdition/common.css);
+
+#spanABTopRegion,
+#spanABCRegion {
+  background: #FFFFFF;
+}
+
+#spanABCRegion .columnGroup {
+  margin-left: 10px;
+  margin-right: 7px;
+}
+
+#spanABTopRegion .sectionHeader,
+#SpanABMiddleRegion .sectionHeader {
+  font-size: 1.2em; /* 12px */
+}
+
+#SpanABMiddleRegion a.refer {
+  color: #004276;
+  font-weight: normal;
+  text-transform: none;
+}
+
+#SpanABMiddleRegion a.refer:visited {
+  color: #666699;
+}
+
+#spanABTopRegion .sectionHeader,
+#SpanABMiddleRegion .sectionHeader {
+  text-transform: uppercase;
+  font-family: georgia,"times new roman",times,serif;
+}
+
+.quotation  {
+  font-style: italic;
+}
+
+#SpanABMiddleRegion .moduleHeader,
+#SpanABMiddleRegion .byline,
+#SpanABMiddleRegion a.refer {
+  font-size: 10px;
+}
+
+#SpanABMiddleRegion .moduleHeader {
+  color: #808080;
+}
+#SpanABMiddleRegion .sectionHeader .opposingFloatControl .element1 {
+  margin-bottom: 8px;
+}
+
+ #spanABTopRegion .jumpToModule .singleRuleDivider {
+  display: none;
+}
+.spanAB .wideA .cColumn{
+  margin-top: -9px;
+}
+
+.todaysPaperPromo {
+  background-color: #f5f5f5;
+  margin: 0 0 8px 0;
+  height: 271px;
+  width: 952px;
+}
+
+.todaysPaperPromo a {
+  color: #000;
+  text-decoration: none;
+}
+
+.todaysPaperPromo .opposingFloatControl .element1 {
+  padding: 84px 6px 0 118px;
+}
+
+.todaysPaperPromo .opposingFloatControl .element2 {
+  float: left;
+  padding: 28px 0 28px 0;
+}
+
+.todaysPaperPromo h3 {
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+  font-size: 2.4em; /* 24px */
+  margin: 3px 0 0;
+}
+
+.todaysPaperPromo .summary {
+  border-bottom: 0;
+  font-size: 1.6em; /* 16px */
+  line-height: 1.4em; /* 22px; */
+  padding-top: 6px;
+  padding-bottom: 15px;
+}
+
+.todaysPaperPromo .todaysPaperPromoButton {
+  background-color: #6288a5;
+  border: 1px #4d7b9f;
+  border-radius: 3px;
+  -ms-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+  font-size: 1.2em; /* 13px */
+  margin-top: -5px;
+  padding: 7px 10px 6px 10px;
+  text-transform: uppercase;
+}
+
+.todaysPaperPromo .todaysPaperPromoButton:hover {
+  background-color: #326891;
+  border: 1px #255e8b;
+}
+
+
+/* need to override module class's usual behavior since margin at the bottom would show the vertical division between a and b columns */
+.wideA .abColumn .module {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+/*added styles for email tool*/
+#tools .email {
+  background-image: url("/images/article/functions/tools_email.gif");  
+  padding-right: 10px;
+}
+
+.NYT5Style #spanABTopRegion .jumpToModule .singleRuleDivider {
+  display: none;
+}
+
+.NYT5Style .bColumn .calendarLinks div.insetH,
+.NYT5Style .abColumn .calendarLinks div.insetH {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.NYT5Style .abColumn div.insetH,
+.NYT5Style .abColumn div.columnGroup,
+.NYT5Style .abColumn div.fullWidth .columnGroup {
+  margin-left: 0;
+}
+
+.NYT5Style .pdf .wideA .aColumn,
+.NYT5Style .pdf .wideA .bColumn {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.NYT5Style .user-settings-modal {
+  *height: 235px; /* For IE7 */
+   height: 235px \0/IE9; /* For IE9 */
+}
+
+.NYT5Style .singleRuleDivider {
+  margin-bottom: 8px;
+}

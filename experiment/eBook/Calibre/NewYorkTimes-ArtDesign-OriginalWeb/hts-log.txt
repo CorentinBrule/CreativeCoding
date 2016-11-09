@@ -1,0 +1,12 @@
+HTTrack3.48-20 launched on Sun, 06 Nov 2016 18:00:05 at http://www.nytimes.com/section/arts/design +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js +*.woff -ad.doubleclick.net/*
+(webhttrack -q -%i -W http://www.nytimes.com/section/arts/design -O "/home/macrico/Documents/HEAD/coding/nyt" -n -%P -N1 -s2 -p7 -D -a -K0 -c4 -%k -r2 -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js +*.woff -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:00:40	Error: 	"Not Found" (404) at link www.nytimes.com/section/arts/POST (from www.nytimes.com/section/arts/design)
+
+HTTrack Website Copier/3.48-20 mirror complete in 36 seconds : 51 links scanned, 49 files written (2564252 bytes overall) [1836845 bytes received at 51023 bytes/sec], 1007782 bytes transferred using HTTP compression in 7 files, ratio 22%, 5.6 requests per connection
+(1 errors, 0 warnings, 0 messages)

@@ -1,0 +1,431 @@
+/* core */
+
+#nytint-follow-widget {
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+#nytint-follow-widget a {
+  color: #000;
+}
+
+#nytint-follow-widget h4 {
+  font: 500 11px/16px nyt-franklin, Arial, Helvetica;
+  text-transform: uppercase;
+}
+
+#nytint-follow-widget .nytint-fw-username a {
+  color: #326891;
+  font-weight: 700;
+}
+
+#nytint-follow-widget ul {
+  width: auto;
+  list-style: none;
+  margin: 0 auto;
+}
+
+#nytint-follow-widget li {
+  width: auto;
+  height: 16px;
+  margin: 10px 16px 0 0;
+  padding: 0;
+  font: 500 11px/14px nyt-franklin, Arial, Helvetica;
+  text-transform: uppercase;
+  text-indent: 22px;
+  line-height: 16px;
+  background-image: url(http://graphics8.nytimes.com/projects/2013/follow-widget/i/share_logos_vertical_16x16.png);
+  background-repeat: no-repeat;
+}
+
+#nytint-follow-widget .nytint-fw-quadruple li,
+#nytint-follow-widget .nytint-fw-triple li,
+#nytint-follow-widget .nytint-fw-double li,
+#nytint-follow-widget .nytint-fw-single li {
+  display: block;
+}
+
+#nytint-follow-widget .nytint-fw-facebook {
+  background-position: left top;
+}
+
+#nytint-follow-widget .nytint-fw-twitter {
+  background-position: left -16px;
+}
+
+#nytint-follow-widget .nytint-fw-pinterest {
+  background-position: left -33px;
+}
+
+#nytint-follow-widget .nytint-fw-instagram {
+  background-position: left -49px;
+}
+
+#nytint-follow-widget .nytint-fw-desc-container {
+  position: static;
+  width: 220px;
+}
+
+.blog #nytint-follow-widget .nytint-fw-desc-container {
+  width: 200px;
+}
+
+#nytint-follow-widget .nytint-fw-thumbnails {
+  display: none;
+}
+
+#nytint-follow-widget .nytint-fw-desc-header {
+  display: none;
+  position: static;
+  font: bold 11px/14px nyt-franklin, Arial, Helvetica;
+  text-transform: uppercase;
+}
+
+#nytint-follow-widget .nytint-fw-description {
+  position: static;
+  color: #999;
+  font: 100 11px/14px nyt-franklin, Arial, Helvetica;
+}
+
+#nytint-follow-widget .nytint-fw-staffdirectory {
+  display: none;
+}
+
+#nytint-follow-widget.nytint-fw-staff-active .nytint-fw-staffdirectory {
+  display: inline;
+}
+
+#nytint-follow-widget .nytint-fw-staffdirectory a {
+  color: #326891;
+  font-weight: 500;
+}
+
+#nytint-follow-widget .nytint-fw-followbutton {
+  display: none;
+}
+
+/* quadruple view */
+
+#nytint-follow-widget.nytint-fw-quadruple .nytint-fw-specific-followmessage {
+  display: none;
+}
+
+#nytint-follow-widget.nytint-fw-quadruple ul {
+  margin: 0 0 0 10px;
+  width: 92px;
+  border-right: 1px solid #f2f2f2;
+}
+
+#nytint-follow-widget.nytint-fw-quadruple li {
+  width: 16px;
+  float: none;
+}
+
+#nytint-follow-widget.nytint-fw-quadruple .has-thumbnail {
+  display: none;
+}
+
+#nytint-follow-widget.nytint-fw-quadruple .nytint-fw-desc-container {
+  position: absolute;
+  top: 0;
+  left: 110px;
+}
+
+#nytint-follow-widget.nytint-fw-quadruple .nytint-fw-thumbnails {
+  display: block;
+  position: relative;
+  top: 16px;
+  width: 80px;
+  height: 80px;
+}
+
+#nytint-follow-widget.nytint-fw-quadruple .nytint-fw-thumbnails img {
+  position: absolute;
+  width: 60px;
+  top: 0;
+  left: 0;
+  margin: 10px 0 0 10px;
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+#nytint-follow-widget.nytint-fw-quadruple .nytint-fw-thumb-main {
+  z-index: 9;
+}
+
+#nytint-follow-widget.nytint-fw-quadruple .nytint-fw-thumb-left {
+  -webkit-transform-origin: left bottom;
+  -webkit-transform: rotate(-6deg);
+  transform-origin: left bottom;
+  transform: rotate(-6deg);
+}
+
+#nytint-follow-widget.nytint-fw-quadruple .nytint-fw-thumb-right {
+  -webkit-transform-origin: left bottom;
+  -webkit-transform: rotate(6deg);
+  transform-origin: left bottom;
+  transform: rotate(6deg);
+}
+
+#nytint-follow-widget.nytint-fw-quadruple .nytint-fw-desc-header {
+  display: block;
+  margin: -50px 0 0 92px;
+}
+
+#nytint-follow-widget.nytint-fw-quadruple .nytint-fw-description {
+  width: 110px;
+  margin-left: 92px;
+}
+
+#nytint-follow-widget.nytint-fw-quadruple .nytint-fw-staffdirectory {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+/* triple-with-thumbs view */
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs .nytint-fw-specific-followmessage {
+  display: none;
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs ul {
+  margin: 10px 0 0 0;
+  padding: 2px 0 0 0;
+  width: 92px;
+  height: 66px;
+  border-right: 1px solid #f2f2f2;
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs li {
+  width: 16px;
+  margin: 8px 16px 0 0;
+  float: none;
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs .double {
+  margin: 14px 0 0 0;
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs .has-thumbnail {
+  display: none;
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs .nytint-fw-desc-container {
+  position: absolute;
+  top: 0;
+  left: 110px;
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs .nytint-fw-thumbnails {
+  display: block;
+  position: relative;
+  top: 16px;
+  width: 80px;
+  height: 80px;
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs .nytint-fw-thumbnails img {
+  position: absolute;
+  width: 60px;
+  top: 0;
+  left: 0;
+  margin: 10px 0 0 10px;
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs .nytint-fw-thumb-main {
+  z-index: 9;
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs .nytint-fw-thumb-left {
+  -webkit-transform-origin: left bottom;
+  -webkit-transform: rotate(-6deg);
+  transform-origin: left bottom;
+  transform: rotate(-6deg);
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs .nytint-fw-thumb-right {
+  -webkit-transform-origin: left bottom;
+  -webkit-transform: rotate(6deg);
+  transform-origin: left bottom;
+  transform: rotate(6deg);
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs .nytint-fw-desc-header {
+  display: block;
+  margin: -50px 0 0 92px;
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs .nytint-fw-description {
+  width: 120px;
+  margin-left: 92px;
+}
+
+#nytint-follow-widget.nytint-fw-triple-with-thumbs .nytint-fw-staffdirectory {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+
+
+/* triple view */
+
+#nytint-follow-widget.nytint-fw-triple {
+  text-align: center;
+}
+
+#nytint-follow-widget.nytint-fw-triple .nytint-fw-specific-followmessage {
+  display: none;
+}
+
+#nytint-follow-widget.nytint-fw-triple ul {
+  height: 16px;
+  margin: 12px 0 12px 44px;
+}
+
+#nytint-follow-widget.nytint-fw-triple li {
+  margin: 0 16px 0 0;
+  float: left;
+}
+
+#nytint-follow-widget.nytint-fw-triple .quadruple {
+  display: none;
+}
+
+#nytint-follow-widget.nytint-fw-triple .nytint-fw-description {
+  width: 250px;
+  margin: 0 auto;
+}
+ 
+#nytint-follow-widget.nytint-fw-triple .nytint-fw-desc-container {
+  width: 100%;
+}
+
+
+/* double view */
+
+#nytint-follow-widget.nytint-fw-double .nytint-fw-specific-followmessage {
+  display: none;
+}
+
+#nytint-follow-widget.nytint-fw-double h4 {
+  margin: 0 10px 0 0;
+  line-height: 16px;
+  float: left;
+}
+
+#nytint-follow-widget.nytint-fw-double ul {
+  height: 16px;
+  margin: 0 0 0 10px;
+}
+
+#nytint-follow-widget.nytint-fw-double li {
+  margin: 0 16px 0 0;
+  float: left;
+}
+
+#nytint-follow-widget.nytint-fw-double .quadruple,
+#nytint-follow-widget.nytint-fw-double .triple {
+  display: none;
+}
+
+#nytint-follow-widget.nytint-fw-double .nytint-fw-desc-container {
+  width: 260px;
+  margin: 10px 0 0 0;
+}
+
+
+/* single view */
+
+#nytint-follow-widget.nytint-fw-single {
+  height: 60px;
+}
+
+#nytint-follow-widget.nytint-fw-single h4 {
+  position: absolute;
+  left: 52px;
+  top: 8px;
+}
+
+#nytint-follow-widget.nytint-fw-single .nytint-fw-generic-followmessage {
+  display: none;
+}
+
+#nytint-follow-widget.nytint-fw-single .quadruple,
+#nytint-follow-widget.nytint-fw-single .triple,
+#nytint-follow-widget.nytint-fw-single .double {
+  display: none;
+}
+
+#nytint-follow-widget.nytint-fw-single ul {
+  float: left;
+  margin: 0 10px 15px 0;
+}
+
+#nytint-follow-widget.nytint-fw-single li {
+  width: 40px;
+  height: 40px;
+  text-indent: -9999px;
+  outline: none;
+  overflow: hidden;
+  background-image: url(http://graphics8.nytimes.com/projects/2013/follow-widget/i/share_logos_vertical_40x40.png);
+}
+
+#nytint-follow-widget.nytint-fw-single .nytint-fw-facebook {
+  background-position: left top;
+}
+
+#nytint-follow-widget.nytint-fw-single .nytint-fw-twitter {
+  background-position: left -41px;
+}
+
+#nytint-follow-widget.nytint-fw-single .nytint-fw-pinterest {
+  background-position: left -81px;
+}
+
+#nytint-follow-widget.nytint-fw-single .nytint-fw-instagram {
+  background-position: left -121px;
+}
+
+#nytint-follow-widget.nytint-fw-single .nytint-fw-desc-container {
+  position: absolute;
+  top: 24px;
+  left: 52px;
+  width: 220px;
+}
+
+.blog #nytint-follow-widget.nytint-fw-single .nytint-fw-desc-container {
+  width: 200px;
+}
+
+#nytint-follow-widget.nytint-fw-single .nytint-fw-followbutton {
+  position: absolute;
+  top: 14px;
+  right: 0px;
+  display: inline;
+  padding: 9px;
+  font: 700 11px/14px nyt-franklin, Arial, Helvetica;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.02);
+  cursor: pointer;
+}
+
+#nytint-follow-widget.nytint-fw-single .nytint-fw-followbutton:hover {
+  border: 1px solid #326891;
+  color: #326891;
+}
+
+#nytint-follow-widget.nytint-fw-single .nytint-fw-followbutton a {
+  color: #5e5e5e;
+  text-decoration: none;
+}
+
+#nytint-follow-widget.nytint-fw-single .nytint-fw-followbutton a:hover {
+  color: #326891;
+}

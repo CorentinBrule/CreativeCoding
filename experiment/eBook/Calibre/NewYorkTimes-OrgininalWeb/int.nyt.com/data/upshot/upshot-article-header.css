@@ -1,0 +1,13 @@
+.nytint-upshot-nameplate  .newsletter {
+  margin-top: 10px;
+}
+.nytint-upshot-nameplate .newsletter a{
+  text-decoration: none;
+  color: #000;
+  width: auto;
+  height: auto;
+  display: inline;
+}
+.nytint-upshot-nameplate  .newsletter:hover{
+  text-decoration: underline;
+}

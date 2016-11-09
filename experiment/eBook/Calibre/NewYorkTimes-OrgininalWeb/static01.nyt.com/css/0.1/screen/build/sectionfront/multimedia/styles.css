@@ -1,0 +1,12 @@
+/* $Id: styles.css 62382 2011-03-23 18:35:52Z priya.ollapally $
+   /css/0.1/screen/build/sectionfront/multimedia/styles.css
+   (c)2006 - 2008 The New York Times Company  */ 
+
+@import url(/css/0.1/screen/common/sectionfront.css);
+@import url(/css/0.1/screen/globalEdition/common.css);
+
+/* Begin Multimedia Search Promo */
+
+.cColumn .inlineSearchControl .text { 
+   width: 282px;    
+} 

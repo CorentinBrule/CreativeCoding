@@ -1,0 +1,1081 @@
+/* $Id: styles.css 152373 2015-09-14 15:04:20Z shawn.gao $
+/css/0.1/screen/build/sectionfront/opinion/2.0/styles.css
+(c)2006 - 2012 The New York Times Company  */
+
+@import url(/css/0.1/screen/common/global.css);
+@import url(/css/0.1/screen/common/shell.css);
+@import url(/css/0.1/screen/common/masthead.css);
+@import url(/css/0.1/screen/common/navigation.css);
+@import url(/css/0.1/screen/common/modules.css);
+@import url(/css/0.1/screen/common/mostpopular.css);
+@import url(/css/0.1/screen/common/layout.css?version=20100413);
+@import url(/css/0.1/screen/common/ads.css);
+@import url(/css/0.1/screen/common/macros.css);
+@import url(/css/0.1/screen/common/googleads.css);
+@import url(/css/0.1/screen/common/modules/headlines.css);
+@import url(/css/0.1/screen/common/modules/followUsModule.css);
+@import url(/css/0.1/screen/common/modules/sharetools/common.css);
+@import url(/css/0.1/screen/common/modules/video/player.css);
+@import url(/css/0.1/screen/common/modules/video/poster.css);
+@import url(/css/0.1/screen/common/nyt5/common-masthead.css);
+@import url(/css/0.1/screen/common/nyt5/sectionfront-masthead.css);
+
+/* Header customizations */
+
+a {
+  color: #000;
+}
+
+a:visited {
+  color: #999;
+}
+
+#page {
+  border: none;
+  border-top: 1px solid #999;
+  width: 972px;
+}
+
+div#main {
+  margin-top: 17px;
+}
+
+.NYT5Style #masthead h1,
+#masthead h2 {
+  margin: 0 0 13px 0;
+  position: static;
+  text-align: left;
+}
+
+#branding {
+  display: block;
+  float: none;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.mainTabsContainer {
+  float: left;
+}
+
+#mainTabs {
+  margin-bottom: 9px;
+}
+
+#mainTabs a {
+  color: #00325B;
+}
+
+#mainTabs li {
+  border-width: 0 1px 0 0;
+  border-color: #ccc;
+  background: transparent;
+  font-size: 1.1em;
+  text-transform: none;
+  padding: 0 7px;
+}
+
+.editionToggle {
+  margin-top: 0;
+}
+
+.inlineSearchControl label {
+  visibility: hidden;
+}
+
+.mainTabTodaysPaper,
+.mainTabMostPopular,
+.mainTabTimesTopics {
+  display: none !important;
+}
+
+.navigation {
+  display: none;
+}
+
+/* Type Rules */
+
+.feedHeader h2,
+.story h3,
+.ledeStory h1,
+.spanBC .story h2,
+.spanAB .story h2,
+.ledeStory h2,
+.storyFollowsLede h3,
+.spanBC .headlinesOnly h6 {
+  font-family: 'nyt-cheltenham';
+  font-weight: 500;
+}
+
+.feedFooter,
+.blogModule .dateline,
+.feedContent .story .datePublished {
+  font-family: arial, helvetica, sans-serif;
+}
+
+.bottomLeft,
+.spanBC .blogModule h2,
+ul.contentNavigation {
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+}
+
+/* Basic formatting */
+
+.story {
+  margin-bottom: 12px;
+}
+
+.kicker,
+.byline {
+  font-size: 1em; /* 10px */
+  font-weight: 500;
+}
+
+.kicker {
+  font-family: arial, helvetica, sans-serif;
+  color: black;
+  margin-bottom: 4px;
+}
+
+.story h3 a,
+.ledeStory h1 a,
+.ledeStory h2 a,
+.spanBC .story h2 {
+  font-weight: normal;
+}
+
+.spanBC .story h2,
+.spanBC .ledeStory h2 {
+  color: #000;
+  font-size: 2.4em;
+  line-height: 1em;
+}
+
+.spanAB .story h2 {
+  font-size: 3em;
+  line-height: 1.1em; /* 33px */
+  color: #000;
+  font-weight: normal;
+}
+
+.spanAB .story h3,
+.spanABC .story h3 {
+  font-size: 2.2em; /* 22px */
+  line-height: 1.09095em; /* 24px */
+}
+
+.spanBC .story h3 {
+  font-size: 1.8em ; /* 18px */
+  line-height: 1.111em; /* 20px */
+}
+
+.ledeStory h1,
+.columnGroup .ledeHeadlineLeft h2 {
+  font-size: 2.8em; /* 28px */
+  line-height: 1.0714em; /* 30px */
+  font-style: normal;
+}
+
+.columnGroup .ledeHeadlineLeft h2 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.ledeStory .kicker {
+  margin-bottom: 5px;
+}
+
+.ledeStoryCentered .kicker,
+.ledeStoryCentered p.summary,
+.ledeStoryCentered h2,
+.ledeStoryCentered .byline {
+  text-align: center;
+}
+
+.ledeStoryCentered .kicker {
+  margin-bottom: 1px;
+}
+
+.ledeStory h2 {
+  font-size: 3em;
+  line-height: 1.1em;
+  font-weight: normal;
+}
+
+.ledeStoryCentered .summary {
+  font-style: italic;
+  font-size: 1.2em; /* 12px */
+  margin: 6px 70px 18px;
+}
+
+/* For Comments */
+
+.inTextRefer {
+  padding-left: 4px;
+  font-weight: normal;
+  font-size: 0.95em; /* 11px */
+}
+
+.inTextRefer a {
+  color: #004276;
+}
+
+.spanAB .abColumn .story .byline {
+  margin-bottom: 12px;
+  color: #808080;
+}
+
+.spanAB .abColumn .story .summary {
+  font-size: 1.5em;
+}
+
+.spanBC .aColumn .columnGroup,
+.spanBC .cColumn {
+  background-color: #F4F4F4;
+}
+
+.spanBC .cColumn .first,
+#SFMiddle {
+background-color: #fff;
+}
+
+.spanBC .cColumn .first {
+margin: 0;
+padding: 12px 9px 10px 3px;
+}
+
+/* layouts */
+
+.spanBC .wideThumb {
+  margin-bottom: 13px;
+}
+
+.spanBC .story h3 {
+  margin-bottom: 6px;
+}
+
+.story h2 {
+  margin-bottom: 4px;
+}
+
+.story .thumbnail img,
+.blogModule .thumbnail img {
+  height: 50px;
+  width: 50px;
+}
+
+.ledeStory .ledePhoto {
+  margin-bottom: 6px;
+}
+
+div.opening {
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.ledeStory h2 {
+  margin-bottom: 4px;
+}
+
+.ledeStoryCentered h2 {
+  margin-bottom: 4px;
+}
+
+.ledeStory .byline {
+  margin-bottom: 6px;
+}
+
+.ledeStoryCentered .byline {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.spanAB {
+  background-position: 618px 50%;
+}
+
+.spanAB .abColumn {
+  width: 617px;
+  margin-bottom: 8px;
+}
+
+.wideB .aColumn {
+  width: 198px;
+}
+
+.wideB .bColumn {
+  width: 400px;
+}
+
+.spanAB .cColumn {
+  width: 354px;
+}
+
+.spanAB .abColumn .columnGroup,
+.spanAB .cColumn .columnGroup {
+  margin-left: 11px !important;
+}
+
+.wideB .aColumn .columnGroup {
+  margin-right: 8px !important;
+}
+
+.spanAB .abColumn .columnGroup .columnGroup {
+  margin-left: 0 !important;
+}
+
+.spanAB .cColumn .columnGroup .lastColumn .columnGroup {
+  margin-left: 0 !important;
+}
+
+.spanAB .subColumns .column {
+  width: 166px;
+}
+
+.spanAB .cColumn .subColumns .column .columnGroup {
+  margin-right: 8px !important;
+  margin-left: 0 !important;
+}
+
+.spanAB .cColumn .subColumns .lastColumn .columnGroup {
+  margin-right: 0 !important;
+  margin-left: 8px !important;
+}
+
+#spanABCRegion .spanABC .subColumns {
+  margin-bottom: 0;
+}
+
+.spanABC .subColumns .column {
+  width: 484px;
+  margin-bottom: 0;
+}
+
+.spanABC .subColumns .column .column {
+  width: 241px;
+  margin-bottom: 0;
+}
+
+.spanABC .subColumns .column .column .story {
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.spanBC {
+  width: auto;
+}
+
+.singleRuleDivider {
+  margin-bottom: 12px;
+}
+
+.spanBC .cColumn .singleRuleDivider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.singleRuleDk {
+  border-top: 1px solid #000;
+}
+
+.spanBC .aColumn {
+  width: 208px;
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+
+.spanBC .bColumn {
+  width: 409px;
+  margin-right: 1px;
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+
+.spanBC .bColumn .singleRuleDivider {
+  margin-right: 7px;
+}
+
+.spanBC .bColumn .columnGroup .singleRuleDivider {
+  margin-right: 0;
+}
+
+.spanBC .abColumn {
+  width: 632px;
+}
+
+.spanBC .bcColumn {
+  width: 762px;
+}
+
+.spanBC .cColumn {
+  width: 340px;
+  margin-right: 12px;
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+
+.spanBC .aColumn .columnGroup {
+  position: relative;
+  min-height: 1750px;
+}
+
+.spanBC .aColumn .bottomLeft {
+  bottom: 0;
+}
+
+.bColumn {
+  margin-top: 0;
+}
+
+.bColumn .columnGroup {
+  margin-right: 7px !important;
+  margin-bottom: 12px;
+}
+
+.bColumn .SectionFrontLeftNavFlex {
+  margin-left: 8px !important;
+}
+
+.subColumns {
+  margin-bottom: 12px;
+}
+
+.ledeStoryCentered .subColumn-2 .column {
+  width: 299px;
+}
+
+.ledeStoryCentered .subColumn-2 .firstColumn .inset {
+  margin: 0 7px 0 0;
+}
+
+.ledeStoryCentered .subColumn-2 .lastColumn .inset {
+  margin: 0 0 0 7px;
+}
+
+.ledeStoryCentered .refer,
+.NYT5Style #masthead h1 {
+  margin-bottom: 0;
+}
+
+.ledeStoryCentered ul.multiline li {
+  margin-bottom: 7px;
+}
+
+.ledeStoryCentered ul.multiline li:last-child {
+  margin-bottom: 0;
+}
+
+.spanBC .subColumns .column {
+  width: 197px;
+}
+
+.spanBC .subColumns .lastColumn .columnGroup {
+  margin-left: 7px !important;
+}
+
+.spanBC .subColumns .lastColumn .columnGroup .columnGroup {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.spanBC .bColumn .subColumns .columnGroup {
+  margin-bottom: 3px;
+}
+
+.spanBC .ledeStory .kicker {
+  margin-bottom: 3px;
+}
+
+.spanBC .singleRuleDividerNarrow {
+  height: 1px;
+  padding: 0;
+  background: #ccc;
+  border: none;
+  line-height: 0;
+  overflow: hidden;
+  margin: 15px 52px 20px;
+  width: 95px;
+}
+
+.spanBC .headlinesOnly h6 {
+  font-size: 1.25em; /* 15px */
+  line-height: 1.1333em; /* 17px */
+}
+
+.spanBC .headlinesOnly li {
+  margin-bottom: 9px;
+}
+
+.w151,
+.w151 img {
+  width: 151px;
+}
+
+.w151 img {
+  height: auto;
+}
+
+.storyWideThumbLeft .element2,
+.storyWideThumbRight .element1 {
+  width: 228px;
+}
+
+.storyWideThumbLeft,
+.storyWideThumbRight {
+  margin-bottom: 15px !important;
+  margin-top: 15px;
+}
+
+.storyWideThumbLeft .wideThumb,
+.storyWideThumbRight .wideThumb {
+  margin-bottom: 3px;
+}
+
+.storyWideThumbRight .wideThumb {
+  margin-right: 7px;
+}
+
+/* Lede package left 395 */
+
+.ledePackage395 .ledeStory h2 {
+  font-size: 2.8em;
+  line-height: 1.0716em; /* 30px */
+}
+
+.ledePackage395 .storyFollowsLede h3 {
+  font-size: 1.8em;
+  font-weight: normal;
+  line-height: 1.111em; /* 20px */
+}
+
+.ledePackage395 .ledeStory .summary {
+  line-height: 1.428em; /* 20px */
+  color: #000;
+}
+
+.ledePackage395 .ledePhoto {
+  margin: 0 0 0 28px;
+}
+
+.ledePackage395 .storyFollowsLede {
+  width: 198px; /* simulate aColumn */
+  margin-bottom: 20px;
+}
+
+.ledePackage395 .ledeStory .inTextRefer {
+  font-size: 0.8em;
+}
+
+.ledePackage395 .storyFollowsLede .byline {
+  margin-bottom: 5px;
+}
+
+.ledePackage395 .singleRuleDivider {
+  margin: 24px auto 26px 47px;
+  width: 95px;
+  clear: none;
+}
+
+/* left navigation */
+
+ul.contentNavigation {
+  color: #333;
+  border-bottom: 1px solid #E3E3E3;
+  font-weight: 500;
+  margin-left: 0;
+  list-style: none;
+}
+
+.contentNavigation ul {
+  margin-left: 0;
+}
+
+.contentNavigation li {
+  background: none;
+  margin-left: 0;
+  border-top: 1px solid #E3E3E3;
+  cursor: pointer;
+  position: relative;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.contentNavigation li.collapsible {
+  background: url(/images/opinion/sectionfront/arrow_closed.png) 10px 10px no-repeat;
+}
+
+.contentNavigation li.collapsible.active {
+  background: url(/images/opinion/sectionfront/arrow_open.png) 10px 10px no-repeat;
+}
+
+.contentNavigation li h2 {
+  font-size: 13px;
+  font-weight: 800;
+  padding-top: 7px;
+}
+
+.contentNavigation li .wrap {
+  height: 30px;
+  width: 166px;
+  margin-left: 24px;
+}
+
+.contentNavigation li.current {
+  color: #fff;
+  background: #000;
+  height: 30px;
+}
+
+.contentNavigation li.current .pointer {
+  position: absolute;
+  background: #000 url(/images/opinion/sectionfront/pointer.png) right center no-repeat;
+  right: -9px;
+  top: 0;
+  width: 9px;
+  height: 30px;
+}
+
+.contentNavigation li.current h2 {
+  color: #fff;
+}
+
+.contentNavigation li ul {
+  border-top: 1px solid #E3E3E3;
+}
+
+.contentNavigation li li {
+  font-size: 1.1em;
+  font-weight: normal;
+  margin-left: 0;
+  padding-left: 0;
+  border-top: none;
+  text-transform: capitalize;
+}
+
+.contentNavigation li li h3 {
+  padding-top: 9px;
+  font-weight: normal;
+}
+
+.contentNavigation .current h3 {
+  color: #fff;
+}
+
+.contentNavigation .current .wrap {
+  position: absolute;
+}
+
+.contentNavigation .columnistDays {
+  color: #ccc;
+  margin-left: 5px;
+  font-size: 0.9em; /* 11px */
+}
+
+.contentNavigation .current .columnistDays {
+  display: none;
+}
+
+.contributing .wrap .label {
+  text-transform: none;
+}
+
+.abPromoSet .subColumns {
+  background: none;
+}
+
+/* Dynamicly loaded content */
+
+.feedContent {
+  display: block !important;
+}
+
+.feedContent .story img {
+  float: right;
+  width: 50px;
+  height: 50px;
+}
+
+.feedContent .story h3 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.feedContent .story .datePublished {
+  text-transform: uppercase;
+  font-size: 1.1em; /* 11px */
+}
+
+.feedContent .singleRuleDivider {
+  margin-top: 18px;
+}
+
+.feedHeader + .singleRuleDivider {
+  margin-top: 9px;
+}
+
+.feedHeader {
+  height: 75px;
+}
+
+.feedHeader .runaroundLeft {
+  margin: 0 8px 0 0;
+}
+
+.feedHeader h2 {
+  font-size: 2.2em; /* 22px */
+}
+
+.feedHeader .refer {
+  margin-bottom: 18px;
+}
+
+.feedHeader ul li.twitter a {
+  background: url(/images/blogs_v3/nyt_universal/icons/twitter-14x16.gif) no-repeat 0 0;
+  padding-left: 18px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.feedHeader ul li.rss a {
+  background: url(/images/global/icons/feed_icon_12x12.gif) no-repeat 0 2px;
+  padding-left: 18px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.feedHeader ul li.facebook a {
+  background: url(/images/article/functions/facebook.gif) no-repeat 0 0;
+  padding-left: 18px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.feedHeader .followUsModule .listLabel {
+  font-size: 1.1em; /* 11px */
+  margin: 1px 0px 1px 1px;
+}
+
+.feedHeader .followUsModule .horizontalMenu {
+  margin-left: 12px;
+}
+
+.feedHeader  .horizontalMenu li {
+  padding: 0px 3px 0px 7px;
+}
+
+.feedHeader .horizontalMenu.piped li:first-child {
+  padding-left: 1px;
+}
+
+.feedHeader .followUsModule li {
+  padding: 0px 4px 0px 0px;
+}
+
+.feedFooter {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.feedFooter a {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #00325B;
+}
+
+/* Blog Module */
+
+.spanBC .blogModule h2 {
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 15px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.3em; /* 13px */
+}
+
+.blogModule .story {
+  margin-bottom: 16px;
+}
+
+.spanBC .blogModule .story h3 {
+  margin-bottom: 0;
+  font-size: 1.5em; /* 15px */
+  line-height: 1.133em; /* 17px */
+}
+
+.spanBC .blogModule .story h3 a {
+  font-weight: 500;
+}
+
+.blogModule h3 .blogName {
+  font-weight: 700;
+}
+
+.blogModule .dateline {
+  font-size: 1.1em; /* 11px */
+}
+
+.blogModule .kicker {
+  margin-bottom: 2px;
+}
+
+/* Opinion meta info in bottom left */
+
+.bottomLeft dl {
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+.bottomLeft dt {
+  display: block;
+  margin-top: 20px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.1em; /* 11px */
+  float: none;
+  margin-bottom: 5px;
+}
+
+.bottomLeft dd {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.bottomLeft dd a:visited {
+  color: #000;
+}
+
+/* ads */
+
+#SFMiddle {
+  text-align: center;
+}
+
+#TopAd {
+  border: none;
+}
+
+#SFPushDown {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
+#marketTop {
+  float: right;
+}
+
+.cColumn #PaidPost {
+  padding-top: 6px;
+}
+
+.enlargeThis {
+    display: block;
+    text-align: right;
+    background-image: url("/images/icons/multimedia/enlarge_icon.gif");
+    font-family: arial,helvetica,sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.featuredBlogHeader .subHeader {
+    color: #808080;
+    font-style: italic;
+    font-family: georgia,"times new roman",times,serif;
+    margin-top: -14px;
+}
+
+.blogModule div.insetH {
+  margin-right:21px;
+  margin-left: 23px;
+}
+
+.blogModule .singleRuleDivider {
+    margin-left: -7px;
+    margin-right: -9px;
+}
+
+.featuredBlogOpinionLatitude,
+.featuredBlogOpinionCampaign,
+.featuredBlogOpinionLoyal {
+    display:none;
+}
+
+/* edition dropdown */
+
+.editionDropDownModal .dropDownModalLinkContainer,
+.editionDropDownModal .dropDownModalMenu li {
+  font-size: 1.1em; /* 11px */
+}
+
+.editionDropDownModal .dropDownModalLinkContainer {
+  top: -4px;
+}
+
+.editionDropDownModalOpened .dropDownModalLinkContainer {
+  height: 25px;
+}
+
+.editionDropDownModal .dropDownModalBox {
+  top: 21px;
+}
+
+.NYT5Style body {
+  padding: 0;
+}
+
+.NYT5Style .masthead-buttons-container {
+  position: relative;
+  float: left;
+}
+
+.NYT5Style .masthead-tools {
+  position: relative;
+  float: right;
+  padding: 0;
+}
+
+.NYT5Style #branding {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.NYT5Style #masthead {
+  border-top: 1px solid #e2e2e2;
+  padding: 30px 0 9px;
+}
+
+.NYT5Style #masthead h1,
+.NYT5Style #masthead h2 {
+  margin-left: 0;
+}
+
+.navigation-panel .section-heading,
+.navigation-panel .menu li,
+.navigationModalContainer a.media,
+.navigationModalContainer .nytModalContent .secondary li,
+.navigationModalContainer .nytModalContent .tertiary li,
+.navigationModalContainer .nytModalContent .section-heading,
+#mostPopWidget .tabs li,
+#mostPopWidget a.more,
+.NYT5Style .masthead-button,
+.NYT5Style .masthead-login-button a,
+.NYT5Style .masthead-tools > li a {
+  font-family: "nyt-franklin", arial, helvetica, sans-serif;
+}
+
+#mostPopWidget ol {
+  font-family: 'nyt-cheltenham-sh', georgia, "times new roman", times, serif;
+}
+
+#mostPopWidget a.more {
+  color: #326891;
+  font-size: 1.1em; /* 11px */
+  font-weight: 500;
+  line-height: 1.2727em; /* 14px*/
+  margin-left: -7px;
+}
+
+#mostPopWidget h4 {
+  display: none;
+}
+
+#mostPopWidget .tabs {
+  background-image: url(/images/layout/dbl-rule.png);
+  background-repeat: repeat-x;
+  background-position-y: 4px;
+  height: 28px;
+}
+
+#mostPopWidget .tabs li {
+  background: none;
+  border: 0;
+  font-size: 1.1em; /* 11px */
+  height: 30px;
+  left: 5px;
+  line-height: 1em; /* 11px */
+  margin-top: 6px;
+  padding: 5px 10px;
+  position: relative;
+}
+
+#mostPopWidget .tabs li a {
+  color: #999 !important;
+  display: block;
+  text-decoration: none;
+}
+
+#mostPopWidget .tabs li a:hover {
+  border-bottom: 1px solid #ccc;
+}
+
+#mostPopWidget .tabs li a:before {
+  content: "MOST";
+  display: inline-block;
+  margin-right: 4px;
+}
+
+#mostPopWidget .tabs li.selected {
+  background: #f4f4f4;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  margin: 0;
+  padding-top: 8px;
+}
+
+#mostPopWidget ~ .columnGroup {
+  border-top: 1px solid #ccc;
+  margin-top: -7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#mostPopWidget .tabs li.selected a {
+  color: #000 !important;
+}
+
+#mostPopWidget .tabs li.selected a:hover {
+  border-bottom: 1px solid #000;
+}
+
+#mostPopWidget .tabContent {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+#mostPopWidget ol,
+#mostPopWidget ol li {
+  font-weight: 700;
+  font-size: 1.14em; /* 13px */
+  line-height: 1.234em;  /* 16px */
+}
+
+#mostPopWidget ol {
+  margin-left: 18px;
+  margin-bottom: 0;
+  padding: 5px 0;
+}
+
+#mostPopWidget ol li {
+  color: #333;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+}
+
+#mostPopWidget  ol li a {
+  font-weight: 400;
+}
+
+.singleRule {
+  border-top: 0;
+}

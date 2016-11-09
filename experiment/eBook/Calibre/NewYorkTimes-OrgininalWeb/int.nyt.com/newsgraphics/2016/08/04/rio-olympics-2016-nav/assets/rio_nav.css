@@ -1,0 +1,183 @@
+.oly-nav-row .oly-logo {
+    margin: 3px 4px 0 0;
+    width: 84px;
+    height: 22px;
+    background: transparent url('https://static01.nyt.com/newsgraphics/2016/08/04/rio-olympics-2016-nav/assets/rio-logo-286.svg') no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    float: left;
+    pointer: cursor;
+}
+
+#collection-rio-olympics-2016 .oly-nav-row .oly-logo,
+#collection-rio-olympics-2016-photos .oly-nav-row .oly-logo {
+    margin: 0 20px 3rem 0;
+    width: 7.5rem;
+    height: 2rem;
+}
+
+#collection-rio-olympics-2016-interactive-stories .oly-nav-row .oly-logo {
+    margin: 0 4px 0 0;
+    width: 8rem;
+    height: 2rem;
+}
+
+.interactive-header .oly-nav-row .oly-logo {
+    margin: 2px 20px 3rem 0;
+    width: 7.5rem;
+    height: 2rem;
+}
+
+.interactive-header .oly-nav-row {
+    margin-top: 1rem;
+}
+
+.oly-nav-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.oly-nav-row ul {
+    display: inline-block;
+    height: 32px;
+}
+
+#collection-rio-olympics-2016 .oly-nav-row ul,
+#collection-rio-olympics-2016-photos .oly-nav-row ul,
+.interactive-kicker .oly-nav-row ul {
+    border-left: 1px solid #e6e6e6;
+}
+
+.oly-nav-row li {
+    float: left;
+    text-transform: capitalize;
+    font: 400 14px/16px 'nyt-franklin', helvetica, arial, sans-serif;
+    letter-spacing: initial;
+    cursor: pointer;
+    padding: 3px 0 8px 20px;
+}
+
+#collection-rio-olympics-2016 .oly-nav-row li,
+#collection-rio-olympics-2016-photos .oly-nav-row li,
+#collection-rio-olympics-2016-interactive-stories .oly-nav-row li,
+.interactive-header .oly-nav-row li {
+    padding: 8px 0 8px 20px;
+}
+
+.oly-nav-row li:hover {
+    text-decoration: underline;
+}
+
+.viewport-medium-10 #collection-rio-olympics-2016 .collection-meta-header {
+    margin-bottom: -5rem;
+    padding-bottom: 3rem;
+}
+
+#collection-rio-olympics-2016 .collection-heading {
+    display: none;
+}
+
+#collection-rio-olympics-2016 .collection-subheading {
+    padding-top: 1rem;
+}
+
+#collection-rio-olympics-2016-photos .collection-heading,
+#collection-rio-olympics-2016-interactive-stories .collection-heading {
+    font-family: "nyt-cheltenham", georgia, times, serif;
+    font-weight: 200;
+    font-size: 3.5rem;
+    padding-top: 3rem;
+    line-height: 1;
+}
+
+#collection-rio-olympics-2016 .sharetools {
+    margin-top: -3rem;
+}
+
+#sharetools-interactive {
+    margin-top: 1rem;
+}
+
+.collapsible,
+.mobile .hide-from-mobile {
+    display: none;
+}
+
+.mobile.rio-olympics-2016-medals-results .collapsible.photo-firehose {
+  display: list-item;
+}
+
+.viewport-small-20 li.photo-firehose,
+.viewport-medium-10 li.text-updates,
+.viewport-medium-30 li.rio-newsletter {
+  display: list-item;
+}
+
+.mobile #collection-rio-olympics-2016 .oly-nav-row .oly-logo {
+    margin: 0 20px 0 0;
+}
+
+.mobile #collection-rio-olympics-2016 .sharetools {
+    position: absolute;
+    bottom: -6px;
+    right: 0px;
+}
+
+
+/* ### INTERACTIVE TEMPLATE ### */
+
+.viewport-medium .story.theme-main .interactive-kicker {
+  width: 83%;
+}
+
+
+
+/* ### RESULTS PAGE ### */
+
+html.viewport-medium-50.rio-olympics-2016-medals-results .interactive-header .oly-nav-row .oly-logo {
+    margin: 2px 20px 0 0;
+    width: 7.5rem;
+    height: 2rem;
+}
+
+html.mobile.rio-olympics-2016-medals-results .story.theme-interactive .story-header .story-meta .interactive-kicker {
+    width: 83%;
+    margin: 0;
+}
+
+html.mobile.rio-olympics-2016-medals-results .oly-logo {
+    margin: 2px 20px 0 0;
+}
+
+html.mobile.rio-olympics-2016-medals-results #sharetools-interactive .show-all-sharetool .icon {
+    background-image: url(https://a1.nyt.com/assets/collection/20160803-153134/images/sprite/sprite-no-repeat.svg);
+    background-repeat: no-repeat;
+    background-position: -321px -247px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    line-height: 0;
+    vertical-align: middle;
+    font-style: normal;
+}
+
+html.mobile.rio-olympics-2016-medals-results #sharetools-interactive .show-all-sharetool .sharetool-text {
+  display: none;
+}
+
+#rio-olympics-2016-medals-results #g-medals-chart {
+    padding-bottom: 5rem;
+}
+
+.mobile #rio-olympics-2016-medals-results #g-medals-chart {
+    padding-bottom: 3rem;
+}
+
+.mobile #rio-olympics-2016-medals-results .oly-table.oly-code-2016 table tbody:first-of-type .tbody-title {
+    padding-top: 0;
+}
+
+.mobile #rio-olympics-2016-medals-results .oly-table-title {
+    padding-bottom: 0;
+}
