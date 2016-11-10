@@ -1,0 +1,429 @@
+
+div#tipDiv {
+    font-size:.7em;
+    color:#000; background-color:#E1E5F1; 
+    border:1px solid #667295; 	border-radius: 7px;
+	padding:4px; 
+    width:300px;
+}
+#box {
+	width-max: 300px;
+	background: grey;
+	margin: 5px;
+
+}
+.txt {
+padding-right:230px;
+}
+
+.info {
+position:absolute;
+width: 200px;
+font-size:15px;
+right:10px;
+
+}
+
+
+
+
+
+@font-face{ font-family : "Fanwood"; src : url('fontes/Fanwood/Fanwood/Fanwood.otf'); } .b1 { font-family : Fanwood; }
+
+@font-face{ font-family : "Logisoso"; src : url('fontes/OSP_Logisoso/Logisoso.ttf'); } .b2 { font-family : Logisoso; }
+
+@font-face{ font-family : "SciFly"; src : url('fontes/scifly/SciFly-Sans.ttf'); } .b3 { font-family : SciFly; }
+
+@font-face{ font-family : "Volkhov"; src : url('fontes/volkhov/Volkhov-Regular-OTF.otf'); } .b4 { font-family : Volkhov; }
+
+@font-face{ font-family : "PT Mono"; src : url('fontes/pt-mono/PTM55FT.ttf'); } .b5 { font-family : PT Mono; }
+
+@font-face{ font-family : "Rationale One"; src : url('fontes/rationale/Rationale-regular.otf'); } .b6 { font-family : Rationale One; }
+
+@font-face{ font-family : "Antic Slab"; src : url('fontes/Antic_Slab/AnticSlab-Regular.ttf'); } .b7 { font-family : Antic Slab; }
+
+@font-face{ font-family : "Copse"; src : url('fontes/copse/Copse-Regular.ttf'); } .b8 { font-family : Copse; }
+
+@font-face{ font-family : "Lekton"; src : url('fontes/lekton/Lekton-Regular.ttf'); } .b9 { font-family : Lekton; }
+
+@font-face{ font-family : "Cambo"; src : url('fontes/cambo/Cambo-Regular.otf'); } .b10 { font-family : Cambo; }
+
+@font-face{ font-family : "Bitter"; src : url('fontes/bitter/Bitter-Regular.otf'); } .b11 { font-family : Bitter; }
+
+@font-face{ font-family : "Tex Gyre Adventor"; src : url('fontes/TeX-Gyre-Adventor/texgyreadventor-regular.otf'); } .b12 { font-family : Tex Gyre Adventor; }
+
+@font-face{ font-family : "Dustsimo"; src : url('fontes/Dustismo-Roman/Dustismo_Roman.ttf'); } .b13 { font-family : Dustsimo; }
+
+@font-face{ font-family : "Ropa Sans"; src : url('fontes/ropa-sans/RopaSans-Regular.otf'); } .b14 { font-family : Ropa Sans; }
+
+@font-face{ font-family : "Yanone Kaffeestaz"; src : url('fontes/Yanone-Kaffeesatz/YanoneKaffeesatz-Regular.otf'); } .b15 { font-family : Yanone Kaffeestaz; }
+
+@font-face{ font-family : "Kreon"; src : url('fontes/kreon/Kreon-Regular.ttf'); } .b16 { font-family : Kreon; }
+
+@font-face{ font-family : "Sedan"; src : url('fontes/sedan/Sedan-Regular.ttf'); } .b17 { font-family : Sedan; }
+
+@font-face{ font-family : "Aurulent"; src : url('fontes/Aurulent-Sans/AurulentSans-Regular.otf'); } .b18 { font-family : Aurulent; }
+
+@font-face{ font-family : "Chivo"; src : url('fontes/Chivo/Chivo-Regular.ttf'); } .b19 { font-family : Chivo; }
+
+@font-face{ font-family : "Polaris"; src : url('fontes/Polaris/Polaris.otf'); } .b20 { font-family : Polaris; }
+
+@font-face{ font-family : "Crimson"; src : url('fontes/Crimson/Crimson-Roman.otf'); } .b21 { font-family : Crimson; }
+
+@font-face{ font-family : "Duru Sans"; src : url('fontes/duru-sans/DuruSans-Regular.otf'); } .b22 { font-family : Duru Sans; }
+
+@font-face{ font-family : "Karla"; src : url('fontes/Karla/Karla-Regular.ttf'); } .b23 { font-family : Karla; }
+
+@font-face{ font-family : "Bree Serif"; src : url('fontes/bree-serif/BreeSerif-Regular.otf'); } .b24 { font-family : Bree Serif; }
+
+@font-face{ font-family : "League Gothic"; src : url('fontes/League_Gothic/League_Gothic/LeagueGothic-Regular.otf'); } .b25 { font-family : League Gothic; }
+
+@font-face{ font-family : "Varela Round"; src : url('fontes/varela-round/VarelaRound-Regular.otf'); } .b26 { font-family : Varela Round; }
+
+@font-face{ font-family : "Tinos"; src : url('fontes/tinos/Tinos-Regular.ttf'); } .b27 { font-family : Tinos; }
+
+@font-face{ font-family : "Romande ADF Std"; src : url('fontes/Romande_ADF/romandeadfstd-regular.otf'); } .b28 { font-family : Romande ADF Std; }
+
+@font-face{ font-family : "Bitter"; src : url('fontes/bitter/Bitter-Regular.otf'); } .b29 { font-family : Bitter; }
+
+@font-face{ font-family : "Magra"; src : url('fontes/magra/Magra-Regular.ttf'); } .b30 { font-family : Magra; }
+
+@font-face{ font-family : "Habibi"; src : url('fontes/habibi/Habibi-Regular.otf'); } .b31 { font-family : Habibi; }
+
+@font-face{ font-family : "Rosario"; src : url('fontes/rosario/Rosario-Regular.otf'); } .b32 { font-family : Rosario; }
+
+@font-face{ font-family : "Mint Spirit"; src : url('fontes/MintSpirit-20120526/OTF/MintSpirit-Regular.otf'); } .b33 { font-family : Mint Spirit; }
+
+@font-face{ font-family : "Lora"; src : url('fontes/Lora/Lora-Regular.ttf'); } .b34 { font-family : Lora; }
+
+@font-face{ font-family : "Not Courier"; src : url('fontes/NotCourierSans/NotCourierSans.otf'); } .b35 { font-family : Not Courier; }
+
+@font-face{ font-family : "Merriweather"; src : url('fontes/merriweather/Merriweather.ttf'); } .b36 { font-family : Merriweather; }
+
+@font-face{ font-family : "Asap"; src : url('fontes/asap/Asap-Regular.otf'); } .b37 { font-family : Asap; }
+
+@font-face{ font-family : "Cardo"; src : url('fontes/Cardo/Cardo-Regular.ttf'); } .b38 { font-family : Cardo; }
+
+@font-face{ font-family : "Crete Round"; src : url('fontes/crete-round/CreteRound-Regular.otf'); } .b39 { font-family : Crete Round; }
+
+@font-face{ font-family : "Forum"; src : url('fontes/forum/CreteRound-Regular.otf'); } .b40 { font-family : Forum; }
+
+@font-face{ font-family : "Inconsolata"; src : url('fontes/Inconsolata/Inconsolata.otf'); } .b41 { font-family : Inconsolata; }
+
+@font-face{ font-family : "Trykker"; src : url('fontes/trykker/Trykker-Regular.otf'); } .b42 { font-family : Trykker; }
+
+@font-face{ font-family : "Ls"; src : url('fontes/Ls/LSRegular.otf'); } .b43 { font-family : Ls; }
+
+@font-face{ font-family : "Luxi Sans"; src : url('fontes/Luxi_Sans/luxisr.ttf'); } .b44 { font-family : Luxi Sans; }
+
+@font-face{ font-family : "Prociono"; src : url('fontes/Prociono/Prociono.otf'); } .b45 { font-family : Prociono; }
+
+@font-face{ font-family : "Signika"; src : url('fontes/Signika/Signika/Signika-Regular.ttf'); } .b46 { font-family : Signika; }
+
+@font-face{ font-family : "LM Sans 10"; src : url('fontes/LM_Sans_10/lmsans10-regular.otf'); } .b47 { font-family : LM Sans 10; }
+
+@font-face{ font-family : "Gentium Basic"; src : url('fontes/Gentium_Basic/GenBasR.ttf'); } .b48 { font-family : Gentium Basic; }
+
+@font-face{ font-family : "Doulos Sil"; src : url('fontes/DoulosSIL-4.112/DoulosSIL-R.ttf'); } .b49 { font-family : Doulos Sil; }
+
+X @font-face{ font-family : "Josefin Sans"; src : url('fontes/Josefin Sans/Josefin Sans.ttf'); } .b50 { font-family : Josefin Sans; }
+
+X @font-face{ font-family : "Josefin Slab"; src : url('fontes/Josefin Slab/Josefin Slab.ttf'); } .b51 { font-family : Josefin Slab; }
+
+@font-face{ font-family : "Merienda"; src : url('fontes/merienda/Merienda-Regular.ttf'); } .b52 { font-family : Merienda; }
+
+@font-face{ font-family : "Garamond n8"; src : url('fontes/Garamond-No8/GaramondNo8-Reg.ttf'); } .b53 { font-family : Garamond n8; }
+
+@font-face{ font-family : "Kameron"; src : url('fontes/kameron/Kameron-Regular.ttf'); } .b54 { font-family : Kameron; }
+
+@font-face{ font-family : "Anonymous"; src : url('fontes/Anonymous-Pro/Anonymous_Pro.ttf'); } .b55 { font-family : Anonymous; }
+
+@font-face{ font-family : "Cantarell"; src : url('fontes/cantarell/Cantarell-Regular.ttf'); } .b56 { font-family : Cantarell; }
+
+@font-face{ font-family : "CaviarDreams"; src : url('fontes/Cantarell-Regular/CaviarDreams.ttf'); } .b57 { font-family : CaviarDreams; }
+
+@font-face{ font-family : "Droid Sans Mono"; src : url('fontes/Droid_Sans_Mono/DroidSansMono.ttf'); } .b58 { font-family : Droid Sans Mono; }
+
+@font-face{ font-family : "Linden Hill"; src : url('fontes/Linden_Hill/Linden_Hill/Linden_Hill.otf'); } .b59 { font-family : Linden Hill; }
+
+@font-face{ font-family : "LM Typewriter"; src : url('fontes/LMTypewriter10/lmtypewriter10-regular.ttf'); } .b60 { font-family : LM Typewriter; }
+
+@font-face{ font-family : "Nobile"; src : url('fontes/Nobile/Nobile.ttf'); } .b61 { font-family : Nobile; }
+
+@font-face{ font-family : "Rambla"; src : url('fontes/Rambla/Rambla.ttf'); } .b62 { font-family : Rambla; }
+
+@font-face{ font-family : "Theano Old Style"; src : url('fontes/Theano Old Style/Theano Old Style.ttf'); } .b63 { font-family : Theano Old Style; }
+
+@font-face{ font-family : "Tribun ADF"; src : url('fontes/Tribun ADF/Tribun ADF.ttf'); } .b64 { font-family : Tribun ADF; }
+
+@font-face{ font-family : "Utopia"; src : url('fontes/Utopia/Utopia.ttf'); } .b65 { font-family : Utopia; }
+
+@font-face{ font-family : "Berenis"; src : url('fontes/Berenis/Berenis.ttf'); } .b66 { font-family : Berenis; }
+
+@font-face{ font-family : "Colaborate"; src : url('fontes/Colaborate/Colaborate.ttf'); } .b67 { font-family : Colaborate; }
+
+@font-face{ font-family : "Consola"; src : url('fontes/Consola/Consola.ttf'); } .b68 { font-family : Consola; }
+
+@font-face{ font-family : "Exo"; src : url('fontes/Exo/Exo.ttf'); } .b69 { font-family : Exo; }
+
+@font-face{ font-family : "LM Mono Prop"; src : url('fontes/LM Mono Prop/LM Mono Prop.ttf'); } .b70 { font-family : LM Mono Prop; }
+
+@font-face{ font-family : "Oxygen Mono"; src : url('fontes/Oxygen Mono/Oxygen Mono.ttf'); } .b71 { font-family : Oxygen Mono; }
+
+@font-face{ font-family : "Radley"; src : url('fontes/Radley/Radley.ttf'); } .b72 { font-family : Radley; }
+
+@font-face{ font-family : "Scada"; src : url('fontes/Scada/Scada.ttf'); } .b73 { font-family : Scada; }
+
+@font-face{ font-family : "Unna"; src : url('fontes/Unna/Unna.ttf'); } .b74 { font-family : Unna; }
+
+@font-face{ font-family : "Monda"; src : url('fontes/Monda/Monda.ttf'); } .b75 { font-family : Monda; }
+
+@font-face{ font-family : "Nunito"; src : url('fontes/Nunito/Nunito.ttf'); } .b76 { font-family : Nunito; }
+
+@font-face{ font-family : "U001"; src : url('fontes/U001/U001.ttf'); } .b77 { font-family : U001; }
+
+@font-face{ font-family : "Wire One"; src : url('fontes/Wire One/Wire One.ttf'); } .b78 { font-family : Wire One; }
+
+@font-face{ font-family : "NovaFlat"; src : url('fontes/NovaFlat/NovaFlat.ttf'); } .b79 { font-family : NovaFlat; }
+
+@font-face{ font-family : "Petrona"; src : url('fontes/Petrona/Petrona.ttf'); } .b80 { font-family : Petrona; }
+
+@font-face{ font-family : "Nova Mono"; src : url('fontes/Nova Mono/Nova Mono.ttf'); } .b81 { font-family : Nova Mono; }
+
+@font-face{ font-family : "Oswald"; src : url('fontes/Oswald/Oswald.ttf'); } .b82 { font-family : Oswald; }
+
+@font-face{ font-family : "Geo Sans"; src : url('fontes/Geo Sans/Geo Sans.ttf'); } .b83 { font-family : Geo Sans; }
+
+@font-face{ font-family : "Lato"; src : url('fontes/Lato/Lato.ttf'); } .b84 { font-family : Lato; }
+
+@font-face{ font-family : "LMRoman 8"; src : url('fontes/LMRoman 8/LMRoman 8.ttf'); } .b85 { font-family : LMRoman 8; }
+
+@font-face{ font-family : "Luxi Mono"; src : url('fontes/Luxi Mono/Luxi Mono.ttf'); } .b86 { font-family : Luxi Mono; }
+
+@font-face{ font-family : "Ovo"; src : url('fontes/Ovo/Ovo.ttf'); } .b87 { font-family : Ovo; }
+
+@font-face{ font-family : "Pontano Sans"; src : url('fontes/Pontano Sans/Pontano Sans.ttf'); } .b88 { font-family : Pontano Sans; }
+
+@font-face{ font-family : "Questrial"; src : url('fontes/questrial/Questrial-Regular.otf'); } .b89 { font-family : Questrial; }
+
+@font-face{ font-family : "Roboto"; src : url('fontes/Roboto/Roboto.ttf'); } .b90 { font-family : Roboto; }
+
+@font-face{ font-family : "Devroye"; src : url('fontes/Devroye/Devroye.ttf'); } .b91 { font-family : Devroye; }
+
+@font-face{ font-family : "BonvenoCF"; src : url('fontes/BonvenoCF/BonvenoCF.ttf'); } .b92 { font-family : BonvenoCF; }
+
+@font-face{ font-family : "TitilliumText25L"; src : url('fontes/TitilliumText/TitilliumText25L005.otf'); } .b93 { font-family : TitilliumText25L; }
+
+@font-face{ font-family : "Winterthur"; src : url('fontes/Winterthur/Winterthur.ttf'); } .b94 { font-family : Winterthur; }
+
+@font-face{ font-family : "Enriqueta"; src : url('fontes/Enriqueta/Enriqueta.ttf'); } .b95 { font-family : Enriqueta; }
+
+@font-face{ font-family : "Raleway"; src : url('fontes/Raleway/Raleway.ttf'); } .b96 { font-family : Raleway; }
+
+@font-face{ font-family : "Abel"; src : url('fontes/abel/Abel-Regular.ttf'); } .b97 { font-family : Abel; }
+
+@font-face{ font-family : "Maven Pro"; src : url('fontes/Maven Pro/Maven Pro.ttf'); } .b98 { font-family : Maven Pro; }
+
+@font-face{ font-family : "Jura"; src : url('fontes/Jura/Jura.ttf'); } .b99 { font-family : Jura; }
+
+@font-face{ font-family : "Istok Web"; src : url('fontes/Istok Web/Istok Web.ttf'); } .b100 { font-family : Istok Web; }
+
+@font-face{ font-family : "Amble"; src : url('fontes/Amble/Amble.ttf'); } .b101 { font-family : Amble; }
+
+@font-face{ font-family : "Arimo"; src : url('fontes/Arimo/Arimo.ttf'); } .b102 { font-family : Arimo; }
+
+@font-face{ font-family : "Banksia"; src : url('fontes/Banksia/Banksia.ttf'); } .b103 { font-family : Banksia; }
+
+@font-face{ font-family : "Charis"; src : url('fontes/Charis/Charis.ttf'); } .b104 { font-family : Charis; }
+
+@font-face{ font-family : "Eb Garamond"; src : url('fontes/Eb Garamond/Eb Garamond.ttf'); } .b105 { font-family : Eb Garamond; }
+
+@font-face{ font-family : "Linux Libertine"; src : url('fontes/Linux Libertine/Linux Libertine.ttf'); } .b106 { font-family : Linux Libertine; }
+
+@font-face{ font-family : "PT Sans"; src : url('fontes/PT Sans/PT Sans.ttf'); } .b107 { font-family : PT Sans; }
+
+@font-face{ font-family : "Quicksand"; src : url('fontes/Quicksand/Quicksand.ttf'); } .b108 { font-family : Quicksand; }
+
+@font-face{ font-family : "Trocchi"; src : url('fontes/Trocchi/Trocchi.ttf'); } .b109 { font-family : Trocchi; }
+
+@font-face{ font-family : "Hero"; src : url('fontes/Hero/Hero.ttf'); } .b110 { font-family : Hero; }
+
+@font-face{ font-family : "Nimbus n�9"; src : url('fontes/Nimbus n�9/Nimbus n�9.ttf'); } .b111 { font-family : Nimbus n�9; }
+
+@font-face{ font-family : "Medula One"; src : url('fontes/Medula One/Medula One.ttf'); } .b112 { font-family : Medula One; }
+
+@font-face{ font-family : "Goblin One"; src : url('fontes/Goblin One/Goblin One.ttf'); } .b113 { font-family : Goblin One; }
+
+@font-face{ font-family : "Gruppo"; src : url('fontes/Gruppo/Gruppo.ttf'); } .b114 { font-family : Gruppo; }
+
+@font-face{ font-family : "Unica One"; src : url('fontes/Unica One/Unica One.ttf'); } .b115 { font-family : Unica One; }
+
+@font-face{ font-family : "Hammersmith One"; src : url('fontes/Hammersmith One/Hammersmith One.ttf'); } .b116 { font-family : Hammersmith One; }
+
+@font-face{ font-family : "Mate"; src : url('fontes/Mate/Mate.ttf'); } .b117 { font-family : Mate; }
+
+@font-face{ font-family : "Tuffy"; src : url('fontes/Tuffy/Tuffy.ttf'); } .b118 { font-family : Tuffy; }
+
+@font-face{ font-family : "Share Tech Mono"; src : url('fontes/Share Tech Mono/Share Tech Mono.ttf'); } .b119 { font-family : Share Tech Mono; }
+
+@font-face{ font-family : "Paytone One "; src : url('fontes/Paytone One /Paytone One .ttf'); } .b120 { font-family : Paytone One ; }
+
+@font-face{ font-family : "Comfortaa"; src : url('fontes/Comfortaa/Comfortaa.ttf'); } .b121 { font-family : Comfortaa; }
+
+@font-face{ font-family : "Junicode"; src : url('fontes/Junicode/Junicode.ttf'); } .b122 { font-family : Junicode; }
+
+@font-face{ font-family : "Open Sans"; src : url('fontes/Open Sans/Open Sans.ttf'); } .b123 { font-family : Open Sans; }
+
+@font-face{ font-family : "Poly"; src : url('fontes/Poly/Poly.ttf'); } .b124 { font-family : Poly; }
+
+@font-face{ font-family : "Rosarivo"; src : url('fontes/Rosarivo/Rosarivo.ttf'); } .b125 { font-family : Rosarivo; }
+
+@font-face{ font-family : "Sophia Nubian"; src : url('fontes/Sophia Nubian/Sophia Nubian.ttf'); } .b126 { font-family : Sophia Nubian; }
+
+@font-face{ font-family : "Universalis ADF"; src : url('fontes/Universalis ADF/Universalis ADF.ttf'); } .b127 { font-family : Universalis ADF; }
+
+@font-face{ font-family : "Didact Gothic"; src : url('fontes/Didact Gothic/Didact Gothic.ttf'); } .b128 { font-family : Didact Gothic; }
+
+@font-face{ font-family : "Old Standard"; src : url('fontes/Old Standard/Old Standard.ttf'); } .b129 { font-family : Old Standard; }
+
+@font-face{ font-family : "Deja Vu Sans"; src : url('fontes/Deja Vu Sans/Deja Vu Sans.ttf'); } .b130 { font-family : Deja Vu Sans; }
+
+@font-face{ font-family : "Deja Vu Mono"; src : url('fontes/Deja Vu Mono/Deja Vu Mono.ttf'); } .b131 { font-family : Deja Vu Mono; }
+
+@font-face{ font-family : "Linus Biolunum O"; src : url('fontes/Linus Biolunum O/Linus Biolunum O.ttf'); } .b132 { font-family : Linus Biolunum O; }
+
+@font-face{ font-family : "Quercus"; src : url('fontes/Quercus/Quercus.ttf'); } .b133 { font-family : Quercus; }
+
+@font-face{ font-family : "Liberation Sans"; src : url('fontes/Liberation Sans/Liberation Sans.ttf'); } .b134 { font-family : Liberation Sans; }
+
+@font-face{ font-family : "Liberation Mono"; src : url('fontes/Liberation Mono/Liberation Mono.ttf'); } .b135 { font-family : Liberation Mono; }
+
+@font-face{ font-family : "Liberation Serif"; src : url('fontes/Liberation Serif/Liberation Serif.ttf'); } .b136 { font-family : Liberation Serif; }
+
+@font-face{ font-family : "Anaheim"; src : url('fontes/Anaheim/Anaheim.ttf'); } .b137 { font-family : Anaheim; }
+
+@font-face{ font-family : "Bitstream Vera Sans"; src : url('fontes/Bitstream Vera Sans/Bitstream Vera Sans.ttf'); } .b138 { font-family : Bitstream Vera Sans; }
+
+@font-face{ font-family : "Cabin"; src : url('fontes/Cabin/Cabin.ttf'); } .b139 { font-family : Cabin; }
+
+@font-face{ font-family : "Courier Prime"; src : url('fontes/Courier Prime/Courier Prime.ttf'); } .b140 { font-family : Courier Prime; }
+
+@font-face{ font-family : "Fengardo Neue"; src : url('fontes/Fengardo Neue/Fengardo Neue.ttf'); } .b141 { font-family : Fengardo Neue; }
+
+@font-face{ font-family : "Judson"; src : url('fontes/Judson/Judson.ttf'); } .b142 { font-family : Judson; }
+
+@font-face{ font-family : "Orienta"; src : url('fontes/Orienta/Orienta.ttf'); } .b143 { font-family : Orienta; }
+
+@font-face{ font-family : "Quattrocento Roman"; src : url('fontes/Quattrocento Roman/Quattrocento Roman.ttf'); } .b144 { font-family : Quattrocento Roman; }
+
+@font-face{ font-family : "Sorts Mill Goudy"; src : url('fontes/Sorts Mill Goudy/Sorts Mill Goudy.ttf'); } .b145 { font-family : Sorts Mill Goudy; }
+
+@font-face{ font-family : "Univers Else"; src : url('fontes/Univers Else/Univers Else.ttf'); } .b146 { font-family : Univers Else; }
+
+@font-face{ font-family : "ParaType Serif"; src : url('fontes/ParaType Serif/ParaType Serif.ttf'); } .b147 { font-family : ParaType Serif; }
+
+@font-face{ font-family : "Quattrocento Sans"; src : url('fontes/Quattrocento Sans/Quattrocento Sans.ttf'); } .b148 { font-family : Quattrocento Sans; }
+
+@font-face{ font-family : "Free Mono"; src : url('fontes/Free Mono/Free Mono.ttf'); } .b149 { font-family : Free Mono; }
+
+@font-face{ font-family : "Free Sans"; src : url('fontes/Free Sans/Free Sans.ttf'); } .b150 { font-family : Free Sans; }
+
+@font-face{ font-family : "Free Serif"; src : url('fontes/Free Serif/Free Serif.ttf'); } .b151 { font-family : Free Serif; }
+
+@font-face{ font-family : "Numans"; src : url('fontes/Numans/Numans.ttf'); } .b152 { font-family : Numans; }
+
+@font-face{ font-family : "Libre Basquerville"; src : url('fontes/Libre Basquerville/Libre Basquerville.ttf'); } .b153 { font-family : Libre Basquerville; }
+
+@font-face{ font-family : "Inder"; src : url('fontes/Inder/Inder.ttf'); } .b154 { font-family : Inder; }
+
+@font-face{ font-family : "Andika"; src : url('fontes/Andika/Andika.ttf'); } .b155 { font-family : Andika; }
+
+@font-face{ font-family : "Ubuntu"; src : url('fontes/Ubuntu/Ubuntu.ttf'); } .b156 { font-family : Ubuntu; }
+
+@font-face{ font-family : "Ubuntu Mono"; src : url('fontes/Ubuntu Mono/Ubuntu Mono.ttf'); } .b157 { font-family : Ubuntu Mono; }
+
+@font-face{ font-family : "Afta Sans"; src : url('fontes/Afta Sans/Afta Sans.ttf'); } .b158 { font-family : Afta Sans; }
+
+@font-face{ font-family : "Droid Sans"; src : url('fontes/Droid Sans/Droid Sans.ttf'); } .b159 { font-family : Droid Sans; }
+
+@font-face{ font-family : "Droid Serif"; src : url('fontes/Droid Serif/Droid Serif.ttf'); } .b160 { font-family : Droid Serif; }
+
+@font-face{ font-family : "Gandhi Serif"; src : url('fontes/Gandhi Serif/Gandhi Serif.ttf'); } .b161 { font-family : Gandhi Serif; }
+
+@font-face{ font-family : "Lusitana"; src : url('fontes/Lusitana/Lusitana.ttf'); } .b162 { font-family : Lusitana; }
+
+@font-face{ font-family : "Noticia Text"; src : url('fontes/Noticia Text/Noticia Text.ttf'); } .b163 { font-family : Noticia Text; }
+
+@font-face{ font-family : "Resagnicto"; src : url('fontes/Resagnicto/Resagnicto.ttf'); } .b164 { font-family : Resagnicto; }
+
+@font-face{ font-family : "Vollkorn"; src : url('fontes/Vollkorn/Vollkorn.ttf'); } .b165 { font-family : Vollkorn; }
+
+@font-face{ font-family : "Alegreya"; src : url('fontes/Alegreya/Alegreya.ttf'); } .b166 { font-family : Alegreya; }
+
+@font-face{ font-family : "Almendra"; src : url('fontes/Almendra/Almendra.ttf'); } .b167 { font-family : Almendra; }
+
+@font-face{ font-family : "Arapey"; src : url('fontes/Arapey/Arapey.ttf'); } .b168 { font-family : Arapey; }
+
+@font-face{ font-family : "Buenard"; src : url('fontes/Buenard/Buenard.ttf'); } .b169 { font-family : Buenard; }
+
+@font-face{ font-family : "Flamenco"; src : url('fontes/Flamenco/Flamenco.ttf'); } .b170 { font-family : Flamenco; }
+
+@font-face{ font-family : "Gudea"; src : url('fontes/Gudea/Gudea.ttf'); } .b171 { font-family : Gudea; }
+
+@font-face{ font-family : "Neuton"; src : url('fontes/Neuton/Neuton.ttf'); } .b172 { font-family : Neuton; }
+
+@font-face{ font-family : "Arvo"; src : url('fontes/Arvo/Arvo.ttf'); } .b173 { font-family : Arvo; }
+
+@font-face{ font-family : "Source Code Pro"; src : url('fontes/Source_Code_Pro/SourceCodePro-Regular.ttf'); } .b174 { font-family : Source Code Pro; }
+
+@font-face{ font-family : "Podkova"; src : url('fontes/Podkova/Podkova.ttf'); } .b175 { font-family : Podkova; }
+
+@font-face{ font-family : "Galatia"; src : url('fontes/Galatia/Galatia.ttf'); } .b176 { font-family : Galatia; }
+
+@font-face{ font-family : "Cousine"; src : url('fontes/Cousine/Cousine.ttf'); } .b177 { font-family : Cousine; }
+
+@font-face{ font-family : "Armata"; src : url('fontes/Armata/Armata.ttf'); } .b178 { font-family : Armata; }
+
+@font-face{ font-family : "Sansation"; src : url('fontes/Sansation/Sansation.ttf'); } .b179 { font-family : Sansation; }
+
+@font-face{ font-family : "Webly Sleek UI"; src : url('fontes/Webly Sleek UI/Webly Sleek UI.ttf'); } .b180 { font-family : Webly Sleek UI; }
+
+@font-face{ font-family : "Marvel"; src : url('fontes/Marvel/Marvel.ttf'); } .b181 { font-family : Marvel; }
+
+@font-face{ font-family : "Quantico"; src : url('fontes/Quantico/Quantico.ttf'); } .b182 { font-family : Quantico; }
+
+@font-face{ font-family : "Terminaldosis"; src : url('fontes/Terminaldosis/Terminaldosis.ttf'); } .b183 { font-family : Terminaldosis; }
+
+@font-face{ font-family : "Actor"; src : url('fontes/Actor/Actor.ttf'); } .b184 { font-family : Actor; }
+
+@font-face{ font-family : "Antic"; src : url('fontes/Antic/Antic.ttf'); } .b185 { font-family : Antic; }
+
+@font-face{ font-family : "Junge"; src : url('fontes/Junge/Junge.ttf'); } .b186 { font-family : Junge; }
+
+@font-face{ font-family : "Lilita One"; src : url('fontes/Lilita One/Lilita One.ttf'); } .b187 { font-family : Lilita One; }
+
+@font-face{ font-family : "Amaranth"; src : url('fontes/Amaranth/Amaranth.ttf'); } .b188 { font-family : Amaranth; }
+
+@font-face{ font-family : "Archivo"; src : url('fontes/Archivo/Archivo.ttf'); } .b189 { font-family : Archivo; }
+
+@font-face{ font-family : "Baskervald"; src : url('fontes/Baskervald/Baskervald.ttf'); } .b190 { font-family : Baskervald; }
+
+@font-face{ font-family : "Domine"; src : url('fontes/Domine/Domine.ttf'); } .b191 { font-family : Domine; }
+
+@font-face{ font-family : "Junction"; src : url('fontes/Junction/Junction.ttf'); } .b192 { font-family : Junction; }
+
+@font-face{ font-family : "Linux Libertine"; src : url('fontes/Linux Libertine/Linux Libertine.ttf'); } .b193 { font-family : Linux Libertine; }
+
+@font-face{ font-family : "Luxi Serif"; src : url('fontes/Luxi Serif/Luxi Serif.ttf'); } .b194 { font-family : Luxi Serif; }
+
+@font-face{ font-family : "Oxygen"; src : url('fontes/Oxygen/Oxygen.ttf'); } .b195 { font-family : Oxygen; }
+
+@font-face{ font-family : "Rokkit"; src : url('fontes/Rokkit/Rokkit.ttf'); } .b196 { font-family : Rokkit; }
+
+@font-face{ font-family : "Tienne"; src : url('fontes/Tienne/Tienne.ttf'); } .b197 { font-family : Tienne; }
+
+@font-face{ font-family : "Prata"; src : url('fontes/Prata/Prata.ttf'); } .b198 { font-family : Prata; }
+
+@font-face{ font-family : "Inika"; src : url('fontes/Inika/Inika.ttf'); } .b199 { font-family : Inika; }
+
+@font-face{ font-family : "Tiresias"; src : url('fontes/Tiresias/Tiresias.ttf'); } .b200 { font-family : Tiresias; }
