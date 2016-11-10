@@ -1,0 +1,29 @@
+body{
+  margin:0;
+  padding: 0;
+}
+
+.rssFeed{
+  margin: 1rem;
+
+}
+
+.rssNew{
+  font-family: 'Inknut Antiqua', serif;
+  line-height: 1rem;
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+
+}
+
+.rssNew h2{
+  line-height: normal;
+  font-family: 'Courier';
+  font-weight: lighter;
+}
+
+.nasaImage{
+  width:100%;
+  height:auto;
+}
