@@ -7,32 +7,36 @@
 Créer d'une manière simple et ludique, un ebook quotidient de l'actualité.
 
 * **Séléctionner**, **proposer**, **imposer** des news.
-* Générer la couverture et des illustrations de chapitre à partir des titres, citation et visuels des articles
 * Faire ça simplement, sur son smartphone sur le wifi ou la 3G.
-* Télécharger le epub et le transférer sur sa liseuse.
+* Jouer avec les spécificité de l'écran eInk.
+* ~~Télécharger le epub et le transférer sur sa liseuse.~~
 
 ### Sources d'informations :
 * Flux RSS:
   * Nasa, picture of the day
   * sites d'actualité
+  * blogs
 * API
-  * NYtime
   * Giphy
 
 ### Traitement :
 * Images :
   * Collages
   * Superposition
-* Titre (texte)
-  * Définition par antinonyme
-* Web :
-  * Crop de l'article, avec le style et les Images (iframe?)
+* Textes :
+  * effet de scroll horizontal et vertical
+  * animation de zoom
+  * jeux gris/noir
+* Interactions :
+  * plein ecran
+  * affichage d'un fond noir sur l'écran pour "sauvegarder" les gliches et forcer l'écran à ne pas se rafraichir.
 * ...
 
 ## Références :
 * [BrokenKindleScreens](http://www.kingcosmonaut.de/56brokenkindlescreens/)
 * [Kindle Glitcher](http://www.recyclism.com/kindleglitcher.php)
 * [HTTPrint](http://www.creativeapplications.net/js/httprint-turn-your-browsing-habits-into-a-newspaper/)
+
 ## Expérimentations :
 
 Une des premières envies a été d'utiliser une liseuse au sein du projet. Le web permet facilement des dispositifs multi device pour profiter des particularité de chaque appareil. Les liseuses aux écrans eInk offrent des effets et rendus différents des autres et ne sont pas encore beaucoup prises en compte ni sur des questions de compatibilité ou d'expérimentation de leurs particularités.
