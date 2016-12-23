@@ -1,0 +1,70 @@
+#hgButton{
+  position: fixed;
+  z-index: 1;
+  top:0px;
+  left: 0px;
+  width:80px;
+  height:80px;
+  background-color: transparent;
+}
+
+#hdButton{
+  position: fixed;
+  z-index: 1;
+  top:0px;
+  right: 0px;
+  width:80px;
+  height:80px;
+  background-color: transparent;
+}
+
+
+#bdButton{
+  position: fixed;
+  z-index: 1;
+  bottom:0px;
+  right: 0px;
+  width:80px;
+  height:80px;
+  background-color: transparent;
+}
+
+#bgButton{
+  position: fixed;
+  z-index: 1;
+  bottom:0px;
+  left: 0px;
+  width:80px;
+  height:80px;
+  background-color: transparent;
+}
+
+#winDiv{
+  display: none;
+  position: fixed;
+  height: 100%;
+  width:100%;
+  background-color: black;
+  background-size: auto 100%;
+  background-repeat: repeat;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.zoom{
+  animation-duration: 1s;
+  animation-name: zoom;
+  animation-direction: alternate;
+}
+
+@keyframes zoom {
+  from {
+    -moz-transform: scale(1);
+    -moz-transform-origin: 0 0;
+  }
+
+  to {
+    -moz-transform: scale(1.1);
+    -moz-transform-origin: 0 0;
+  }
+}
