@@ -7,7 +7,7 @@ function gif(word, nb, off) {
         for (var i = 0; i < data.data.length; i++) {
             id = data.data[i].id;
             url = "https://media.giphy.com/media/" + id + "/giphy.gif";
-            var html = '<div class="gif" id="' word + off + '"><img src="' + url + '"/></div>';
+            var html = '<div class="gif" id="' + word + off + '"><img src="' + url + '"/></div>';
             document.querySelector("body").innerHTML += html;
         }
     });
@@ -253,3 +253,4 @@ var ExternalURL = "apod.nasa.gov/apod/astropix.html"; // This address must not c
       console.log(data);
     });
 })();
+/*

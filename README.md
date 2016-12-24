@@ -19,17 +19,18 @@ Créer d'une manière simple et ludique, un ebook quotidient de l'actualité.
 * API
   * Giphy
 
-### Traitement :
+### Mise en page et effets :
 * Images :
   * Collages
   * Superposition
 * Textes :
-  * effet de scroll horizontal et vertical
+  * scroll horizontal et vertical
   * animation de zoom
   * jeux gris/noir
+  * grilles et colonnes horizontales et verticales
 * Interactions :
   * plein ecran
-  * affichage d'un fond noir sur l'écran pour "sauvegarder" les gliches et forcer l'écran à ne pas se rafraichir.
+  * afficher un fond noir sur l'écran pour "sauvegarder" les glitchs et forcer l'écran à ne pas se rafraîchir.
 * ...
 
 ## Références :
