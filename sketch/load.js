@@ -7,7 +7,7 @@ function gif(word, nb, off) {
         for (var i = 0; i < data.data.length; i++) {
             id = data.data[i].id;
             url = "https://media.giphy.com/media/" + id + "/giphy.gif";
-            var html = '<div class="gif" id="' + word + off + '"><img src="' + url + '"/></div>';
+            var html = '<div class="gif" id="'+ word + off + '"><img src="' + url + '"/></div>';
             document.querySelector("body").innerHTML += html;
         }
     });
@@ -19,14 +19,17 @@ function getFlux(flux) {
         var FEED_URL = "http://www.inaglobal.fr/feed/7"
             //var html;
         $.ajax({
-            url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(FEED_URL),
+            //url: 'https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url=' + encodeURIComponent(FEED_URL),
+            //url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(FEED_URL),
+            url: "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%20%3D%20'http%3A%2F%2Fwww.inaglobal.fr%2Ffeed%2F7'&format=json&diagnostics=true",
             dataType: 'json',
             success: function(data) {
-                if (data.responseData.feed && data.responseData.feed.entries) {
+                //console.log(data.query.results.rss.channel.item);
+                if (data.query.results.rss && data.query.results.rss.channel) {
                     var html = '<div id="feedIna" class="rssFeed">';
                     html += '<h1>Ina Global</h1>'
-                    $.each(data.responseData.feed.entries, function(i, e) {
-                        if (e.content.length > 2000) {
+                    $.each(data.query.results.rss.channel.item, function(i, e) {
+                        if (e.description.length > 2000) {
                             html += '<div id="containerIna" class="scrollContainer">'
                             html += '<div id="newIna' + i + '" class="rssNew rssNew' + i + ' newIna newInaLong ">';
                         } else {
@@ -34,10 +37,10 @@ function getFlux(flux) {
                         }
                         //html+= e.author+": ";
                         html += "<h2>" + e.title.replace(/'/g, "’") + "</h2>";
-                        var content = e.content.replace(/<img.*>|<p>|<\/p>/g, "")
+                        var content = e.description.replace(/<img.*>|<p>|<\/p>/g, "")
                         html += "<p class='content'>" + content + "</p>";
                         html += '</div>'
-                        if (e.content.length > 2000) {
+                        if (e.description.length > 2000) {
                             html += '</div>'
                         }
                     });
@@ -53,19 +56,20 @@ function getFlux(flux) {
         var FEED_URL = "http://www.lemonde.fr/pixels/rss_full.xml"
             //var html;
         $.ajax({
-            url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(FEED_URL),
+            //url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(FEED_URL),
+            url: "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%20%3D%20'http%3A%2F%2Fwww.lemonde.fr%2Fpixels%2Frss_full.xml'&format=json&diagnostics=true",
             dataType: 'json',
             success: function(data) {
-                if (data.responseData.feed && data.responseData.feed.entries) {
+                if (data.query.results.rss && data.query.results.rss.channel) {
                     var html = '<div id="feedPixel" class="rssFeed scrollContainer">';
                     html += '<h1>Le Monde Pixel</h1>';
                     html += '<div id="newsPixel">';
-                    $.each(data.responseData.feed.entries, function(i, e) {
+                    $.each(data.query.results.rss.channel.item, function(i, e) {
                         //console.log(e);
                         html += '<div id="newPixel' + i + '" class="rssNew rssNew' + i + ' newPixel">';
                         //html+= e.author+": ";
                         html += "<h2>" + e.title.replace(/'/g, "’") + "</h2>";
-                        html += "<p class='content'>" + e.content + "</p>";
+                        html += "<p class='content'>" + e.description + "</p>";
                         html += '</div>'
                     });
                     html += '</div>'
@@ -82,19 +86,20 @@ function getFlux(flux) {
         var FEED_URL = "http://www.lemonde.fr/m-actu/rss_full.xml"
             //var html;
         $.ajax({
-            url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(FEED_URL),
+            //url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(FEED_URL),
+            url: "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%20%3D%20'http%3A%2F%2Fwww.lemonde.fr%2Fm-actu%2Frss_full.xml'&format=json&diagnostics=true",
             dataType: 'json',
             success: function(data) {
-                if (data.responseData.feed && data.responseData.feed.entries) {
+              if (data.query.results.rss && data.query.results.rss.channel) {
                     var html = '<div id="feedMonde" class="rssFeed">';
                     html += '<h1>Le Monde</h1>';
                     html += '<div id="containerMonde">'
-                    $.each(data.responseData.feed.entries, function(i, e) {
+                    $.each(data.query.results.rss.channel.item, function(i, e) {
                         //console.log(e);
                         html += '<div id="newMonde' + i + '" class="rssNew rssNew' + i + ' newMonde">';
                         //html+= e.author+": ";
                         html += "<h2>" + e.title.replace(/'/g, "’") + "</h2>";
-                        html += "<p>" + e.content + "</p>";
+                        html += "<p>" + e.description + "</p>";
                         html += '</div>'
                     });
                     html += '</div>'
@@ -109,18 +114,19 @@ function getFlux(flux) {
         var FEED_URL = "http://korben.info/feed";
         //var html;
         $.ajax({
-            url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(FEED_URL),
+            //url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(FEED_URL),
+            url: "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%20%3D%20'http%3A%2F%2Fkorben.info%2Ffeed'&format=json&diagnostics=true",
             dataType: 'json',
             success: function(data) {
-                if (data.responseData.feed && data.responseData.feed.entries) {
+              if (data.query.results.rss && data.query.results.rss.channel) {
                     var html = '<div id="feedKorben" class="rssFeed">';
                     html += '<h1>Korben</h1>'
-                    $.each(data.responseData.feed.entries, function(i, e) {
+                    $.each(data.query.results.rss.channel.item, function(i, e) {
                         //console.log(e);
                         html += '<div  id="newKorben' + i + '" class="rssNew rssNew' + i + ' newKorben">';
                         //html += e.author + ": ";
                         html += '<h2>' + e.title.replace(/'/g, "’") + '</h2>';
-                        var content = e.content.replace(/<p>|<\/p>|Cet article merveilleux et .* parents\.|style.*"|<p><\/p>/g, "");
+                        var content = e.description.replace(/<p>|<\/p>|Cet article merveilleux et .* parents\.|style.*"|<p><\/p>/g, "");
                         html += "<p class='content'>" + content + "</p>";
                         html += '</div>'
                     });
@@ -138,18 +144,19 @@ function getFlux(flux) {
         var FEED_URL = "https://lejournal.cnrs.fr/rss"
             //var html;
         $.ajax({
-            url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(FEED_URL),
+            //url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(FEED_URL),
+            url:"https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%20%3D%20'https%3A%2F%2Flejournal.cnrs.fr%2Frss'&format=json&diagnostics=true",
             dataType: 'json',
             success: function(data) {
-                if (data.responseData.feed && data.responseData.feed.entries) {
+                if (data.query.results.rss && data.query.results.rss.channel) {
                     var html = '<div id="feedCnrs" class="rssFeed">';
                     html += '<h1>Le Journal du CNRS</h1>'
-                    $.each(data.responseData.feed.entries, function(i, e) {
+                    $.each(data.query.results.rss.channel.item, function(i, e) {
                         //console.log(e);
                         html += '<div  id="newCnrs' + i + '" class="rssNew rssNew' + i + ' newCnrs">';
                         //html+= e.author+": ";
                         html += "<h2>" + e.title.replace(/'/g, "’") + "</h2>";
-                        var content = e.content.replace(/<p>|<\/p>/g, "")
+                        var content = e.description.replace(/<p>|<\/p>/g, "")
                             //console.log(e.content);
                         html += "<p class='content'>" + content + "</p>";
                         html += '</div>'
@@ -253,4 +260,4 @@ var ExternalURL = "apod.nasa.gov/apod/astropix.html"; // This address must not c
       console.log(data);
     });
 })();
-/*
+*/
