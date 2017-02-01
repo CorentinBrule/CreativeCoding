@@ -61,3 +61,14 @@ Voir : [experiment/eBook/LEveFuture/](experiment/eBook/LEveFuture/)
 #### Inknut Antiqua :
 La typographie de [Claus Eggers Sorensen](https://github.com/clauseggers) est adaptée aux écrans basses résolutions.
 ![](https://camo.githubusercontent.com/0909e05e258ea2506d08a2f2a23ed5b205bf3812/68747470733a2f2f7261776769746875622e636f6d2f636c6175736567676572732f496e6b6e75742d416e74697175612f6d61737465722f496d616765732f67616c6c6f772d73706563696d656e2e737667)
+
+## Rendu :
+![](render_0.JPG)
+![](render_1.JPG)
+![](render_2.JPG)
+![](render_3.JPG)
+![](render_4.JPG)
+![](render_5.JPG)
+![](render_6.JPG)
+![](render_7.JPG)
+![](render_8.JPG)
